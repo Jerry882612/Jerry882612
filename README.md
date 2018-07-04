@@ -1,7 +1,4 @@
 # 106-2 R data science course
-# self introduction
-  1.  read books
-  2.  jogging
-  3.  sleep
-  4.  abc
-
+name:林昌傑
+## week 1
+  1. set up github account
