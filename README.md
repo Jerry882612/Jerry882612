@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 ﻿106-2 R data science course
 =======
 # 106-2 R data science course
@@ -13,3 +13,5 @@ name:林昌傑
   4.
 
 >>>>>>> e1297d21cccc890bd92ce7f713ee9a777d91eac1
+
+[hwl](https://jerry882612.github.io/Jerry882612/Week1/hw1.html)
