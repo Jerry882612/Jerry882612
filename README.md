@@ -4,5 +4,5 @@ name:林昌傑
   1. set up github account
   2. watch video in class
   3. set the data path 
-
+  4.
 
