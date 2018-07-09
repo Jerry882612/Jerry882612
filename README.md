@@ -2,6 +2,7 @@
 # 106-2 R data science course
 
 name:林昌傑
+
 number:B06107035
 ## week 1
   1. set up github account
