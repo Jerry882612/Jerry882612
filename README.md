@@ -1,4 +1,4 @@
-
+﻿
 # 106-2 R data science course
 
 name:林昌傑
@@ -10,4 +10,8 @@ number:B06107035
   3. set the data path 
 
 
+
 [hwl](https://jerry882612.github.io/Jerry882612/Week1/hw1.html)
+## week2
+
+[hw2](https://jerry882612.github.io/Jerry882612/week2/hw2_part1.html)
