@@ -1,15 +1,22 @@
+---
+title: "hw2_part2"
+output: html_document
+---
 
+```{r}
 source('pttTestFunction.R')
 id = c(1:10)
-URL = paste0("https://www.ptt.cc/bbs/NTUcourse/index1", id, ".html")
+URL = paste0("https://www.ptt.cc/bbs/NTUcourse/index", id, ".html")
 filename = paste0(id, ".txt")
 pttTestFunction(URL[1], filename[1])
 mapply(pttTestFunction, 
        URL = URL, filename = filename)
 
+```
 
 
 
+```{r}
 rm(list=ls(all.names = TRUE))
 library(NLP)
 library(tm)
@@ -45,8 +52,11 @@ docs
 
 
 
+```
 
 
+
+```{r}
 mixseg = worker()
 jieba_tokenizer=function(d){
   unlist(segment(d[[1]],mixseg))
@@ -57,16 +67,55 @@ freqFrame = freqFrame[order(freqFrame$Freq,decreasing=TRUE), ]
 library(knitr)
 kable(head(freqFrame), format = "markdown")
 
+```
 
 
-
-
+```{r}
 wordcloud(freqFrame$Var1,freqFrame$Freq,
           scale=c(5,0.1),min.freq=50,max.words=150,
           random.order=TRUE, random.color=FALSE, 
           rot.per=.1, colors=brewer.pal(8, "Dark2"),
           ordered.colors=FALSE,use.r.layout=FALSE,
           fixed.asp=TRUE)
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
