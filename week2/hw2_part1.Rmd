@@ -23,7 +23,7 @@ library(scales)
 
 ##  長條圖
 
-單變數:類別型
+
 
 ```{r}
 ggplot(data = Orange, aes(x = Tree)) +
@@ -38,7 +38,7 @@ ggplot(data = Orange, aes(x = Tree)) +
 
 ## 直方圖
 
-單變數:連續型
+
 
 ```{r}
 ggplot(data = Orange, aes(x = circumference)) +
@@ -48,7 +48,7 @@ ggplot(data = Orange, aes(x = circumference)) +
 
 ## 點散圖
 
-雙變數：連續 vs 連續
+
 
 ```{r}
 ggplot(data = Orange, aes(x =age , y=circumference)) +
@@ -64,7 +64,7 @@ ggplot(data = Orange, aes(x =age , y=circumference)) +
 
 ##盒鬚圖
 
-雙變數：離散 vs 連續
+
 
 ```{r}
 ggplot(Orange, aes(x=Tree, y=age)) +
