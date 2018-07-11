@@ -16,12 +16,13 @@ library(ggplot2)
 library(GGally)
 library(scales)
 
+
 ```
 
 
 
 
-##  ªø±ø¹Ï
+##  é•·æ¢åœ–
 
 
 
@@ -36,7 +37,7 @@ ggplot(data = Orange, aes(x = Tree)) +
 
 
 
-## ª½¤è¹Ï
+## ç›´æ–¹åœ–
 
 
 
@@ -46,7 +47,7 @@ ggplot(data = Orange, aes(x = circumference)) +
 ```
 
 
-## ÂI´²¹Ï
+## é»æ•£åœ–
 
 
 
@@ -62,7 +63,7 @@ ggplot(data = Orange, aes(x =age , y=circumference)) +
 
 
 
-##²°Å½¹Ï
+##ç›’é¬šåœ–
 
 
 
@@ -74,7 +75,7 @@ ggplot(Orange, aes(x=Tree, y=age)) +
 ```
 
 
-## ¦hÅÜ¶q
+## å¤šè®Šé‡
 
 ```{r}
 
