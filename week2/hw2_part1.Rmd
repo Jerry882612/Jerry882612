@@ -1,0 +1,100 @@
+---
+title: "hw2_part1"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+library(ggplot2)
+library(GGally)
+library(scales)
+
+```
+
+
+
+
+##  長條圖
+
+單變數:類別型
+
+```{r}
+ggplot(data = Orange, aes(x = Tree)) +
+           geom_bar(fill = "red", colour = "green")  
+               
+
+```
+
+
+
+
+
+## 直方圖
+
+單變數:連續型
+
+```{r}
+ggplot(data = Orange, aes(x = circumference)) +
+            geom_histogram()  
+```
+
+
+## 點散圖
+
+雙變數：連續 vs 連續
+
+```{r}
+ggplot(data = Orange, aes(x =age , y=circumference)) +
+           geom_point()  
+
+
+
+```
+
+
+
+
+
+##盒鬚圖
+
+雙變數：離散 vs 連續
+
+```{r}
+ggplot(Orange, aes(x=Tree, y=age)) +
+       geom_boxplot()  
+
+
+```
+
+
+## 多變量
+
+```{r}
+
+set.seed(20022012)
+
+Orange_samp <- Orange[sample(1:length(Orange$age), 10), ]
+
+ggpairs(Orange_samp,lower= list(continuous = wrap("points", shape = I('.'))),
+        upper = list(combo = wrap("box", outlier.shape = I('.'))))
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
