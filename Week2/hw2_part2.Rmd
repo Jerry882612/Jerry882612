@@ -1,6 +1,8 @@
 ---
 title: "hw2_part2"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r}
