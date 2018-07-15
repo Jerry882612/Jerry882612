@@ -15,4 +15,5 @@ number:B06107035
 ## week2
 
 [hw2_part1](https://jerry882612.github.io/Jerry882612/week2/hw2_part1.html)
+
 [hw2_part2](https://jerry882612.github.io/Jerry882612/week2/hw2_part2.html)
