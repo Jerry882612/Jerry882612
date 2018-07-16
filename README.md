@@ -9,10 +9,14 @@
 ## week 1
 
 [hwl](https://jerry882612.github.io/Jerry882612/Week1/hw1.html)
+<ul type="square">
 <li>in class
- 	<li>set up github account
- 	<li>watch video in class
- 	<li>set the data path 
+ 	<li>建立 github 帳戶 
+ 	<li>觀看影片
+ 	<li>設定路徑
+
+<ul type="square">
+<li>at home
 
 
 
@@ -22,3 +26,12 @@
 [hw2_part1](https://jerry882612.github.io/Jerry882612/week2/hw2_part1.html)
 
 [hw2_part2](https://jerry882612.github.io/Jerry882612/Week2/hw2_part2.html)
+
+<ul type="square">
+<li>in class
+
+
+<ul type="square">
+<li>at home
+
+
