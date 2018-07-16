@@ -9,9 +9,11 @@
 ## week 1
 
 [hwl](https://jerry882612.github.io/Jerry882612/Week1/hw1.html)
+
 <ul type="square">
 <li>in class
 </ul>
+
 <ul type="circle">
  	<li>建立 github 帳戶 
  	<li>觀看影片
@@ -22,6 +24,7 @@
 <ul type="square">
 <li>at home
 </ul>
+
 <ul type="circle">
 	<li>觀看 DateCamp introduction to R
 	<li>觀看 DateCamp intermediate R
@@ -37,6 +40,9 @@
 
 <ul type="square">
 <li>in class
+</ul>
+
+<ul type="circle">
 	<li>學習視覺化處理
 	<li>練習PTT爬文
 	<li>練習製做文字雲
@@ -45,8 +51,10 @@
 
 <ul type="square">
 <li>at home
+</ul>
+
+<ul type="circle">
 	<li>試著爬台北PTT文章
 	<li>練習pipe
-
 </ul>
 
