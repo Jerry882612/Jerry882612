@@ -1,7 +1,7 @@
 
 source('pttTestFunction.R')
-id = c(1:10)
-URL = paste0("https://www.ptt.cc/bbs/NTUcourse/index1", id, ".html")
+id = c(1000:1003)
+URL = paste0("https://www.ptt.cc/bbs/Taipei/index", id, ".html")
 filename = paste0(id, ".txt")
 pttTestFunction(URL[1], filename[1])
 mapply(pttTestFunction, 
