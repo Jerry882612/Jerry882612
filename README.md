@@ -37,9 +37,16 @@
 
 <ul type="square">
 <li>in class
+	<li>學習視覺化處理
+	<li>練習PTT爬文
+	<li>練習製做文字雲
+</ul>
 
 
 <ul type="square">
 <li>at home
+	<li>試著爬台北PTT文章
+	<li>練習pipe
 
+</ul>
 
