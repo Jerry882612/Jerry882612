@@ -9,10 +9,10 @@
 ## week 1
 
 [hwl](https://jerry882612.github.io/Jerry882612/Week1/hw1.html)
-
- <li>set up github account</li>
-2.  watch video in class
-3.  set the data path 
+<li>in class
+ 	<li>set up github account
+ 	<li>watch video in class
+ 	<li>set the data path 
 
 
 
