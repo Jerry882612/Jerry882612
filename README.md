@@ -11,13 +11,19 @@
 [hwl](https://jerry882612.github.io/Jerry882612/Week1/hw1.html)
 <ul type="square">
 <li>in class
+<ul type="circle">
  	<li>建立 github 帳戶 
  	<li>觀看影片
  	<li>設定路徑
 
+
+
 <ul type="square">
 <li>at home
-
+<ul type="circle">
+	<li>觀看 DateCamp introduction to R
+	<li>觀看 DateCamp intermediate R
+	
 
 
 
