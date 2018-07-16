@@ -7,8 +7,8 @@ output:
 
 ```{r}
 source('pttTestFunction.R')
-id = c(1:10)
-URL = paste0("https://www.ptt.cc/bbs/NTUcourse/index", id, ".html")
+id = c(1000:1003)
+URL = paste0("https://www.ptt.cc/bbs/Taipei/index", id, ".html")
 filename = paste0(id, ".txt")
 pttTestFunction(URL[1], filename[1])
 mapply(pttTestFunction, 
@@ -29,7 +29,6 @@ library(wordcloud)
 filenames <- list.files(getwd(), pattern="*.txt")
 files <- lapply(filenames, readLines)
 docs <- Corpus(VectorSource(files))
-#移除可能有問題的符號
 toSpace <- content_transformer(function(x, pattern) {
   return (gsub(pattern, " ", x))
 }
@@ -45,14 +44,10 @@ docs <- tm_map(docs, toSpace, "作者")
 docs <- tm_map(docs, toSpace, "發信站")
 docs <- tm_map(docs, toSpace, "批踢踢實業坊")
 docs <- tm_map(docs, toSpace, "[a-zA-Z]")
-#移除標點符號 (punctuation)
-#移除數字 (digits)、空白 (white space)
 docs <- tm_map(docs, removePunctuation)
 docs <- tm_map(docs, removeNumbers)
 docs <- tm_map(docs, stripWhitespace)
 docs
-
-
 
 ```
 
