@@ -59,16 +59,16 @@
 </ul>
 
 
-# week3
+## week3
 
 <ul type="square">
 <li>in class
 </ul>
 
 <ul type="circle">
-	<li>
-	<li>
-	<li>
+	<li>閱讀 Kaggle Script
+	<li>製作 EDA 報告
+	<li>講解 TF-IDF
 </ul>
 
 
