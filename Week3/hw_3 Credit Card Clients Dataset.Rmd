@@ -6,7 +6,7 @@ output: html_document
 ## 金融卡客戶調查
 
 
-# 載入套件
+# 匯入套件
 
 ```{r}
 library(ggplot2)
