@@ -1,0 +1,83 @@
+---
+title: "hw_3 Credit Card Clients Dataset"
+output: html_document
+---
+
+## 金融卡客戶調查
+
+
+# 載入套件
+
+```{r}
+library(ggplot2)
+
+```
+
+
+# 載入檔案
+
+```{r }
+ccdata<-read.csv("UCI_Credit_Card.csv")
+```
+
+# 檔案結構
+
+```{r}
+str(ccdata)
+```
+
+# 轉換性別資料: male & female
+
+```{r}
+ccdata$SEX<- as.factor(ccdata$SEX)
+
+levels(ccdata$SEX)<-c("Male", "Female")
+
+```
+
+# 轉換教育資料: unknown,graduate school....
+
+```{r}
+ccdata$EDUCATION<-as.factor(ccdata$EDUCATION)
+
+levels(ccdata$EDUCATION)<-c("Unknown", "Graduate School", "University", "High school", "Others", "Unknown", "Unknown")
+```
+
+
+# 繪出客戶年齡分布
+
+```{r}
+ggplot(data = ccdata, aes(x = AGE)) + geom_histogram(bins = 30, fill = "yellow",col = "black",alpha = 0.5)+ 
+
+scale_x_continuous(breaks = seq(min(10), max(80), by = 10), na.value = TRUE)
+
+
+```
+
+
+
+# 繪出客戶教育水平
+
+```{r}
+ggplot(data = ccdata, aes(x = EDUCATION, fill = EDUCATION)) + geom_bar() + 
+  scale_y_continuous(breaks = seq(min(0), max(15000), by = 1000), na.value = TRUE)
+```
+
+
+
+# 客戶男女比例
+
+```{r}
+ggplot(data= ccdata, aes(x=SEX, fill = SEX)) + geom_bar() + 
+  labs(title="Gender wise Bar Chart", 
+       subtitle="Clients by Sex",x="Sex",fill="Sex")
+```
+
+
+
+# 心得: 閱讀 kaggle 的文章可以學到許多繪圖功能，覺得好棒
+
+
+
+
+
