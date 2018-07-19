@@ -61,6 +61,10 @@
 
 ## week3
 
+
+[hw_3_Credit_Card_Clients_Dataset]( https://jerry882612.github.io/Jerry882612/Week3/hw_3_Credit_Card_Clients_Dataset.html)
+
+
 <ul type="square">
 <li>in class
 </ul>
