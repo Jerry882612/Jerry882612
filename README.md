@@ -62,8 +62,8 @@
 ## week3
 
 
-[hw_3_Credit_Card_Clients_Dataset]( https://jerry882612.github.io/Jerry882612/Week3/hw_3_Credit_Card_Clients_Dataset.html)
-
+[hw_3 EDA]( https://jerry882612.github.io/Jerry882612/Week3/hw_3_Credit_Card_Clients_Dataset.html)
+[hw_3 Minecraft]( https://jerry882612.github.io/Jerry882612/Week3/hw_3_MInecraft.html)
 
 <ul type="square">
 <li>in class
@@ -81,8 +81,8 @@
 </ul>
 
 <ul type="circle">
-	<li>
-	<li>
+	<li>​完成 Correlation and Regression​
+	<li>做完下午作業
 </ul>
 
 
