@@ -1267,3 +1267,426 @@ PTT 及 PTT 網頁版於 19:00 ~ 22:00 暫停服務
 推 awfulday: 這賠率wwwww 11/21 17:41
 推 KcIredor: 謝謝金主<3 11/22 04:18
 
+作者h04mp6286 (H28)看板Minecraft標題[問題] PE版畫面卡住時間Fri Sep 22 09:31:51 2017
+如題 手機6S版本是iOS11.0 PE版本是v1.2.0
+
+iOS更新到11.0後PE跑前一版的還不會發生玩到一半畫面卡住
+
+但是更新到v1.2.0後玩大約1分鐘不到畫面一定會卡住
+
+想請教玩PE版的有人發生類似情形嗎？
+
+明明v1.2.0的常時顯示座標功能很不錯的說QQ
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 114.39.50.50
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1506043914.A.873.html
+→ SickLove: 我猜是定時儲存 設定->視訊裡有個「顯示自動儲存圖示」09/22 10:42
+→ SickLove: 打開 如果每次凍結幾秒後會出現箱子圖案那就是這個問題09/22 10:42
+→ SickLove:  不過目前無解09/22 10:42
+
+QQ 好像不是 剛剛關了「顯示自動儲存圖示」
+
+一樣畫面會凍結 而且關之前也沒有印象會跑出箱子圖案
+
+推 bear: ios10.3.3 ，沒有凍結問題，不過這版本特別lag09/22 19:34
+
+所以bear大大PE版本也是v1.2.0嗎？
+
+推 bear: 1.2.009/24 11:29
+推 asdf10809: 你是不是離線玩，我離線也會連線就好了09/25 10:17
+
+我都有試過 前幾天又一次的畫面凍結後
+
+我跳出回到主畫面 過了一小陣子回到PE版想說看看狀況好了
+
+就不知道為什麼就不再出現畫面凍結的狀況了
+※ 編輯: h04mp6286 (114.39.60.33), 09/25/2017 14:27:39
+
+作者cow (無)看板Minecraft標題[問題] 生存模式有辦法以砍檔或指令清怪嗎？時間Fri Oct  6 09:04:08 2017
+我的版本是android PE的，昨晚在殭屍經驗塔打完，只按home跳回桌面，沒關掉app就插著
+充電睡覺去。
+
+結果起床滿滿的殭屍，整個遊戲卡到不行，結果不小心把殭屍塔的玻璃敲破，大群殭屍衝
+出來秒掉我。現在重生以後還是一樣卡，殭屍又到處跑，過去看到他們一樣只能被打死。
+
+
+請問有辦法以不破壞生存模式的方式清掉它們嗎？還是只能另開地圖才行了？
+
+
+--
+posted from bbs reader hybrid on my asus ASUS_Z01KDA
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 42.72.207.209
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1507251851.A.FFA.html
+→ cow: 剛剛自己搞定了，改成和平再改回困難就好了，但下去經驗塔還 10/06 09:34
+→ cow: 是一堆殭屍在走，看來是清掉了這地圖所有除了經驗塔生的怪， 10/06 09:34
+→ cow: 也是減輕了不少負擔了 10/06 09:34
+推 LPH66: 你人站在經驗塔附近再改一次看看 10/06 09:41
+→ LPH66: 我不太確定 PE 版會不會, 但 Java 版在未載入的 chunk 裡的 10/06 09:42
+→ LPH66: 物品和怪是不會被這種清除方式清掉的 (因為就沒載入嘛) 10/06 09:42
+→ LPH66: 技術上來說改和平時敵對怪是會瞬間 despawn, 因此需要載入 10/06 09:43
+推 nick5487: 這版大多數都是java玩家 PE的問題不太容易找到解答 10/06 17:55
+→ cow: 那請問有PE版玩家多的地方可以去嗎？ 10/10 14:09
+推 haiambu: PE玩家（舉手）我用電腦玩會3D暈 10/11 11:51
+
+作者haidai (haidai)看板Minecraft標題[公告] ilovecim 水桶十四天時間Fri Oct 13 09:46:45 2017
+                                  Minecraft
+                              違反版規事件通知單
+┌────┬─────────┬──┬───────────────────┐
+│        │                  │違規│                                      │
+│ID      │ilovecim          │    │ 板規三-6經警告24h後未改善            │
+│        │                  │事實│                                      │
+├────┼─────────┼──┼───────────────────┤
+│違規時間│2017/10/06 14:03  │舉發│           Minecraft版規條例          │
+├────┼─────────┤    │                                      │
+│  注    │ 對本處罰有任何   │違反│                                      │
+│  意    │ 問題可來信詢問， │    │  第 壹 條 三 項 6 款  處以水桶十四天 │
+│  事    │ 若仍無法接受可   │版規│                                      │
+│  項    │ 再行至小組申訴。 │    │                                      │
+├────┴─────────┴──┴───────────────────┤
+│  中華民國      106       年      10     月     13    日    填單  haidai  │
+└─────────────────────────────────────┘
+
+附錄：
+違規事證
+
+ 作者  ilovecim (煞氣的老屁孩)                                看板  Minecraft 
+ 標題  Re: [公告] 伺服器列表                                                  
+ 時間  Fri Oct  6 14:03:02 2017                                               
+───────────────────────────────────────
+
+※ 引述《janice001 (真理)》之銘言：
+: 你可以從伺服器列表中 快速取得 Minecraft 版裡運作的伺服器 :D
+: http://moomoofarm.net/svList/PTTServer.php
+: 你正在經營卻還沒有註冊嗎?
+: 快點註冊吧! 然後發一篇伺服器文 讓大家知道你!
+
+惡&f
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 42.72.113.156
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1507269785.A.93B.html
+
+--
+       ◢◣     ◢▄◣      ◎每月29日為天使節                  \(≧▽≦)/
+       ◤▌   ◢▄◤◥        ◎當天呼叫平時就保持聯絡的小天使
+         ▌ ◢▄◤              ◎點歌給小天使並發表於AngelPray板
+       ▆████▆               ◎小天使就會下Ｐ幣雨喔           (￣▽￣)>
+  ◢"◣  ≧  ≦    ︴  \|/    \|/    \|/    \|/    \|/    \|/    \|/  ◢◣◢◣
+       ▄      ▄  ︴◢=█◣◢`█◣◢=█◣◢"█◣◢`█◣◢"█◣◢"█◣       ︴
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 61.224.87.72
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1507859210.A.199.html
+※ 編輯: haidai (61.224.87.72), 10/13/2017 09:47:22
+推 bespace: 惡&f 10/13 10:10
+推 tonylo2ooo: 惡&f  潮牌 10/13 11:35
+推 alanqq0624: qqq 10/13 16:19
+推 Lieng1207: 惡&f 11/08 17:37
+
+作者haidai (haidai)看板Minecraft標題Fw: [公告] 11/21 停機公告時間Tue Nov 21 09:30:05 2017
+※ [本文轉錄自 SYSOP 看板 #1Q4bkeKS ]
+
+作者: wens (文思) 看板: SYSOP
+標題: [公告] 11/21 停機公告
+時間: Mon Nov 20 12:35:49 2017
+
+本站將於 11/21 週二晚間進行系統維修
+
+PTT 及 PTT 網頁版於 19:00 ~ 22:00 暫停服務
+
+造成不便，敬請見諒
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.30.76
+※ 文章網址: https://www.ptt.cc/bbs/SYSOP/M.1511152552.A.51C.html
+※ 編輯: wens (140.112.30.76), 11/20/2017 12:36:08
+※ wens:轉錄至看板 Announce                                        11/20 12:36
+※ jasome:轉錄至看板 Gossiping                                     11/20 12:40
+※ flyingwhale:轉錄至看板 Steam                                    11/20 12:42
+※ angel07:轉錄至看板 part-time                                    11/20 12:43
+※ angel07:轉錄至看板 part-timeBM                                  11/20 12:43
+※ angel07:轉錄至看板 home-sale                                    11/20 12:43
+※ angel07:轉錄至看板 DirectSales                                  11/20 12:43
+※ march55237:轉錄至看板 C_Chat                                    11/20 12:43
+※ YuiiAnitima:轉錄至看板 Baseball                                 11/20 12:45
+※ HowWhy99:轉錄至看板 LoL                                         11/20 12:46
+※ charlie20083:轉錄至看板 GTA                                     11/20 12:46
+※ HowWhy99:轉錄至看板 TWICE                                       11/20 12:47
+※ onok:轉錄至看板 Marginalman                                     11/20 12:47
+※ ilikeroc:轉錄至看板 WomenTalk                                   11/20 12:48
+※ flora19flora:轉錄至看板 Conan                                   11/20 12:49
+※ hateOnas:轉錄至看板 MenTalk                                     11/20 12:50
+※ hicker:轉錄至看板 TW_Entertain                                  11/20 12:51
+※ K2135356:轉錄至看板 C_BOO                                       11/20 12:51
+※ paul40807:轉錄至看板 MobileComm                                 11/20 12:51
+※ yam276:轉錄至看板 Shadowverse                                   11/20 12:54
+※ yam276:轉錄至看板 TCG                                           11/20 12:54
+※ hateOnas:轉錄至看板 PokemonGO                                   11/20 12:54
+※ Muting46:轉錄至看板 Hearthstone                                 11/20 12:56
+※ murmur38:轉錄至看板 PuzzleDragon                                11/20 13:00
+※ eastbrook:轉錄至看板 BB_Online                                  11/20 13:02
+※ kuso10582:轉錄至看板 iOS                                        11/20 13:03
+※ vincent81614:轉錄至看板 ToS                                     11/20 13:03
+※ eastbrook:轉錄至看板 LamiGirls                                  11/20 13:03
+※ eastbrook:轉錄至看板 Monkeys                                    11/20 13:04
+※ kuso10582:轉錄至看板 PttEarnMoney                               11/20 13:04
+※ racksold:轉錄至看板 NBA                                         11/20 13:05
+※ incident:轉錄至看板 biker                                       11/20 13:07
+※ padi:轉錄至看板 I-Lan                                           11/20 13:09
+※ l00011799z:轉錄至看板 RO                                        11/20 13:13
+※ conk:轉錄至某隱形看板                                           11/20 13:13
+※ conk:轉錄至看板 einvoice                                        11/20 13:13
+※ conk:轉錄至看板 Accounting                                      11/20 13:13
+※ eastbrook:轉錄至看板 TaichungBun                                11/20 13:15
+※ conk:轉錄至看板 e-coupon                                        11/20 13:16
+※ DioEraclea:轉錄至看板 MysticWiz                                 11/20 13:18
+※ god060119:轉錄至看板 Ethan_Ruan                                 11/20 13:18
+※ a6234709:轉錄至看板 marvel                                      11/20 13:22
+※ tom50512:轉錄至看板 TokyoGhoul                                  11/20 13:24
+※ Ladiscar:轉錄至看板 KanColle                                    11/20 13:25
+※ LODAM:轉錄至看板 LoveLive_Sip                                   11/20 13:30
+※ DsLove710:轉錄至看板 GirlsFront                                 11/20 13:31
+※ DsLove710:轉錄至看板 PC_Shopping                                11/20 13:32
+※ YuGar:轉錄至看板 Test                                           11/20 13:35
+※ holishing:轉錄至看板 SENIORHIGH                                 11/20 13:38
+※ lizzyWang:轉錄至看板 WangChieh                                  11/20 13:40
+※ tree930087:轉錄至看板 Rayark                                    11/20 13:43
+※ a0981314780:轉錄至看板 KoreanPop                                11/20 13:45
+※ nccucat:轉錄至看板 WJSN                                         11/20 13:45
+※ nccucat:轉錄至看板 VIXX                                         11/20 13:46
+※ XDDDDXDDDD:轉錄至看板 NCTU_TALK                                 11/20 13:48
+※ eric30215:轉錄至看板 WOW                                        11/20 13:50
+※ PhDer:轉錄至看板 PhD                                            11/20 13:51
+※ tygin:轉錄至看板 GFRIEND                                        11/20 13:53
+※ ymsgcat:轉錄至看板 PttNewhand                                   11/20 13:55
+※ gogin:轉錄至看板 Wanted                                         11/20 13:55
+※ NingL:轉錄至看板 EXO                                            11/20 14:04
+※ roman80010:轉錄至看板 KoreaStar                                 11/20 14:10
+※ coon182:轉錄至看板 battlegirlhs                                 11/20 14:12
+※ coon182:轉錄至看板 MRT                                          11/20 14:12
+※ gghost1002:轉錄至看板 KMU                                       11/20 14:14
+※ sinohara:轉錄至看板 Japan_Travel                                11/20 14:14
+※ JennieKim:轉錄至看板 BLACKPINK                                  11/20 14:16
+※ z80680613:轉錄至看板 KoreanPop                                  11/20 14:18
+※ yihchii:轉錄至看板 SuperJunior                                  11/20 14:23
+※ s5048218:轉錄至看板 AppsForBBS                                  11/20 14:25
+※ hong888:轉錄至看板 HatePolitics                                 11/20 14:26
+※ MAGICXX:轉錄至看板 DIABLO                                       11/20 14:30
+※ GoIce:轉錄至看板 NCHUS                                          11/20 14:44
+※ hudeijun:轉錄至看板 HOT                                         11/20 14:55
+※ pttcy1:轉錄至看板 BTS                                           11/20 14:56
+※ bcatt:轉錄至看板 TurtleSoup                                     11/20 15:05
+※ KKKBRENDA:轉錄至看板 KinKi-Kids                                 11/20 15:16
+※ mazmaitag56:轉錄至看板 Kaohsiung                                11/20 15:18
+※ mazmaitag56:轉錄至看板 DSLR                                     11/20 15:19
+※ hidog:轉錄至看板 Key_Mou_Pad                                    11/20 15:29
+※ Jumptofly:轉錄至看板 SCSH-88301                                 11/20 15:48
+※ gunnimom:轉錄至看板 Onmyoji                                     11/20 15:48
+※ Jumptofly:轉錄至看板 Hiking                                     11/20 15:49
+※ gunnimom:轉錄至看板 GambleGhost                                 11/20 15:49
+※ LimYoungMin:轉錄至看板 WINNER                                   11/20 15:50
+※ Jumptofly:轉錄至看板 weiyin                                     11/20 15:52
+※ emperor:轉錄至看板 AKB48                                        11/20 15:54
+※ heeroy:轉錄至看板 Sagittarius                                   11/20 16:06
+※ yenie:轉錄至看板 SEVENTEEN                                      11/20 16:09
+※ majaja5566:轉錄至看板 Elephants                                 11/20 16:14
+※ leeteukey:轉錄至看板 NCT                                        11/20 16:15
+※ leeteukey:轉錄至看板 SHINee                                     11/20 16:21
+※ lovesmap:轉錄至看板 sinica                                      11/20 16:32
+※ ymsgcat:轉錄至看板 firsttime                                    11/20 16:39
+※ monruby:轉錄至看板 APINK                                        11/20 16:41
+※ cody880528:轉錄至看板 OverWatch                                 11/20 16:51
+※ gamesame7711:轉錄至看板 rabbit                                  11/20 17:02
+※ Comebuy:轉錄至看板 PUBG                                         11/20 17:05
+※ Comebuy:轉錄至看板 Lifeismoney                                  11/20 17:06
+※ DodiFed:轉錄至看板 joke                                         11/20 17:20
+※ DodiFed:轉錄至看板 StupidClown                                  11/20 17:24
+※ redzai:轉錄至看板 Test                                          11/20 17:57
+※ henry860520:轉錄至看板 Lions                                    11/20 17:57
+※ stw0975:轉錄至看板 sex                                          11/20 18:16
+※ chooxs:轉錄至看板 StrikeShoot                                   11/20 18:21
+※ cito:轉錄至看板 Koei                                            11/20 18:29
+※ cito:轉錄至看板 RTS                                             11/20 18:29
+※ tzunghan:轉錄至看板 BanG_Dream                                  11/20 19:09
+※ LTSC1980:轉錄至看板 MOD                                         11/20 19:09
+※ Yanagi5566:轉錄至看板 nmsmusic                                  11/20 19:10
+※ Gbpogqa:轉錄至看板 EAseries                                     11/20 19:55
+※ endlesschaos:轉錄至看板 TypeMoon                                11/20 20:23
+※ hms5232:轉錄至看板 CrashFever                                   11/20 20:38
+※ flyingwhale:轉錄至看板 Aves                                     11/20 20:42
+※ windnduck:轉錄至看板 DMM_GAMES                                  11/20 20:53
+※ lpb:轉錄至看板 WOW                                              11/20 20:59
+※ home99888:轉錄至看板 Drama                                      11/20 21:14
+※ h3po3:轉錄至看板 BDSM                                           11/20 21:26
+※ LoveWin7:轉錄至看板 MLB                                         11/20 21:35
+※ LoveWin7:轉錄至看板 mobilesales                                 11/20 21:36
+※ LoveWin7:轉錄至看板 MacShop                                     11/20 21:36
+※ LoveWin7:轉錄至看板 car                                         11/20 21:42
+※ LoveWin7:轉錄至看板 MRT                                         11/20 21:42
+※ LoveWin7:轉錄至看板 job                                         11/20 21:43
+※ LoveWin7:轉錄至看板 AllTogether                                 11/20 21:43
+※ RLIM:轉錄至看板 ChungLi                                         11/20 21:43
+※ LoveWin7:轉錄至看板 forsale                                     11/20 21:44
+※ ruby40861:轉錄至看板 baking                                     11/20 22:05
+※ teemocogs:轉錄至看板 gay                                        11/20 22:05
+※ teemocogs:轉錄至看板 lesbian                                    11/20 22:06
+※ demo68:轉錄至看板 bicycle                                       11/20 22:12
+※ gxu04:轉錄至看板 e-shopping                                     11/20 22:13
+※ gxu04:轉錄至看板 BB-Love                                        11/20 22:13
+※ ttnakafzcm:轉錄至看板 NPTU                                      11/20 22:20
+※ ttnakafzcm:轉錄至看板 AllisonLin                                11/20 22:20
+※ ttnakafzcm:轉錄至看板 TaiwanDrama                               11/20 22:21
+※ dhzzzj:轉錄至看板 nb-shopping                                   11/20 22:42
+※ ks031239:轉錄至看板 HardwareSale                                11/20 22:57
+※ ks031239:轉錄至看板 aqua-shop                                   11/20 22:57
+※ belt:轉錄至看板 prozac                                          11/20 23:03
+※ anisemyc:轉錄至看板 Calcio                                      11/20 23:21
+※ gunso:轉錄至看板 Asexual                                        11/20 23:28
+※ yesing:轉錄至看板 Juventus                                      11/20 23:51
+※ fover744:轉錄至看板 I.O.I                                       11/21 00:03
+※ fover744:轉錄至看板 gugudan                                     11/21 00:04
+※ kArc316:轉錄至看板 Chat82gether                                 11/21 00:06
+※ skyjazz:轉錄至看板 marriage                                     11/21 00:14
+※ jack86326:轉錄至看板 TakahashiRie                               11/21 00:22
+※ ethefalse:轉錄至看板 Folklore                                   11/21 00:23
+※ siwon0126:轉錄至看板 GirlsDay                                   11/21 00:53
+※ qxxrbull:轉錄至看板 WhiteCat                                    11/21 01:11
+※ ivyclover:轉錄至看板 Capricornus                                11/21 02:14
+※ vinco:轉錄至看板 RedVelvet                                      11/21 02:15
+※ smallptt:轉錄至看板 Gossiping                                   11/21 08:53
+※ uuuyyttu:轉錄至看板 transgender                                 11/21 09:15
+
+※ 發信站: 批踢踢實業坊(ptt.cc)
+※ 轉錄者: haidai (36.234.116.28), 11/21/2017 09:30:05
+
+作者[彩券]看板Minecraft標題[公告] Minecraft 樂透開獎 時間Tue Nov 21 09:37:50 2017
+樂透說明
+預測MINECON EARTH 新MOB票選活動
+
+看看是哪個奇怪(?)生物會"被加入"遊戲當中
+
+1.A生物
+
+2.B生物
+
+3.C生物
+
+4.D生物
+
+5.上兩個或是三個
+
+6.全上
+
+7.加碼上超過四個
+
+8.許願箱(此項不開)
+
+開獎順序: 7>6=5>1=2=3=4
+
+
+下注情況
+
+1.A生物   : 9      2.B生物   : 20     3.C生物   : 68     4.D生物   : 79     
+5.超過兩個: 31     6.全上    : 9      7.加碼    : 10     8.許願箱  : 2      
+
+開獎時間: 11/21/2017 09:37:50
+開獎結果: 加碼
+下注總額: 22800
+中獎比例: 10張/228張  (0.043860)
+每張中獎彩券可得 2166 Ptt幣
+
+11/21/2017 09:37:50 開出:加碼 總額:22800 彩金/張:2166 機率:0.04
+
+     Roentgenium  買了   1 張 全上
+     error405     買了   1 張 D生物
+     error405     買了   1 張 B生物
+     TuTu522      買了   1 張 C生物
+     TuTu522      買了   1 張 D生物
+     narihira2000 買了   5 張 B生物
+     KcIredor     買了   3 張 全上
+恭喜 KcIredor     買了   2 張 加碼, 獲得  4332 Ptt幣
+恭喜 m112233      買了   1 張 加碼, 獲得  2166 Ptt幣
+     P680         買了   1 張 許願箱
+     Roentgenium  買了   1 張 超過兩個
+     Gwaewluin    買了   1 張 D生物
+     Gwaewluin    買了  49 張 D生物
+     Gwaewluin    買了  50 張 C生物
+     science556   買了   1 張 C生物
+     science556   買了   1 張 D生物
+     b40514       買了   1 張 超過兩個
+     ia94dj94     買了   1 張 超過兩個
+     ponsheng     買了   1 張 D生物
+     gh0987       買了   2 張 B生物
+     shikendon    買了   3 張 C生物
+     peterrr      買了   1 張 全上
+     peterrr      買了   1 張 A生物
+     peterrr      買了   1 張 B生物
+     peterrr      買了   1 張 C生物
+     peterrr      買了   1 張 D生物
+     peterrr      買了   1 張 超過兩個
+恭喜 peterrr      買了   1 張 加碼, 獲得  2166 Ptt幣
+     mazz         買了   1 張 C生物
+     gabx         買了   1 張 超過兩個
+     gabx         買了   1 張 C生物
+     asd315946    買了   3 張 B生物
+     hbs1020      買了   5 張 B生物
+     hbs1020      買了   2 張 D生物
+     OctupusTea   買了  10 張 D生物
+     uknowako     買了  12 張 超過兩個
+     CP64         買了   1 張 超過兩個
+     blacksugur   買了   2 張 超過兩個
+     fdhgtr       買了   1 張 D生物
+     g30f68       買了   1 張 超過兩個
+     ppew         買了   1 張 超過兩個
+     ppew         買了   1 張 C生物
+     amyjohn000   買了   2 張 超過兩個
+     amyjohn000   買了   2 張 D生物
+     fdhgtr       買了   1 張 超過兩個
+     TripleS      買了   1 張 超過兩個
+     TSUNA2256    買了   1 張 超過兩個
+     tzouandy2818 買了   3 張 A生物
+     ponsheng     買了   1 張 C生物
+     narihira2000 買了   5 張 C生物
+     narihira2000 買了   5 張 D生物
+     crazygon     買了   1 張 B生物
+     zy116pj      買了   1 張 超過兩個
+     gigi1012     買了   3 張 A生物
+     gigi1012     買了   3 張 全上
+恭喜 gigi1012     買了   3 張 加碼, 獲得  6498 Ptt幣
+     thingslove   買了   1 張 A生物
+     thingslove   買了   1 張 B生物
+恭喜 thingslove   買了   1 張 加碼, 獲得  2166 Ptt幣
+     thingslove   買了   1 張 超過兩個
+     ntnnthree    買了   1 張 超過兩個
+恭喜 ntnnthree    買了   1 張 加碼, 獲得  2166 Ptt幣
+     junyang      買了   1 張 C生物
+     junyang      買了   1 張 D生物
+     junyang      買了   1 張 超過兩個
+     junyang      買了   1 張 D生物
+     junyang      買了   1 張 D生物
+     junyang      買了   1 張 C生物
+     junyang      買了   1 張 A生物
+     junyang      買了   1 張 B生物
+     junyang      買了   1 張 全上
+恭喜 junyang      買了   1 張 加碼, 獲得  2166 Ptt幣
+     junyang      買了   1 張 許願箱
+     ia94dj94     買了   1 張 D生物
+     ia94dj94     買了   1 張 C生物
+
+--
+※ 開獎站 :批踢踢實業坊(ptt.cc) 
+◆ From: 36.234.116.28
+→ haidai: 上了MOB B 以及額外海豚一隻，開獎為加碼 11/21 09:38
+推 ponsheng: www有大金主 11/21 12:22
+推 itmyshit: 感謝Gwaewluin讓大家玩的開心XD 11/21 12:52
+推 haidai: Gwaewluin來找我領500安慰獎 11/21 12:52
+推 Gwaewluin: 不要點名我啊.....:;(∩′﹏`∩);: 11/21 13:20
+推 jan9451803: 海嘯  崩潰 11/21 14:42
+→ error405: 海水退了才知.. 11/21 15:17
+推 asd315946: 我沒穿褲子QQ 11/21 16:56
+推 awfulday: 這賠率wwwww 11/21 17:41
+推 KcIredor: 謝謝金主<3 11/22 04:18
+

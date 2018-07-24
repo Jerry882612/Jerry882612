@@ -1015,3 +1015,342 @@ https://i.imgur.com/7GTln7k.jpg
 推 igugu11: 聖人模式www 11/25 09:52
 → skyrie: 我知道聖人模式xddd 但碰到的狀況是不餵他他也不鳥我呢QQ 11/25 19:43
 
+作者g30f68 (楠詩嶠)看板Minecraft標題[問題] mac找不到minecraft資料夾（已解決）時間Sat Oct 21 23:04:55 2017
+不好意思請問一下
+我打算要去安裝mod
+但是我要去找他的資料夾時都沒有
+我上網查了很多資料
+但還是沒找出來
+https://imgur.com/ACTYolm
+完全找不到！！！
+我是用1.12.2版的
+
+我forge和liteloader都裝好了
+請問板上的大大們知道在哪嗎？
+謝謝
+
+------------------
+我朋友幫我找出來了，感謝各位
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 121.254.99.78
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1508598305.A.318.html
+→ j6u47803: 選那個開起資源包資料夾，然後上一層就是了10/22 09:56
+可是我也有試過了，也沒有 還是要重灌啊？
+
+
+~
+※ 編輯: g30f68 (121.254.99.78), 10/22/2017 11:27:20
+※ 編輯: g30f68 (180.217.224.96), 10/22/2017 15:40:00
+推 ruby2533: 在遊戲中開資源包資料夾 然後出現的視窗正中央上面的資 11/05 02:26
+→ ruby2533: 料夾名稱(resourcepacks)那邊點右鍵 會有上一層的minec 11/05 02:26
+→ ruby2533: raft資料夾出現 11/05 02:26
+→ R0bin03: 也可以按cmd+shift+G之後 11/08 22:37
+→ R0bin03: 直接輸入~/Library/Application Support/minecraft/ 11/08 22:38
+推 taohua: 用finder找不到 在啟動器的設定上可以看到安裝路徑 按資料 11/16 10:03
+→ taohua: 夾圖示會直接開啟安裝資料夾 路徑同樓上 11/16 10:03
+
+作者samuelc (程式教育魂)看板Minecraft標題[問題] MCPI coordinate 與Minecraft中的不同時間Thu Nov  9 23:55:09 2017
+小弟最近認真研究使用python3.6控制Minecraft
+看到的都是使用raspberryjuice plugin  和 MCPI這個python資源庫
+mc.player.getPos()的回傳座標值之前跟在Minecraft中按下F3相同
+但是最近發現不一樣了
+整個從python要控制的座標與mc裡的座標不一致
+我看的中文書 甚至買了原文書來看都沒有寫到這個問題
+同事使用2.7版本的則是從來沒有一樣過
+而且同版本下一樣的資料夾給了別人 卻出現不一樣的座標
+
+
+所以目前推測與python版本沒關係
+想上來問問廣大網友們
+Minecraft在座標系統的判定上有沒有什麼規則
+小弟已經盡力的各種爬文看wiki了
+
+還有另一個可能是mcpi套件裡的python寫法
+造成讀取座標時讀取到不同於minecraft的座標
+可能我需要再深入研究了
+
+如果有知道這原因的 拜託請救救我 嗚嗚
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.200.211.254
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510242911.A.B65.html
+推 emptie: https://github.com/zhuowei/RaspberryJuice/issues/1211/10 00:04
+→ emptie: 沒寫過這個，不過這應該就是答案了11/10 00:05
+→ emptie: minecraft的spawn point不一定是0，0，011/10 00:05
+→ emptie: 這個函數回傳的是與spawn point的相對坐標11/10 00:06
+
+我的天阿 太感謝了 先獻上萬分感謝與崇拜
+※ 編輯: samuelc (1.200.211.254), 11/10/2017 00:12:07
+※ 編輯: samuelc (1.200.211.254), 11/10/2017 02:53:57
+
+作者kylefan (袖子)看板Minecraft標題[情報] A怪物：暫名深海怪物時間Mon Nov 13 23:49:55 2017
+A怪物：深海怪獸The Monster of the Ocean Depths (暫）
+https://i.imgur.com/QDYoXyU.jpg
+生成於深海，將觸手展出來並伸出舌頭狀觸手攻擊，汲取你的生命。
+使用大型嘴巴推進
+若中選，他將大幅提升海底探險的樂趣
+影片：https://www.facebook.com/minecraft/videos/1529447237090760/
+
+Minecraft.net/minecon
+
+中文資料來源：https://www.facebook.com/minecraftnewstw/posts/1315953241848555
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 125.224.131.121
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510588198.A.247.html
+→ Yijhen0525: 觸手Play 11/14 00:30
+推 DON3000: 開C 11/14 08:23
+推 susaku: 怎不做成深海大魷魚? 11/14 09:18
+推 q622622: 寄生獸膩？ 11/14 10:25
+
+作者kylefan (袖子)看板Minecraft標題[情報] B怪物：夜空怪物時間Tue Nov 14 23:14:16 2017
+怪物B：夜空怪物The Monster of the Night sky
+https://i.imgur.com/zKJfezs.jpg
+在夜晚高空中生成，發現玩家後成群俯衝攻擊
+若當選將成為空中首隻怪物
+
+11/19投票，只有ㄧ個贏家。
+===
+Minecraft.net/minecon
+11/19 01AM
+
+覺得怕怕，大家別選這隻R
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 125.224.131.121
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510672458.A.C04.html
+※ 編輯: kylefan (125.224.131.121), 11/14/2017 23:18:49
+推 Gwaewluin: 什麼！？結果不是魚嗎 11/14 23:22
+推 CP64: 如果讓苦力怕騎這隻... (? 11/14 23:27
+推 error405: 難...打頭 11/14 23:36
+推 emptie: 選了這隻的話如果是有空氣就可以生，要在主世界蓋生怪塔會 11/14 23:37
+→ emptie: 有點麻煩…… 11/14 23:37
+→ emptie: 雖然應該……生成機率不會太高就是了 11/14 23:37
+推 hbs1020: 以為是魟魚欸OAO 11/15 00:06
+推 Roentgenium: COOOOOOOOOL 11/15 00:41
+推 twosheep0603: 飛空魟魚 COOOOOOOOOOOOOOOOL 11/15 01:39
+推 samchiu: 成群... 11/15 07:21
+推 DON3000: 生怪塔會爆廢大半吧 11/15 08:28
+→ DON3000: 報廢* 11/15 08:28
+推 Yijhen0525: 這樣是不是以後連火把也不能保證安全區了 11/15 09:31
+→ gh0987: 可以把AI設成會避光吧 11/15 10:41
+推 ilohoo: 我的255高山要塞QQ 11/15 13:47
+推 ilohoo: 還有史萊姆飛機也要加裝防禦系統了 11/15 13:49
+推 et310: 陷阱塔8888888 空島8888888 11/15 14:43
+推 ponsheng: 說不定會有地區限制 像守衛跟烈焰神 11/15 15:16
+推 asd315946: 也要看是否有像史萊姆 出生後的方向性  或 敵隊意識 11/15 15:25
+→ asd315946: 又或許特殊的條件  ...總之不要小看玩家們 11/15 15:25
+→ error405: 128~255層會生吧 我猜 11/15 15:33
+推 Gwaewluin: 為了私心，只好祈願這隻落選了 11/15 17:10
+→ kylefan: 我也以為是魟魚 11/15 20:06
+推 HatanoKokoro: 目前已知生成在高海拔，針對失眠症（晚上不睡）的下 11/15 20:59
+→ HatanoKokoro: 手。為什麼不要4隻都加就好。 11/15 20:59
+推 felaray: 好恐怖R... 11/16 22:43
+
+作者kylefan (袖子)看板Minecraft標題[情報] MOB D:地獄盤旋者時間Thu Nov 16 23:31:29 2017
+MOB D:地獄盤旋者Hovering Inferno
+https://imgur.com/moe8iBa
+如同苦力怕與高壓苦力怕的關係一樣，【地獄盤旋者】是烈焰使者的終極進化型
+他的身軀具有可做防禦用的盾狀外殼
+在成群的烈焰使者中隨機生成
+具有與一般烈焰使者不同的是他具有威力強大的衝擊波
+玩家最好配備抗火性效果探險
+若當選將使地獄更加恐怖與有趣
+影片:https://www.facebook.com/minecraft/videos/1529579747077509/
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 125.224.131.121
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510846292.A.C73.html
+
+作者kylefan (袖子)看板Minecraft標題[問題] Minecon 2017時間Fri Nov 17 23:35:56 2017
+24HR倒數總整理
+相關網站統整:
+MINECON EARTH官方網站:https://minecraft.net/zh-hant/minecon/ (官方已進行中文化
+)
+_台灣時間2017/11/19 01:00直播
+各國時區：沒台港星馬，只有北京上海，給差評
+https://i.imgur.com/dzxzS0y.jpg
+_紀念品購買:https://www.jinx.com/minecon2017
+_電影院放映之提供區域:(僅歐美提供）https://minecraft.net/zh-hant/minecon/parti
+es
+======
+內容：
+直播
+*https://minecraft.net/zh-hant/minecon/earth-2017-live-show/
+官網待機輪播 第一個就是繁中！
+https://i.imgur.com/7GTln7k.jpg
+*FB（https://www.facebook.com/minecraft/videos/1527662553935895/）
+*YT(https://www.youtube.com/watch?v=A_Z3AokMwWI)
+*twitch(https://twitch.tv/minecraft)
+*mixer(https://mixer.com/minecraftcc)
+*Xbox(https://download-ssl.xboxlive.com/…/amp/minecon_earth_2017.…)
+*網易(https://mc.163.com/minecon)
+節目
+*由執行長Lydia Winters 與知名喜劇演員Will Arnett 主持
+*投票選怪物
+*更新內容發表
+*服裝大賽結果公佈
+*將會有免費贈品釋出
+*可再線下活動配合之電影院觀賞(歐美)
+*官方網路商店上架限定商品
+*將有一個「以U開頭的字」的驚喜
+*11/19 01:00台灣/大馬/香港/中原時間
+*https://minecraft.net/article/one-week-until-minecon-earth
+======
+怪物投票
+台灣時間11/19 01:00AM的MlNECON，將首次開放玩家四選一，決定在下一個版本登場的新
+怪物，絕對不可錯過，因為落選的三隻怪物將永久消失！
+===
+各怪物逐項說明(皆為暫稱)
+A怪物：深海怪獸The Monster of the Ocean Depths
+https://i.imgur.com/QDYoXyU.jpg
+生成於深海，將觸手展出來並伸出舌頭狀觸手攻擊，汲取你的生命。
+使用大型嘴巴推進
+若中選，他將大幅提升海底探險的樂趣
+===
+怪物B：夜空怪物The Monster of the Night sky
+https://i.imgur.com/zKJfezs.jpg
+在夜晚高空中生成，發現玩家後成群俯衝攻擊
+若當選將成為空中首隻怪物
+===
+怪物C：強食者THE GREAT HUNGER
+https://i.imgur.com/eygBHjq.jpg
+這可愛的東西具有巨大的嘴巴以及大量的附魔力量
+他會將自身偽裝於草地裡，任何被他巨嘴的東西或怪物都會被殲滅
+若當選，他或許能為你帶來意想不到的附魔力量，對於成就的取得或有幫助
+===
+MOB D:地獄盤旋者Hovering Inferno
+https://imgur.com/moe8iBa.jpg
+如同苦力怕與高壓苦力怕的關係一樣，【地獄盤旋者】是烈焰使者的終極進化型
+他的身軀具有可做防禦用的盾狀外殼
+在成群的烈焰使者中隨機生成
+具有與一般烈焰使者不同的是他具有威力強大的衝擊波
+玩家最好配備抗火性效果探險
+若當選將使地獄更加恐怖與有趣
+===
+11/19投票，只有ㄧ個贏家。
+======
+Minecraft.net/minecon
+11/19 01AM
+
+然後問問版主，要不要學E3時各大電玩版開live文XD
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 114.46.35.191
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510932966.A.F2B.html
+※ 編輯: kylefan (114.46.35.191), 11/17/2017 23:49:39
+※ 編輯: kylefan (114.46.35.191), 11/18/2017 00:10:13
+※ 編輯: kylefan (114.46.35.191), 11/18/2017 00:10:53
+推 alanqq0624: U開頭的驚喜？11/18 09:11
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 11:50:33
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 11:51:36
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 11:52:22
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 11:53:24
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 11:54:51
+First of all, we'll be officially announcing the U-[SOUND OF MARSH DRAGGING ME
+ AWAY FROM MY KEYBOARD AND REMINDING ME HOW 'SURPRISES' WORK]我們將正式發表U-
+〔另一名開發者把我從鍵盤前拉開並告訴我什麼叫做驚喜 的聲音〕                   
+      
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 12:01:06
+→ kylefan: First of all, we'll be officially announcing the U-[S 11/18 12:02
+→ kylefan: OUND OF MARSH DRAGGINGME AWAY FROM MY KEYBOARD AND RE 11/18 12:02
+→ kylefan: MINDING ME HOW 'SURPRISES' WORK]我們將正式發表U-〔另 11/18 12:02
+→ kylefan: 一名開發者把我從鍵盤前拉開並告訴我什麼叫做驚喜 的聲 11/18 12:02
+→ kylefan: 音〕 11/18 12:02
+→ error405: 告訴我 什麼叫做 驚 喜 11/18 12:03
+推 stevenyat: 希望能看到win10版高解析材質包跟光影包的消息 11/18 19:15
+→ TvP: 麥塊宇宙之類的嗎w 11/18 20:08
+
+作者kylefan (袖子)看板Minecraft標題〔live文〕Minecon 2017(官網有中文直播）時間Sat Nov 18 23:53:53 2017
+學E3各版開直播討論串（是說希望會有人）
+
+
+官網的 「音訊」竟然可用中文！！
+直播
+*https://minecraft.net/zh-hant/minecon/earth-2017-live-show/
+https://i.imgur.com/7GTln7k.jpg
+*FB（https://www.facebook.com/minecraft/videos/1527662553935895/）
+*YT(https://www.youtube.com/watch?v=A_Z3AokMwWI)
+*twitch(https://twitch.tv/minecraft)
+*mixer(https://mixer.com/minecraftcc)
+*Xbox(https://download-ssl.xboxlive.com/…/amp/minecon_earth_2017.…)
+*網易(https://mc.163.com/minecon)
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 101.15.80.114
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511020435.A.9BC.html
+推 Roentgenium: 頭推11/19 00:03
+※ 編輯: kylefan (101.15.80.114), 11/19/2017 00:06:43
+→ Roentgenium: 啊...還要等50分鐘喔? 11/19 00:10
+推 alanqq0624: 總之推一下先睡了w 11/19 00:33
+→ alanqq0624: 不知道早上5點起來看不看的到收尾 11/19 00:33
+推 emptie: 這個生存模擬影片有點87… 11/19 01:14
+→ emptie: 要推特才能投票… 11/19 01:15
+→ emptie: 然後下次check的時候會移除最少的那個mob…這個玩法好奇 11/19 01:16
+→ emptie: 怪 11/19 01:16
+→ emptie: 而且每跟到minecon的玩家就沒得投票了… 11/19 01:16
+推 twosheep0603: B!!!!! 11/19 01:30
+推 ponsheng: https://i.imgur.com/dnSqHdZ.jpg 目前戰況 BC 拉距 11/19 01:31
+推 emptie: 第一階段 11/19 01:31
+→ emptie: https://i.imgur.com/B1lLLIy.png 11/19 01:31
+推 LPH66: A 淘汰了 11/19 01:31
+→ emptie: A 被刪掉了 11/19 01:31
+推 ponsheng: C!!!!! (問一下一輪多久啊 11/19 01:32
+→ ponsheng: 看到下面有倒數 應該是30分鐘 11/19 01:33
+推 emptie: 下一輪差不多會在台灣時間1 50附近結算吧 11/19 01:33
+推 ponsheng: 他們還記得幫被淘汰的RIP一下XD 11/19 01:35
+推 emptie: 投票數真的很少…大概只有非常core 的玩家會注意到這個訊 11/19 01:36
+→ emptie: 息吧…總覺得很隨便XD 11/19 01:36
+推 ponsheng: 應該是配合minecon的時程吧 投票方式也有助於當下的討 11/19 01:42
+→ ponsheng: 論熱度 11/19 01:42
+推 Roentgenium: 3,913 votes‧1 minute left 11/19 01:55
+推 emptie: 比第一階段還多票 見鬼了… 11/19 01:56
+→ emptie: https://i.imgur.com/CmvffOC.png 11/19 01:57
+推 ponsheng: C RIP 11/19 02:04
+推 twosheep0603: 差距拉開了 11/19 02:07
+→ Roentgenium: 差距又變小了 11/19 02:15
+→ Roentgenium: B! 11/19 02:22
+推 emptie: Update Aquatic! 11/19 02:22
+推 Roentgenium: bubble column! 11/19 02:24
+→ Roentgenium: 還有三叉戟 COOOOOOOOOOOL!! 11/19 02:25
+推 emptie: 這大概是會毀滅很多東西的一個更新 水方塊的性質改變 11/19 02:25
+→ emptie: 水可以流過欄杆了 物品會浮在水面 11/19 02:26
+推 twosheep0603: 海豚!!! 11/19 02:29
+推 ponsheng: 更新這麼多...\bug/\bug/\bug/ 11/19 02:29
+→ twosheep0603: 水可以流過欄杆 對於水上高腳建築友善很多XD 11/19 02:29
+→ Roentgenium: 水流過欄杆...嗯... 11/19 02:32
+推 Slas: 三叉戟耶  射出去還會自己飛回來 11/19 02:42
+推 stevenyat: 有改版情報懶人包嗎QQ 11/19 02:42
+推 Slas: 水性質改變 三叉戟 海底生態(珊瑚、熱帶魚) 海底沈船 11/19 02:44
+→ Slas: 水面上會有海豚 11/19 02:45
+推 ponsheng: 還有岩漿塊在水中冒泡到水面 11/19 02:46
+推 stevenyat: 感謝 晚點再來看水變成怎麼樣XD 11/19 02:52
+
+作者skyrie (史蓋瑞)看板Minecraft標題[問題] 更新後家畜對飼料冷感時間Mon Nov 20 23:21:29 2017
+各位前輩好
+
+小弟的版本是WIN10版的
+上次更新後發現家畜們對農作物都變得冷感
+原先拿著小麥 大老遠的羊都會跟著一起跑
+現在他們就看我兩眼就轉回去
+讓小弟的心靈有點受創...
+
+最一開始是在Realm伺服器碰到這樣的狀況
+以為可能是網路延遲造成的問題
+後來自己開伺服器測試
+家畜們仍然一樣冷感
+
+請問各位前輩們是否有碰到一樣的狀況?
+有沒有解決辦法呢QQ
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 180.176.25.119
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511191297.A.051.html
+推 YuzanJhang: 有冷卻時間了 11/21 17:44
+→ YuzanJhang: 一段時間才會理你 11/21 17:44
+→ YuzanJhang: 最好用栓繩 11/21 18:16
+推 asd315946: 交配完需要冷卻時間(誤 11/21 18:28
+推 haidai: 聖人mode 11/23 15:48
+推 igugu11: 聖人模式www 11/25 09:52
+→ skyrie: 我知道聖人模式xddd 但碰到的狀況是不餵他他也不鳥我呢QQ 11/25 19:43
+

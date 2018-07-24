@@ -1096,3 +1096,369 @@ will read your interview, it was banning it!'
 推 okery: 原來是捧哏逗哏等術語所用，後來進入大眾文化後就被替代為 12/05 05:39
 → okery: 梗了。 12/05 05:39
 
+作者Darcenciel (Sam)看板Minecraft標題[情報] 小7也出現Minecraft卡了時間Mon Oct  2 18:34:27 2017
+剛剛下班回家經過，原本只是要買KKBOX點數卡發現小七竟然也開始賣Minecraft卡了
+
+其實已經好久沒玩Minecraft，之前看到大家在講說全家開始賣還想說怎麼只有全家有
+
+最近找以前一起玩的朋友一起回鍋，竟然還有人去找快一千的代購XDD
+
+另外剛剛上網查才知道原來微軟把Minecraft買下來了，問了一下似乎沒有做爛掉(?)
+
+也有人說如果微軟沒有買下來，Mojang大概也不會在台灣代理卡片吧
+
+總而言之現在台灣便利商店都買的到了，希望之前買盜版的可以支持一下正版，一張
+
+才八百可以玩一輩子，我自己也推坑好多人買XD 連假要來好好研究一下新功能了
+
+剛登入發現跟以前差好多，完全不會玩了 www
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.171.173.135
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1506940470.A.582.html
+※ 編輯: Darcenciel (42.77.8.136), 10/02/2017 20:19:33
+推 LastAttack: 終於不用paypal了！可是我都玩單機所以... 10/03 09:59
+推 Errokerce: 只玩單機不能當作理由，有能力的話還是希望能支持正版^ 10/03 13:52
+→ Errokerce: _^ 10/03 13:52
+→ Errokerce: 臉被切掉了QQ 10/03 13:53
+推 CreamyWhite: 很多人玩盜版嗎？ 10/04 08:34
+推 eqishell: 很多 10/04 12:06
+推 haiambu: 真的很多 但是盜版轉正版的應該也不少 我就是 10/04 12:30
+推 ue28: 我有買卡沒轉.... 10/09 15:42
+推 skyrie: 以前自己跟身邊朋友都玩盜版的 這次回來才玩正版 但就自 10/11 16:13
+→ skyrie: 己一個人玩而已T_T 10/11 16:13
+推 chiasnail: 我刷了正版後，才想到自己沒有朋友 10/13 18:00
+推 cwcc0229: 有了正版後才想到自己其實沒朋友+1 11/09 19:44
+
+作者HwangTW (谷歌翻譯王)看板Minecraft標題[伺服] 自架伺服器求壓力測試(20人)時間Wed Oct  4 18:30:37 2017
+網址：gaming.softhard.tech
+port：25565
+正版驗證：有
+版本：forge-1.7.10-10.13.4.1614 (如有推薦版本歡迎指教)
+mod：
+https://i.imgur.com/231h7mQ.png
+網速：種花60/20 (浮動ip)
+電腦配備及hyper-v設定：
+https://i.imgur.com/gV29OZ9.png
+
+關於浮動ip的更新使用cloudflare api進行偵測與更新
+若遊玩到一半發現斷線且ping不到大概等個五至十分鐘又可重新上線了
+因本人目前一到五都得在營區打滾故有問題不能即時解決，還有望各位的體諒與協助
+謝謝
+
+--
+當你年輕的時候 你會覺得真愛無敵 麵包以後就會有
+當你中年之後 你會發現真愛很重要 所以他需要麵包來保護
+
+　　--文章代碼(AID): #1LOyQl47 (Gossiping) 作者：yasaq
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 111.71.216.12
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1507113039.A.346.html
+推 Bob9154: E5跑Minecraft... 單核不夠吧10/04 18:33
+個人是用64位元的java (不知有無關聯)
+自己本機測試時也不錯順
+目前剩下聯網的壓力測試
+麻煩大大幫忙了
+※ 編輯: HwangTW (111.71.216.12), 10/04/2017 18:41:31
+推 tonylo2ooo: online-mode=true  正版驗證方法 開一下吧10/04 19:42
+感謝，forge產生出來的檔案中沒這行orz
+害我以為正版驗證已內建(？
+抱歉這裡更正一下
+原來是我自己眼ㄆㄧㄚˊ沒看到那一行
+確定是有開啟正版驗證的
+→ tonylo2ooo: 另外你的CPU應該60人都沒問題，主要是你網速可能10/04 19:43
+→ tonylo2ooo: 上行有點少 下載應該不是問題10/04 19:43
+礙於$$上的問題QQ
+→ tonylo2ooo: 我之前差不多CPU配備 跑spigot 有150人同時線上遊玩10/04 19:44
+哇靠有點猛
+→ tonylo2ooo: tps約在18.x 左右10/04 19:44
+→ tonylo2ooo: 給你參考一下10/04 19:44
+→ tonylo2ooo: 還有1樓說的單核問題  minecraft其實比較吃單核10/04 19:45
+→ tonylo2ooo: 價錢一樣的cpu多核給minecraft開蠻浪費的10/04 19:45
+虛擬機會自己幫我分配資源這我比較不擔心
+我比較怕RAM爆炸
+→ tonylo2ooo: 不過你自己電腦還有做其他事情的話另當別論10/04 19:45
+→ tonylo2ooo: 我剛剛的數據是指完全拿來開伺服器的情況10/04 19:45
+推 a24987195: E5 CPU是比E3更好嗎? 我是E310/04 20:20
+是
+推 m01a011: 開1.7.10...有趣，有辦法開TFC模組測試嗎? 10/04 22:41
+若您方便的話
+非常歡迎您私信我該模組網址
+→ smiling: http://broadband.hinet.net/fttx.do?s=1254 100M/40M 限10/05 14:45
+→ smiling: 時促銷優惠價格為906元/月，與60M/20M牌告價885元/月，10/05 14:46
+我不確定我家能不能裝到100/40了
+→ smiling: 這二方案價差約20元左右。 10/05 14:47
+※ 編輯: HwangTW (111.71.220.33), 10/06/2017 16:34:41
+→ smiling: https://123.cht.com.tw/ecas/B94  原PO文可以由此輸入10/07 07:57
+→ smiling: 地址或電路專線編號自行查詢看看。 10/07 07:57
+謝謝大大的教學
+※ 編輯: HwangTW (106.1.44.254), 10/07/2017 19:03:04
+推 shikendon: 就我所知 E5-2620 v4 並沒有那麼強... 10/09 01:28
+→ shikendon: 如果是原味生存伺服器玩家視野不重疊並開放各種刷怪塔 10/09 01:29
+→ shikendon: 大概 30 人左右就是極限了，CPU 等級可以參考這裡： 10/09 01:29
+→ shikendon: https://www.cpubenchmark.net/singleThread.html 10/09 01:29
+→ shikendon: Minecraft 基本只能支援單核心， 10/09 01:30
+→ shikendon: 虛擬機最多也只能讓它完整吃到一顆實體核心(2.10Ghz)， 10/09 01:30
+→ shikendon: 我目前伺服器 E5-1620(推測 租用)，最多40人同時上線。 10/09 01:33
+推 shikendon: 另外提醒拿自己家用網路來架伺服器有一定程度的風險， 10/09 01:45
+→ shikendon: 隨便一個屁孩用 1G/600M 家用網路都能灌爆你的線路， 10/09 01:46
+→ shikendon: 就只能祈禱別被人盯上攻擊， 10/09 01:46
+→ shikendon: 或租一條抗 D(D)oS 線路過濾流量再把流量導回自己家。 10/09 01:46
+推 CardLin: 難怪每次換新地圖新種子都會被問種子碼，如何避免被Cloud 10/15 09:11
+→ CardLin: flare之類的api劫持伺服器呢？ 這可能跟紅石電路BUG有關~ 10/15 09:11
+→ CardLin: 因為我近期測試連到自己伺服器的時候計數器無法正常累加! 10/15 09:12
+推 CardLin: 我之前在某個Conference有看過類似研究，但很擔憂會碰到 10/15 09:15
+→ CardLin: 某些玩家在 slice 的邊緣上會看不到另一個玩家的恐怖情況 10/15 09:16
+推 CardLin: 兩位s大所說的網速與DDoS問題Cloudflare有118個資料中心! 10/15 09:25
+推 CardLin: https://www.cloudflare.com/network/ 並且散佈在各區域! 10/15 09:27
+→ CardLin: https://i.imgur.com/jruhpvc.png 補上20171015的118圖片 10/15 09:28
+推 shikendon: 樓上 CardLin 的想法可能有點太跳 tone， 10/15 17:44
+→ shikendon: 種子碼、CF、紅石電路，這三者基本上完全沒有相關性， 10/15 17:45
+→ shikendon: 樓主是用 CF(Cloudflare) 的 API 自動更新 IP 而已， 10/15 17:45
+→ shikendon: 跟使用 DDNS 或 No-IP 是一樣的意思。 10/15 17:45
+→ shikendon: 另外就是最大的誤解，以為「掛上 CF 就可以擋 DDoS」， 10/15 17:46
+→ shikendon: 事實上 CF 並“沒有”幫遊戲伺服器阻擋 DDoS 的能力， 10/15 17:47
+推 Bob9154: CardLin 這讓我想到a34 顯卡版和硬體版有 暱稱是Card 10/15 17:47
+→ shikendon: 至少目前是這樣，CF 只支援 HTTP(S) 協定而已。 10/15 17:47
+推 pib219: 同個IP給太多要求不是會被暫時攔下來嗎 10/22 01:41
+
+作者LPH66 (<U+304B><U+3064><U+3066>交<U+308F><U+3057><U+305F>約束)看板Minecraft標題[情報] 17w47b時間Thu Nov 23 18:09:54 2017
+
+https://minecraft.net/en-us/article/minecraft-snapshot-17w47a
+
+提了好久的 block ID / data value 的移除在這一個快照正式上線
+
+所以在使用這個快照載入之前的世界很有可能會破壞世界
+
+因為很重要所以再提一次
+
+使用這個快照載入之前的世界很有可能會破壞世界
+
+引用公告裡的話:
+
+: This snapshot should be considered "extremely, extremely experimental".
+: From a scale of 1-10 where 1 is experimental and 10 is stable, this is a
+: very firm negative 5.
+
+當然因為 block ID / data value 的限制器沒了所以也有新東西
+
+這個快照裡新增的有: (參考 Xisuma 的影片 https://youtu.be/7vbjf2AKg8w
+                       和 cubfan 的影片 https://youtu.be/QwTZM31YeaM )
+
+* 圖片裡秀出來的: 六種木材的活板門/壓力板/按鈕
+
+  目前似乎是配方沒有完整所以只有壓力板和按鈕可以做得出來, 活板門還沒
+
+  另外放在地板和天花板的按鈕現在可以放兩個不同方向
+
+* 之前只能用指令產生的"六面樹皮木頭"可以在創造模式裡找到了
+
+  叫做 "<樹名> Bark", 例如 Oak Bark, Spruce Bark, Birch Bark 等等
+
+  既然有六面樹皮木頭, 當然也有"六面底面雙半磚", 叫做 "Smooth <材質>"
+
+  一共有 Smooth Red Sandstone, Smooth Sandstone, Smooth Stone, Smooth Quartz
+
+  這些都能在創造模式裡找得到
+
+  另外創造模式也能找得到草徑跟農地
+
+* 南瓜現在長出來的樣子是沒挖過的, 原來的挖過的現在叫 Carved Pumpkin
+
+  挖法是用剪刀對南瓜右鍵使用
+
+  所以要做雪人跟鐵巨人就要用挖過的版本才行
+
+* 有個"新的" Petrified Oak Slab, 就是大家懷念的舊版石頭材質木紋半磚 XD
+
+* 有一個不知道是不是故意放進來的 Debug Stick 只能用 /give 獲得
+
+  /give @p minecraft:debug_stick
+
+  對有 block state 的方塊左鍵切換不同種 state, 右鍵切換該種 state 的各狀態
+
+一些其他的改變包含:
+
+* 兩個很重要 (O) 的改變:
+
+  同種箱子可以併排了!!!!!!! (Shift-右鍵放置也可以故意不合併)
+
+  南瓜和木柵欄門可以直接浮空放了!!!
+
+  上色的原因不解釋 (逃
+
+* 鐵砧和漏斗的 hitbox 縮小到符合模組了, 所以現在漏斗下面的箱子可以直接打開
+
+* 大蘑菇方塊現在可以自由調整哪些地方顯示孢子面:
+
+  只要把多個方塊併排後接觸面就會變成孢子面
+
+  蘑菇莖現在也可以絲綢獲得
+
+* 床現在不能浮空, 地板被敲掉時床就會掉下來
+
+* 有些方塊改名了, 因為算是比較細的改變所以就不提, 可以看 cubfan 的影片
+
+* 不確定是不是 bug, 海綿吸水時不會 update 水方塊, 所以可以做浮空水
+
+* 控制桿在開的狀態時會有紅石粒子效果
+
+* 音階盒現在能被活塞推了, 所以當然也會被史萊姆黏住
+
+* 蠹魚方塊 (改叫 Infested <方塊>) 現在是瞬間破壞
+
+  所以在峭壁或要塞開挖時要更小心了
+
+====
+
+47b 把漏掉的活板門的配方加回去了, 另外加了樹皮方塊的配方
+
+木頭 2x2 獲得三個樹皮方塊
+
+南瓜做南瓜燈的配方改"正常"了, 也就是現在要用挖過的才行
+
+--
+'Oh, Harry, don't you see?' Hermione breathed. 'If she could have done
+one thing to make absolutely sure that every single person in this school
+will read your interview, it was banning it!'
+                      ---'Harry Potter and the order of the phoenix', P513
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.30.32
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511431797.A.319.html
+推 ponsheng: 怎麼把樹的年輪拿掉惹@@ 11/23 18:22
+推 error405: 推 超詳細 11/23 18:23
+推 HatanoKokoro: 所以data value拿掉意思是同種材質可以自由添加vari 11/23 19:17
+→ HatanoKokoro: ant嗎？ 11/23 19:17
+→ LPH66: 應該說以後加 variant 會更容易了 11/23 19:19
+→ LPH66: 像我在 #1K-jozhu 提過的例子, 六種木頭原本的編號非常亂 11/23 19:20
+→ LPH66: 木板木半磚各一個 ID, 木頭和葉子各兩個, 階梯是六個 11/23 19:22
+→ LPH66: 現在它們統一都用一個名字描述, 再用 variant 指定種類 11/23 19:22
+推 emptie: 黏性活塞縮回的時候有嚴重的bug 11/23 19:22
+→ emptie: 一堆東西都會壞掉 11/23 19:23
+→ LPH66: 用同樣的方式就能新增這次多的活板門/壓力板/按鈕 11/23 19:23
+→ LPH66: 而不用為了它們的 ID 去找位置 (特別是 1.12 新增彩陶後 11/23 19:23
+→ LPH66: 方塊 ID 是真的不夠了...) 11/23 19:23
+推 Yijhen0525: 南瓜這樣改正常多了，以前我就很想吐嘈就是 11/23 19:27
+推 HatanoKokoro: 這很有趣，這等於打破所有方塊材質的固有限制，可以 11/23 19:51
+→ HatanoKokoro: 造出類似發光的竹子，搭配立體材質包的設計還可以做 11/23 19:51
+→ HatanoKokoro: 出偽豎半磚或偽1/8方塊這類的variant 11/23 19:51
+推 Yijhen0525: 用編號是編不完的，variant可以方便整理就是 11/23 20:56
+→ error405: 裡面好像說現有的材質包沒辦法通用了 11/23 21:43
+推 Gwaewluin: 糟糕，這樣一些喜歡但已經沒再更新的材質包就不能用啦 11/23 23:15
+推 emptie: 只好自己手動重新打包啦！ 11/23 23:19
+推 Roentgenium: 這樣物品電梯最上面不能直接用漏斗了... 11/24 01:36
+推 OctupusTea: 太神妙了吧～感覺都是好用的更新啊 11/24 02:44
+補一些對照之後還是漏掉的東西和 47b
+※ 編輯: LPH66 (123.195.9.46), 11/24/2017 10:24:29
+推 Gwaewluin: 音階盒也有變更了，又有些機關需要調整了 11/24 14:34
+是說剛才心血來潮去搜尋了一下發現了這個:
+
+https://zh.wikipedia.org/wiki/%E7%A1%85%E5%8C%96%E6%9C%A8
+https://en.wikipedia.org/wiki/Petrified_wood
+
+所以石質木紋的東西是真的在現實生活裡存在的 :D
+※ 編輯: LPH66 (140.112.30.32), 11/28/2017 23:20:42
+推 LawLombie: 推推推 11/30 21:42
+
+作者surimodo (好吃棉花糖)看板Minecraft標題[ANSI] 工具時間Thu Nov 23 18:42:37 2017本來要拿來當施工圖
+不過後來都沒用到...囧
+                                                                      
+                                                                  ██      
+        █████                          ██                ███      
+                ██                      ██  █            ████      
+                  ██                  ██  ██            █████    
+                    ██                    ██                    ███  
+                      █                    █                        ██  
+                      █                                                    
+                      █                                                    
+                      █                                                    
+                                                              
+                                                            
+                                                          
+                                                        
+--
+千山鳥飛絕，萬徑人蹤滅。
+孤舟蓑笠翁，獨釣寒江雪。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 115.43.239.55
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511433762.A.ED2.html
+※ 編輯: surimodo (115.43.239.55), 11/23/2017 18:43:50
+推 emptie: 好看耶 11/23 19:20
+推 OctupusTea: 大推！好想改來貢獻進版圖，原PO大大可以嗎？ 11/24 02:22
+→ surimodo: 可以啊0.0 11/24 14:09
+推 OctupusTea: 感謝～期中考完就來畫(累) 11/25 03:47
+推 haidai: 版主散財，原po 1000p，章魚茶改好也發1000p 11/25 07:40
+推 haidai: 我們聖誕節來個進板畫面甄選好了 11/25 07:41
+推 OctupusTea: 版主大大發錢了～(灑花) 11/27 15:55
+推 jason7086: 77777 11/27 18:29
+
+作者LPH66 (<U+304B><U+3064><U+3066>交<U+308F><U+3057><U+305F>約束)看板Minecraft標題[情報] 17w48a時間Tue Nov 28 18:24:31 2017
+
+https://minecraft.net/zh-hant/article/minecraft-snapshot-17w48a
+
+這週的重點應該就是自訂配方終於能用了
+
+其他 bugfix 大部份都是前面快照的, 幾個比較重要的老 bug 是:
+
+[MC-1685] 改名後的新書可以寫了
+[MC-1875] 雪層可以用絲綢拿回來 (多層也可)
+[MC-4923] 打火石在不該放火的地點出現一下下的火方塊
+          這個似乎會影響例如用打火石啟動史萊姆方塊機構的"功能"
+[MC-5037][MC-75279] 這兩個跟披風有關
+                    常看 youtube 影片的應該很有印象披風常常亂飄, 這修好了
+[MC-88230] 餵完馬或羊駝後游標會偏右
+
+然後有一個算是彩蛋的新死亡訊息:
+
+在地獄睡覺而爆炸死掉時會顯示 <player> was killed by [Intentional Game Design]
+
+後面那個括號指上去時會有 tooltip 會顯示 MCPE-28723, 那指的是這則 bug report:
+
+https://bugs.mojang.com/browse/MCPE-28723
+
+...這該怎麼說 XD
+
+--
+'Oh, Harry, don't you see?' Hermione breathed. 'If she could have done
+one thing to make absolutely sure that every single person in this school
+will read your interview, it was banning it!'
+                      ---'Harry Potter and the order of the phoenix', P513
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.30.32
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511864676.A.2F2.html
+推 Gwaewluin: 床在地獄會爆炸原來是bug嗎！？？ 11/28 19:14
+推 Yijhen0525: 便宜的整地工具要沒了嗎? 11/28 20:04
+推 BUHUDAIN: 是喔，是個官方不打算修的bug www 11/28 20:06
+推 CP64: 已經 Feature 化的 bug 11/28 20:35
+推 alanqq0624: 太惡意拉QQ 11/28 20:41
+推 CP64: 看了一下 是有人回報說是 bug 官方表示因為重生點設計的關係 11/28 20:46
+→ CP64: 所以不能在地獄用床 所以讓他爆炸表示不能用 11/28 20:46
+→ CP64: 整個來說 官方:「一開始就是這樣不是 bug 啦」 11/28 20:47
+→ CP64: 所以只是故意設計來提醒玩家這不是 bug 吧 XD 11/28 20:48
+→ LPH66: 主要還有那則 bug report 寫的頗為有趣 XDDD 11/28 21:50
+→ LPH66: 那條也以 Works As Intended 關閉了 11/28 21:51
+推 Innofance: 很久沒玩了，還能用床炸終界龍嗎 11/29 11:21
+推 emptie: 比之前困難很多 不太實際了 11/29 15:24
+推 a12342386: 所以我被騙了嗎…最近剛玩在地獄放床以為是被幽靈炸的 11/30 01:17
+→ a12342386: 原來是這“bug”嗎… 11/30 01:17
+推 DON3000: 不是要睡上去才會爆？ 11/30 03:08
+推 felaray: 我記得放了就會爆 12/01 15:30
+推 hit1205: 樓上沒有被騙 XD，這是遊戲的原始設計，只是有玩家以為是 12/02 15:00
+→ hit1205: 被幽靈炸的，把床搬到別的地方再試一次結果還是炸了，所 12/02 15:00
+→ hit1205: 以發了這個回報。官方有對他解釋這是設計 XD 12/02 15:01
+→ hit1205: 然後就被拿來當哏放在死亡原因裡了 12/02 15:01
+推 felaray: 樓上抱歉,是"梗",那個字好像媒體很喜歡用 有點莫名其妙.. 12/04 15:44
+→ felaray: 官方對這設計的解釋挺能說服我的 之前還想到底為什麼會爆 12/04 15:44
+→ felaray:  感到奇妙 12/04 15:44
+推 Gwaewluin: 梗這個字是誤用，原本應該是"哏"，是相聲用的術語，也 12/04 20:46
+→ Gwaewluin: 就是指題材的意思，後來印象是吳宗憲的發言沒把音唸對 12/04 20:47
+→ Gwaewluin: （還是他不知道正確該是唸二聲），說了"這老梗"，表示 12/04 20:48
+→ Gwaewluin: 用了沒新意的就題材，後來就愈來愈多人用"梗"這字了 12/04 20:48
+→ Gwaewluin:             舊 12/04 20:49
+推 okery: 原來是捧哏逗哏等術語所用，後來進入大眾文化後就被替代為 12/05 05:39
+→ okery: 梗了。 12/05 05:39
+
