@@ -1,0 +1,258 @@
+作者xiaoyaozizai (xiaoyaozizai)看板Minecraft標題[問題] 關於安裝完pixelmon dark2.4後啟動問題時間Sat Oct 14 00:05:24 2017
+
+在此版第一次發文請見諒
+
+想問一下我的確下載了pixelmon dark2.4.jar和forge1.10.2兩個(我聽說2.4相當於1.10.2)
+
+然後也先啟動MC後再安裝forge，之後把pixelmon dark2.4放到mods裡面去
+
+重點來了，我啟動遊戲後什麼遊戲設定也沒調直接開始，可以選初始神奇寶貝，但是，我卻看不到任何的野生神奇寶貝
+
+請求大大幫忙!!
+
+是我少安裝了什麼嗎??  還是哪裡錯了? 為什麼我怎麼樣都看不到野生神奇寶貝QQ
+
+拜託大大幫忙一下
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.225.31.94
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1507910727.A.ADE.html
+推 meetyou76: Pixelmon launcher現在不能用嗎?一鍵安裝很方便 10/18 14:06
+推 ue28: wewww現在有新的PixelMon了? 10/18 19:41
+→ meetyou76: 被老任警告 目前是停止更新的狀態 10/18 20:33
+
+作者hfs (快樂!移民日本!夢想成真!)看板Minecraft標題[問題] 家畜走路算是隨機的嗎?時間Thu Nov  9 00:16:57 2017
+家畜走路算是隨機的嗎?
+
+如果我在一隻雞旁邊放了8個壓力板.
+
+它踩到哪個就是幾號.
+
+不能用種子吸引雞的走路方向.
+
+這樣算是一個公平的八面骰子嗎?
+
+算是一個公平的八個數值隨機產生器嗎?
+
+--
+如果我的文章有哪邊不小心違反規定.請告知我.
+
+我一定會立即回來修正.請先不要急著刪除文章.感謝大家!
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 61.228.21.34
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510157822.A.C48.html
+推 ponsheng: 應該是隨機的 但是走到上下左右比角落的機率高 11/09 01:07
+→ HVE: 仙人掌掉落骰/礦車數量控制骰都玩過XD 11/09 02:02
+→ HVE: 漏斗/更正 11/09 02:03
+推 twosheep0603: 早期的亂數產生器真的是用豬走路來判定的 11/09 02:23
+推 CoNsTaR: 其實也有可能同時踩在不只一個壓力版上吧 11/09 05:49
+推 emptie: 不是 11/09 14:17
+推 emptie: https://youtu.be/UwCKkL7dlKU?t=1m17s 11/09 14:21
+→ emptie: 關於怪物隨機漫遊的原理上面這段影片有解釋 1:17 開始 11/09 14:22
+
+作者jessica24451 (浮氣中)看板Minecraft標題[問題] Win10環境無法下載版本時間Tue Dec 12 00:13:59 2017
+送孩子的生日禮物  結果無法在家裡win10 x64的桌機下載
+平時沒有在玩遊戲  實在是看不懂哪裡出了錯誤  懇請幫忙
+
+遊戲 - Minecraft: Java Edition  (Minecraft for Windoes 10)
+電腦 - Windoes 10專業版 x64型處理器(電腦本身的版本)
+
+在Mojang Account裡點選Download Game的Windows下載後
+出現Minecraft Launcher小視窗按開始遊戲下載1.12.2 - 最新版本
+卻出來以下錯誤訊息  寫信去問也都沒回覆
+只好前來求救了  再拜託高手協助看一下  不然禮物沒了錢也退不回來了...
+
+先謝謝各位了!!
+
+無法儲存下載內容。 af_za.lang
+名稱： af_za.lang
+URL：
+ http://resources.download.minecraft.net/35/35cf8b4f1576db2793ca5bffb22ef34e6d2a9664
+錯誤詳細資訊： Attempting to move successful download to
+C:/Users\Jessica\AppData\Roaming\.minecraft\assets\objects\35/35cf8b4f1576db2793ca5bffb22ef34e6d2a9664
+<U+5042>R<U+247E>+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 111.240.186.133
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1513008849.A.668.html
+推 alanqq0624: 現在不是去minecraft.net下載？ 12/12 01:19
+推 LPH66: 他這個看起來是 Launcher 下載遊戲有問題 12/12 01:22
+→ LPH66: 你有安裝以下連結裡的軟體之一嗎? 12/12 01:24
+→ LPH66: http://tinyurl.com/yacjpbt5 12/12 01:24
+→ jessica24451: 真的太感謝LPH66的提醒，把ByteFence關起來後就下載 12/17 13:16
+→ jessica24451: 成功了!感謝大家、感謝麥版~ 12/17 13:17
+
+作者xiaoyaozizai (xiaoyaozizai)看板Minecraft標題[問題] 關於安裝完pixelmon dark2.4後啟動問題時間Sat Oct 14 00:05:24 2017
+
+在此版第一次發文請見諒
+
+想問一下我的確下載了pixelmon dark2.4.jar和forge1.10.2兩個(我聽說2.4相當於1.10.2)
+
+然後也先啟動MC後再安裝forge，之後把pixelmon dark2.4放到mods裡面去
+
+重點來了，我啟動遊戲後什麼遊戲設定也沒調直接開始，可以選初始神奇寶貝，但是，我卻看不到任何的野生神奇寶貝
+
+請求大大幫忙!!
+
+是我少安裝了什麼嗎??  還是哪裡錯了? 為什麼我怎麼樣都看不到野生神奇寶貝QQ
+
+拜託大大幫忙一下
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.225.31.94
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1507910727.A.ADE.html
+推 meetyou76: Pixelmon launcher現在不能用嗎?一鍵安裝很方便 10/18 14:06
+推 ue28: wewww現在有新的PixelMon了? 10/18 19:41
+→ meetyou76: 被老任警告 目前是停止更新的狀態 10/18 20:33
+
+作者hfs (快樂!移民日本!夢想成真!)看板Minecraft標題[問題] 家畜走路算是隨機的嗎?時間Thu Nov  9 00:16:57 2017
+家畜走路算是隨機的嗎?
+
+如果我在一隻雞旁邊放了8個壓力板.
+
+它踩到哪個就是幾號.
+
+不能用種子吸引雞的走路方向.
+
+這樣算是一個公平的八面骰子嗎?
+
+算是一個公平的八個數值隨機產生器嗎?
+
+--
+如果我的文章有哪邊不小心違反規定.請告知我.
+
+我一定會立即回來修正.請先不要急著刪除文章.感謝大家!
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 61.228.21.34
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510157822.A.C48.html
+推 ponsheng: 應該是隨機的 但是走到上下左右比角落的機率高 11/09 01:07
+→ HVE: 仙人掌掉落骰/礦車數量控制骰都玩過XD 11/09 02:02
+→ HVE: 漏斗/更正 11/09 02:03
+推 twosheep0603: 早期的亂數產生器真的是用豬走路來判定的 11/09 02:23
+推 CoNsTaR: 其實也有可能同時踩在不只一個壓力版上吧 11/09 05:49
+推 emptie: 不是 11/09 14:17
+推 emptie: https://youtu.be/UwCKkL7dlKU?t=1m17s 11/09 14:21
+→ emptie: 關於怪物隨機漫遊的原理上面這段影片有解釋 1:17 開始 11/09 14:22
+
+作者jessica24451 (浮氣中)看板Minecraft標題[問題] Win10環境無法下載版本時間Tue Dec 12 00:13:59 2017
+送孩子的生日禮物  結果無法在家裡win10 x64的桌機下載
+平時沒有在玩遊戲  實在是看不懂哪裡出了錯誤  懇請幫忙
+
+遊戲 - Minecraft: Java Edition  (Minecraft for Windoes 10)
+電腦 - Windoes 10專業版 x64型處理器(電腦本身的版本)
+
+在Mojang Account裡點選Download Game的Windows下載後
+出現Minecraft Launcher小視窗按開始遊戲下載1.12.2 - 最新版本
+卻出來以下錯誤訊息  寫信去問也都沒回覆
+只好前來求救了  再拜託高手協助看一下  不然禮物沒了錢也退不回來了...
+
+先謝謝各位了!!
+
+無法儲存下載內容。 af_za.lang
+名稱： af_za.lang
+URL：
+ http://resources.download.minecraft.net/35/35cf8b4f1576db2793ca5bffb22ef34e6d2a9664
+錯誤詳細資訊： Attempting to move successful download to
+C:/Users\Jessica\AppData\Roaming\.minecraft\assets\objects\35/35cf8b4f1576db2793ca5bffb22ef34e6d2a9664
+<U+5042>R<U+247E>+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 111.240.186.133
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1513008849.A.668.html
+推 alanqq0624: 現在不是去minecraft.net下載？ 12/12 01:19
+推 LPH66: 他這個看起來是 Launcher 下載遊戲有問題 12/12 01:22
+→ LPH66: 你有安裝以下連結裡的軟體之一嗎? 12/12 01:24
+→ LPH66: http://tinyurl.com/yacjpbt5 12/12 01:24
+→ jessica24451: 真的太感謝LPH66的提醒，把ByteFence關起來後就下載 12/17 13:16
+→ jessica24451: 成功了!感謝大家、感謝麥版~ 12/17 13:17
+
+作者xiaoyaozizai (xiaoyaozizai)看板Minecraft標題[問題] 關於安裝完pixelmon dark2.4後啟動問題時間Sat Oct 14 00:05:24 2017
+
+在此版第一次發文請見諒
+
+想問一下我的確下載了pixelmon dark2.4.jar和forge1.10.2兩個(我聽說2.4相當於1.10.2)
+
+然後也先啟動MC後再安裝forge，之後把pixelmon dark2.4放到mods裡面去
+
+重點來了，我啟動遊戲後什麼遊戲設定也沒調直接開始，可以選初始神奇寶貝，但是，我卻看不到任何的野生神奇寶貝
+
+請求大大幫忙!!
+
+是我少安裝了什麼嗎??  還是哪裡錯了? 為什麼我怎麼樣都看不到野生神奇寶貝QQ
+
+拜託大大幫忙一下
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.225.31.94
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1507910727.A.ADE.html
+推 meetyou76: Pixelmon launcher現在不能用嗎?一鍵安裝很方便 10/18 14:06
+推 ue28: wewww現在有新的PixelMon了? 10/18 19:41
+→ meetyou76: 被老任警告 目前是停止更新的狀態 10/18 20:33
+
+作者hfs (快樂!移民日本!夢想成真!)看板Minecraft標題[問題] 家畜走路算是隨機的嗎?時間Thu Nov  9 00:16:57 2017
+家畜走路算是隨機的嗎?
+
+如果我在一隻雞旁邊放了8個壓力板.
+
+它踩到哪個就是幾號.
+
+不能用種子吸引雞的走路方向.
+
+這樣算是一個公平的八面骰子嗎?
+
+算是一個公平的八個數值隨機產生器嗎?
+
+--
+如果我的文章有哪邊不小心違反規定.請告知我.
+
+我一定會立即回來修正.請先不要急著刪除文章.感謝大家!
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 61.228.21.34
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510157822.A.C48.html
+推 ponsheng: 應該是隨機的 但是走到上下左右比角落的機率高 11/09 01:07
+→ HVE: 仙人掌掉落骰/礦車數量控制骰都玩過XD 11/09 02:02
+→ HVE: 漏斗/更正 11/09 02:03
+推 twosheep0603: 早期的亂數產生器真的是用豬走路來判定的 11/09 02:23
+推 CoNsTaR: 其實也有可能同時踩在不只一個壓力版上吧 11/09 05:49
+推 emptie: 不是 11/09 14:17
+推 emptie: https://youtu.be/UwCKkL7dlKU?t=1m17s 11/09 14:21
+→ emptie: 關於怪物隨機漫遊的原理上面這段影片有解釋 1:17 開始 11/09 14:22
+
+作者jessica24451 (浮氣中)看板Minecraft標題[問題] Win10環境無法下載版本時間Tue Dec 12 00:13:59 2017
+送孩子的生日禮物  結果無法在家裡win10 x64的桌機下載
+平時沒有在玩遊戲  實在是看不懂哪裡出了錯誤  懇請幫忙
+
+遊戲 - Minecraft: Java Edition  (Minecraft for Windoes 10)
+電腦 - Windoes 10專業版 x64型處理器(電腦本身的版本)
+
+在Mojang Account裡點選Download Game的Windows下載後
+出現Minecraft Launcher小視窗按開始遊戲下載1.12.2 - 最新版本
+卻出來以下錯誤訊息  寫信去問也都沒回覆
+只好前來求救了  再拜託高手協助看一下  不然禮物沒了錢也退不回來了...
+
+先謝謝各位了!!
+
+無法儲存下載內容。 af_za.lang
+名稱： af_za.lang
+URL：
+ http://resources.download.minecraft.net/35/35cf8b4f1576db2793ca5bffb22ef34e6d2a9664
+錯誤詳細資訊： Attempting to move successful download to
+C:/Users\Jessica\AppData\Roaming\.minecraft\assets\objects\35/35cf8b4f1576db2793ca5bffb22ef34e6d2a9664
+<U+5042>R<U+247E>+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 111.240.186.133
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1513008849.A.668.html
+推 alanqq0624: 現在不是去minecraft.net下載？ 12/12 01:19
+推 LPH66: 他這個看起來是 Launcher 下載遊戲有問題 12/12 01:22
+→ LPH66: 你有安裝以下連結裡的軟體之一嗎? 12/12 01:24
+→ LPH66: http://tinyurl.com/yacjpbt5 12/12 01:24
+→ jessica24451: 真的太感謝LPH66的提醒，把ByteFence關起來後就下載 12/17 13:16
+→ jessica24451: 成功了!感謝大家、感謝麥版~ 12/17 13:17
+

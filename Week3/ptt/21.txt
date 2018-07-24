@@ -1,0 +1,723 @@
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活2 第一回時間Fri Oct 13 21:32:23 2017
+https://youtu.be/icEmnfxH5Z4
+
+好孩子玩Minecraft堂堂進入第二季了，連他們自己都沒想到吧！
+
+看他們玩遊戲真的有一種療癒感XD
+
+沒有看過第一季也歡迎一起來看唷！
+
+附上第一季的播放清單
+
+https://www.youtube.com/playlist?list=PL_veWBY42plAExJnCLLy9nD8kgnF-4i-Z
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.126.27
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1507901547.A.D1B.html
+推 jjoojjoo123: 好看推 10/13 23:27
+推 alanqq0624: 推推 10/14 00:01
+推 Kenqr: 推 10/14 00:53
+推 Gwaewluin: 話說濱口在沒有幸運3的幫忙下挖到50鑽石 10/19 13:22
+推 Slas: 真不愧是破壞神 10/19 13:40
+推 Gwaewluin: 第二話來了，https://youtu.be/q04qNm7C86w 10/19 15:45
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活第二季 02時間Thu Oct 19 21:05:07 2017
+https://youtu.be/uMZSIh92sVU
+
+第二回翻譯上傳囉！
+
+這次是好孩子二人組跟府邸衛道士的激鬥！
+
+超乎意料的結局是...？！
+
+一起來看看吧！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.107.108
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1508418310.A.73D.html
+※ bobsonXD:轉錄至看板 NSwitch                                     10/19 21:06
+推 js2937: 這期超展開XD 10/19 21:53
+推 NiceP: 哈哈 結局好白爛 10/19 23:25
+推 KcIredor: 這集超展開太好笑了啦XD 10/20 05:47
+推 IceMS: 打不贏 就燒掉它XD 10/20 10:32
+→ DaringDo: 岩漿.. XD 10/20 12:19
+推 yuliwow: 每次看他們戰鬥 都覺得好弱阿...xD 10/20 13:57
+推 Yijhen0525: 才剛會探險吧！而且他們也沒在摸戰鬥方面 10/20 14:11
+→ Yijhen0525: 他們應該也是抱持好玩心態 10/20 14:11
+→ Yijhen0525: 應該知道怎麼做盔甲，但沒有弄 10/20 14:12
+推 yuliwow: 總覺得是用手把很難控制的關係 10/20 15:48
+推 NiceP: 滑鼠鍵盤邊打邊退很順，搖桿真的不好操作 10/20 19:16
+推 Gwaewluin: https://youtu.be/A8VPwTdDqfA 第三話 10/26 15:13
+推 annisat: 到底是怎麼燒起來的啊 XDD 是府邸自燃嗎 10/27 00:10
+推 Slas: 因為岩漿旁邊本來都有石頭隔開木牆 但是石頭被敲掉了 10/27 09:53
+推 annisat: 原來如此原來如此 XDDDD 實在是太好笑了 10/27 10:03
+
+作者LPH66 (<U+304B><U+3064><U+3066>交<U+308F><U+3057><U+305F>約束)看板Minecraft標題[情報] 17w43a時間Thu Oct 26 21:45:20 2017
+
+https://minecraft.net/en-us/article/minecraft-snapshot-17w43a
+
+這個是 1.13 的 snapshot 了
+
+主要的兩大更新點: data pack 跟 LWJGL v3
+
+data pack 是一些能自訂的資料的打包
+
+跟 resource pack 差不多的概念只是它包的是函數、掉落表、結構、成就、配方
+
+不過目前配方的讀取還沒完工所以現在還不會去讀 data pack 裡的配方
+
+另一個則是後台的遊戲引擎升級到 LWJGL v3 了
+
+主要是對 mac os 和 linux 的很多 bug 修正
+
+這個對於我們的影響之一就是據稱 mac os 現在可以使用輸入法打字了
+
+(這是根據一個韓國玩家在 MC-2781 和 MC-91132 的回報, 有 mac 的人可以試試)
+
+然後, 1.13 開始有一個確定不向下相容的地方
+
+現在不能把 17w43a 和 1.13 之後的版本和這之前的版本放在同一個目錄執行了
+
+(這是指 https://i.imgur.com/9uFOyCJ.png 這裡的"遊戲目錄"這個設定)
+
+這麼做的話當切回舊版本時按鍵設定會消失
+
+現在應該就是這樣了
+
+這是 1.13 的第一個快照所以大家知道的 XD
+
+記得要試的話要新開一個遊戲目錄測喔
+
+--
+將很小又單純的命令《Code》組合成函數《Function》。函數累積成更大更方便的元件《
+Parts》，成為程式《App》。接著進行動態結合，相互通訊，打造出服務《Service》。
+李奧納多知道，要得到結果，就必須持續進行非常單純的作業。為了展現出匹敵巨大建築
+的技術，現在非得將面前的碎片組合起來。
+知道這條路多麼遙遠的人，叫做極客《Geek》。
+將這份尊貴具體呈現的人，叫做駭客《Hacker》。      －－記錄的地平線 Vol.9 p.299
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 123.195.9.46
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1509025523.A.BA6.html
+推 emptie: 其實這個問題在玩舊版本的時候也會發生就是了 10/26 21:48
+→ emptie: 前幾天要開1.5.2的時候發現不開一個新的目錄沒法玩 10/26 21:48
+→ error405: 技術細節看一半就放棄了 1.13好像全是這種東西 10/27 00:10
+推 alanqq0624: 哦哦哦 10/27 18:33
+
+作者Erts (Eargasm)看板Minecraft標題[分享] Fw: [影音] 171105 tvN 問題的男人 E137 中字時間Wed Nov  8 21:46:17 2017
+
+這是韓國益智節目 來賓是知名麥塊YOUTUBER DDOTTY
+
+有名到幼稚園小孩認識他 卻不認識南韓國民mc XD
+
+有他們在解題前 玩minecraft的一些小片段
+
+分享給大家 應該沒違反板規吧?!
+
+※ [本文轉錄自 KR_Entertain 看板 #1Q0EwTzB ]
+
+作者: Apink (....) 看板: KR_Entertain
+標題: [影音] 171105 tvN 問題的男人 E137 中字
+時間: Tue Nov  7 07:22:00 2017
+
+171105 tvN 大腦性感時代—問題的男人 E137 中字
+
+由 tvN 電視台策畫的全新談話性綜藝《問題男人》是個探討有關社會問題的智能
+辯論節目，劇組也選擇了幾位「大腦性感的男人」作為固定來賓。
+
+主持: 全炫茂、河錫辰、金知碩、李章元(Peppertones)、Tyler Rasch、朴經(BLOCK B)
+
+來賓:
+
+
+ 優酷 
+  OL   https://openload.co/f/dl8y9pXr1oQ
+vidoza https://vidoza.net/is0bd9lxmad0
+  DM   http://www.dailymotion.com/video/k76p4PWLcj2i4UpsuCq
+       http://www.dailymotion.com/video/k10cjcBhflgyVJpsuCp
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 174.95.42.158
+※ 文章網址: https://www.ptt.cc/bbs/KR_Entertain/M.1510010525.A.F4B.html
+推 jayu0709    : 起床就先推問男～ 11/07 07:29
+推 NEORU       : 這集超級有趣～～很特別的出題方式 來賓的介紹也很 11/07 08:10
+→ NEORU       : 有趣 之前偶爾快轉來賓介紹的部分這集完全有興趣 11/07 08:10
+推 landing     : 先推再看! 11/07 08:57
+推 enping0311  : 先推+1 感謝Apink大 11/07 09:34
+推 wakabasaki  : 遊戲世界裡互打的他們實在太可愛了XDD 11/07 13:38
+推 justid      : 一開始的字幕是跟"聾啞人士"道歉喔 不是農民 11/07 17:36
+推 findice     : 難怪~我一直在想農民是哪題，感謝j大解惑 11/07 18:54
+推 TachiRyui   : 推問男~不管是解任務還是解題這集太有趣了 11/07 20:20
+推 Erts        : 竟然是麥塊!!!背景真的好用心 需要花很多時間!!! 11/08 21:30
+→ Erts        : 也解開當初無挑大神訪問幼稚園男孩說的是什麼XD 11/08 21:31
+推 Erts        : 借轉MINECRAFT板 謝謝!! 11/08 21:45
+
+※ 發信站: 批踢踢實業坊(ptt.cc)
+※ 轉錄者: Erts (111.243.202.218), 11/08/2017 21:46:17
+※ 編輯: Erts (111.243.202.218), 11/08/2017 21:54:06
+→ haidai: 有玩給過 11/09 09:49
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活 第二季 06時間Thu Nov 16 21:51:42 2017
+https://youtu.be/eughAp6A6_U
+
+第六回！這回正式開始攻略海底遺跡了！
+
+他們怎麼打的這麼順利啊！
+
+跟我自己玩的時候差好多啊XD
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.114.112
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510840305.A.BC8.html
+※ bobsonXD:轉錄至看板 NSwitch                                     11/16 21:53
+推 OAzenO: 神速 11/16 23:07
+推 annisat: ponji~~~~~ 11/17 01:15
+推 LonyIce: 阿綿前輩 11/17 08:58
+推 alanqq0624: 海綿超好玩w 11/17 13:26
+推 suyingsan: 從最上面攻略感覺也不錯吶，謝謝翻譯 11/17 17:22
+推 Gwaewluin: 有看過一種最上面攻略是這樣做的，先確認好海底神殿頂 11/17 19:42
+→ Gwaewluin: 的位置，然後從遠處直衝至神殿頂下船入水再立刻將神殿 11/17 19:43
+→ Gwaewluin: 頂挖開，速度夠快的話可以在吃到debuff前完成，這樣可 11/17 19:43
+→ Gwaewluin: 以先直接殺死一隻遠古守衛再進行探索 11/17 19:44
+推 Gwaewluin: 追加收錄的時間決定啦，還說如果還是無法結束就再追加 11/21 11:14
+→ eowynknight: 耶～ 我覺得他們玩的比我強XDDD 我到現在還是怕打怪 11/21 11:31
+推 Gwaewluin: https://youtu.be/OvJpqZ0ebJE 第七話 11/22 15:13
+→ iiiivy: 看他們打都覺得怎麼這樣應該可以那樣比較好~ 11/23 22:44
+→ iiiivy: 看他們的影片整個增加了我打怪的信心orz 11/23 22:45
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活 第二季 07時間Thu Nov 23 21:51:50 2017
+https://youtu.be/btNSs3K_Fa0
+
+第二季正式進入下半段啦～
+
+繼續攻略海底遺跡！
+
+這次又有什麼新鮮事呢？
+
+一起來看吧！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.113.13
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511445113.A.40E.html
+※ bobsonXD:轉錄至看板 NSwitch                                     11/23 21:52
+推 AFIAC: 未看先推 11/23 22:42
+推 eowynknight: 看到小村民的創造神表情超興奮的XD 11/24 01:13
+→ bobsonXD: 小村民（X）小大叔（O） 11/24 06:27
+推 NiceP: 推推推 11/24 13:44
+推 exploabanera: 推推 禁忌的創造生(大)命(叔)也做到了呢 11/27 18:44
+推 annisat: 小村民真的是大叔 小僵屍的比例就沒這麼怪啊 XD 11/30 10:33
+推 Gwaewluin: https://youtu.be/pUSaSGf4rYI 第八話 11/30 14:57
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活第二季 09時間Thu Dec  7 21:04:26 2017
+https://youtu.be/-Urb8WXm8dA
+
+最終章突入！
+
+好孩子開始蒐集打龍要用的素材
+
+但是地獄的薯條大叔也不是好惹的
+
+好孩子能夠成功嗎？！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.163.107.242
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1512651870.A.45F.html
+※ bobsonXD:轉錄至看板 NSwitch                                     12/07 21:04
+推 Gwaewluin: 這裡可以順便說一下烈焰使者在日本有薯條這個暱稱 12/07 22:04
+→ Gwaewluin: 濱口倒是很自然用出了這個暱稱 12/07 22:14
+推 alanqq0624: 老實說我第一直覺就真的覺得挺像薯條的 12/08 11:11
+推 a12342386: 感覺玩得有點疲乏了www 12/08 11:57
+推 annisat: 自殺突擊隊耶他們兩個 XD 連豬也打 12/08 16:10
+推 DaringDo: 打超久才拿到一個XD 12/08 23:23
+推 LonyIce: 他們沒裝備 感覺越後面會越難打 12/09 03:11
+推 log56: 有提到他們兩位是如何找到堡壘的嗎 12/09 14:03
+→ poke001: 他們的門好像就開在堡壘裡面還是附近的樣子 12/09 18:08
+推 Gwaewluin: 他們就真的很剛好把門開在堡壘裡面 12/09 18:43
+推 LPH66: 可以參照第一季 11 話 12/09 18:45
+推 hollysee: 我覺得有裝備也沒用，看他們死的速度…… 12/10 08:42
+推 Gwaewluin: 裡面有說啊，有野：不拿東西嗎？ 濱口：反正會死 12/10 10:26
+推 Gwaewluin: https://youtu.be/MnA-_w6zaTg 第十話 12/14 14:16
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活2 第一回時間Fri Oct 13 21:32:23 2017
+https://youtu.be/icEmnfxH5Z4
+
+好孩子玩Minecraft堂堂進入第二季了，連他們自己都沒想到吧！
+
+看他們玩遊戲真的有一種療癒感XD
+
+沒有看過第一季也歡迎一起來看唷！
+
+附上第一季的播放清單
+
+https://www.youtube.com/playlist?list=PL_veWBY42plAExJnCLLy9nD8kgnF-4i-Z
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.126.27
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1507901547.A.D1B.html
+推 jjoojjoo123: 好看推 10/13 23:27
+推 alanqq0624: 推推 10/14 00:01
+推 Kenqr: 推 10/14 00:53
+推 Gwaewluin: 話說濱口在沒有幸運3的幫忙下挖到50鑽石 10/19 13:22
+推 Slas: 真不愧是破壞神 10/19 13:40
+推 Gwaewluin: 第二話來了，https://youtu.be/q04qNm7C86w 10/19 15:45
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活第二季 02時間Thu Oct 19 21:05:07 2017
+https://youtu.be/uMZSIh92sVU
+
+第二回翻譯上傳囉！
+
+這次是好孩子二人組跟府邸衛道士的激鬥！
+
+超乎意料的結局是...？！
+
+一起來看看吧！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.107.108
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1508418310.A.73D.html
+※ bobsonXD:轉錄至看板 NSwitch                                     10/19 21:06
+推 js2937: 這期超展開XD 10/19 21:53
+推 NiceP: 哈哈 結局好白爛 10/19 23:25
+推 KcIredor: 這集超展開太好笑了啦XD 10/20 05:47
+推 IceMS: 打不贏 就燒掉它XD 10/20 10:32
+→ DaringDo: 岩漿.. XD 10/20 12:19
+推 yuliwow: 每次看他們戰鬥 都覺得好弱阿...xD 10/20 13:57
+推 Yijhen0525: 才剛會探險吧！而且他們也沒在摸戰鬥方面 10/20 14:11
+→ Yijhen0525: 他們應該也是抱持好玩心態 10/20 14:11
+→ Yijhen0525: 應該知道怎麼做盔甲，但沒有弄 10/20 14:12
+推 yuliwow: 總覺得是用手把很難控制的關係 10/20 15:48
+推 NiceP: 滑鼠鍵盤邊打邊退很順，搖桿真的不好操作 10/20 19:16
+推 Gwaewluin: https://youtu.be/A8VPwTdDqfA 第三話 10/26 15:13
+推 annisat: 到底是怎麼燒起來的啊 XDD 是府邸自燃嗎 10/27 00:10
+推 Slas: 因為岩漿旁邊本來都有石頭隔開木牆 但是石頭被敲掉了 10/27 09:53
+推 annisat: 原來如此原來如此 XDDDD 實在是太好笑了 10/27 10:03
+
+作者LPH66 (<U+304B><U+3064><U+3066>交<U+308F><U+3057><U+305F>約束)看板Minecraft標題[情報] 17w43a時間Thu Oct 26 21:45:20 2017
+
+https://minecraft.net/en-us/article/minecraft-snapshot-17w43a
+
+這個是 1.13 的 snapshot 了
+
+主要的兩大更新點: data pack 跟 LWJGL v3
+
+data pack 是一些能自訂的資料的打包
+
+跟 resource pack 差不多的概念只是它包的是函數、掉落表、結構、成就、配方
+
+不過目前配方的讀取還沒完工所以現在還不會去讀 data pack 裡的配方
+
+另一個則是後台的遊戲引擎升級到 LWJGL v3 了
+
+主要是對 mac os 和 linux 的很多 bug 修正
+
+這個對於我們的影響之一就是據稱 mac os 現在可以使用輸入法打字了
+
+(這是根據一個韓國玩家在 MC-2781 和 MC-91132 的回報, 有 mac 的人可以試試)
+
+然後, 1.13 開始有一個確定不向下相容的地方
+
+現在不能把 17w43a 和 1.13 之後的版本和這之前的版本放在同一個目錄執行了
+
+(這是指 https://i.imgur.com/9uFOyCJ.png 這裡的"遊戲目錄"這個設定)
+
+這麼做的話當切回舊版本時按鍵設定會消失
+
+現在應該就是這樣了
+
+這是 1.13 的第一個快照所以大家知道的 XD
+
+記得要試的話要新開一個遊戲目錄測喔
+
+--
+將很小又單純的命令《Code》組合成函數《Function》。函數累積成更大更方便的元件《
+Parts》，成為程式《App》。接著進行動態結合，相互通訊，打造出服務《Service》。
+李奧納多知道，要得到結果，就必須持續進行非常單純的作業。為了展現出匹敵巨大建築
+的技術，現在非得將面前的碎片組合起來。
+知道這條路多麼遙遠的人，叫做極客《Geek》。
+將這份尊貴具體呈現的人，叫做駭客《Hacker》。      －－記錄的地平線 Vol.9 p.299
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 123.195.9.46
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1509025523.A.BA6.html
+推 emptie: 其實這個問題在玩舊版本的時候也會發生就是了 10/26 21:48
+→ emptie: 前幾天要開1.5.2的時候發現不開一個新的目錄沒法玩 10/26 21:48
+→ error405: 技術細節看一半就放棄了 1.13好像全是這種東西 10/27 00:10
+推 alanqq0624: 哦哦哦 10/27 18:33
+
+作者Erts (Eargasm)看板Minecraft標題[分享] Fw: [影音] 171105 tvN 問題的男人 E137 中字時間Wed Nov  8 21:46:17 2017
+
+這是韓國益智節目 來賓是知名麥塊YOUTUBER DDOTTY
+
+有名到幼稚園小孩認識他 卻不認識南韓國民mc XD
+
+有他們在解題前 玩minecraft的一些小片段
+
+分享給大家 應該沒違反板規吧?!
+
+※ [本文轉錄自 KR_Entertain 看板 #1Q0EwTzB ]
+
+作者: Apink (....) 看板: KR_Entertain
+標題: [影音] 171105 tvN 問題的男人 E137 中字
+時間: Tue Nov  7 07:22:00 2017
+
+171105 tvN 大腦性感時代—問題的男人 E137 中字
+
+由 tvN 電視台策畫的全新談話性綜藝《問題男人》是個探討有關社會問題的智能
+辯論節目，劇組也選擇了幾位「大腦性感的男人」作為固定來賓。
+
+主持: 全炫茂、河錫辰、金知碩、李章元(Peppertones)、Tyler Rasch、朴經(BLOCK B)
+
+來賓:
+
+
+ 優酷 
+  OL   https://openload.co/f/dl8y9pXr1oQ
+vidoza https://vidoza.net/is0bd9lxmad0
+  DM   http://www.dailymotion.com/video/k76p4PWLcj2i4UpsuCq
+       http://www.dailymotion.com/video/k10cjcBhflgyVJpsuCp
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 174.95.42.158
+※ 文章網址: https://www.ptt.cc/bbs/KR_Entertain/M.1510010525.A.F4B.html
+推 jayu0709    : 起床就先推問男～ 11/07 07:29
+推 NEORU       : 這集超級有趣～～很特別的出題方式 來賓的介紹也很 11/07 08:10
+→ NEORU       : 有趣 之前偶爾快轉來賓介紹的部分這集完全有興趣 11/07 08:10
+推 landing     : 先推再看! 11/07 08:57
+推 enping0311  : 先推+1 感謝Apink大 11/07 09:34
+推 wakabasaki  : 遊戲世界裡互打的他們實在太可愛了XDD 11/07 13:38
+推 justid      : 一開始的字幕是跟"聾啞人士"道歉喔 不是農民 11/07 17:36
+推 findice     : 難怪~我一直在想農民是哪題，感謝j大解惑 11/07 18:54
+推 TachiRyui   : 推問男~不管是解任務還是解題這集太有趣了 11/07 20:20
+推 Erts        : 竟然是麥塊!!!背景真的好用心 需要花很多時間!!! 11/08 21:30
+→ Erts        : 也解開當初無挑大神訪問幼稚園男孩說的是什麼XD 11/08 21:31
+推 Erts        : 借轉MINECRAFT板 謝謝!! 11/08 21:45
+
+※ 發信站: 批踢踢實業坊(ptt.cc)
+※ 轉錄者: Erts (111.243.202.218), 11/08/2017 21:46:17
+※ 編輯: Erts (111.243.202.218), 11/08/2017 21:54:06
+→ haidai: 有玩給過 11/09 09:49
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活 第二季 06時間Thu Nov 16 21:51:42 2017
+https://youtu.be/eughAp6A6_U
+
+第六回！這回正式開始攻略海底遺跡了！
+
+他們怎麼打的這麼順利啊！
+
+跟我自己玩的時候差好多啊XD
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.114.112
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510840305.A.BC8.html
+※ bobsonXD:轉錄至看板 NSwitch                                     11/16 21:53
+推 OAzenO: 神速 11/16 23:07
+推 annisat: ponji~~~~~ 11/17 01:15
+推 LonyIce: 阿綿前輩 11/17 08:58
+推 alanqq0624: 海綿超好玩w 11/17 13:26
+推 suyingsan: 從最上面攻略感覺也不錯吶，謝謝翻譯 11/17 17:22
+推 Gwaewluin: 有看過一種最上面攻略是這樣做的，先確認好海底神殿頂 11/17 19:42
+→ Gwaewluin: 的位置，然後從遠處直衝至神殿頂下船入水再立刻將神殿 11/17 19:43
+→ Gwaewluin: 頂挖開，速度夠快的話可以在吃到debuff前完成，這樣可 11/17 19:43
+→ Gwaewluin: 以先直接殺死一隻遠古守衛再進行探索 11/17 19:44
+推 Gwaewluin: 追加收錄的時間決定啦，還說如果還是無法結束就再追加 11/21 11:14
+→ eowynknight: 耶～ 我覺得他們玩的比我強XDDD 我到現在還是怕打怪 11/21 11:31
+推 Gwaewluin: https://youtu.be/OvJpqZ0ebJE 第七話 11/22 15:13
+→ iiiivy: 看他們打都覺得怎麼這樣應該可以那樣比較好~ 11/23 22:44
+→ iiiivy: 看他們的影片整個增加了我打怪的信心orz 11/23 22:45
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活 第二季 07時間Thu Nov 23 21:51:50 2017
+https://youtu.be/btNSs3K_Fa0
+
+第二季正式進入下半段啦～
+
+繼續攻略海底遺跡！
+
+這次又有什麼新鮮事呢？
+
+一起來看吧！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.113.13
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511445113.A.40E.html
+※ bobsonXD:轉錄至看板 NSwitch                                     11/23 21:52
+推 AFIAC: 未看先推 11/23 22:42
+推 eowynknight: 看到小村民的創造神表情超興奮的XD 11/24 01:13
+→ bobsonXD: 小村民（X）小大叔（O） 11/24 06:27
+推 NiceP: 推推推 11/24 13:44
+推 exploabanera: 推推 禁忌的創造生(大)命(叔)也做到了呢 11/27 18:44
+推 annisat: 小村民真的是大叔 小僵屍的比例就沒這麼怪啊 XD 11/30 10:33
+推 Gwaewluin: https://youtu.be/pUSaSGf4rYI 第八話 11/30 14:57
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活第二季 09時間Thu Dec  7 21:04:26 2017
+https://youtu.be/-Urb8WXm8dA
+
+最終章突入！
+
+好孩子開始蒐集打龍要用的素材
+
+但是地獄的薯條大叔也不是好惹的
+
+好孩子能夠成功嗎？！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.163.107.242
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1512651870.A.45F.html
+※ bobsonXD:轉錄至看板 NSwitch                                     12/07 21:04
+推 Gwaewluin: 這裡可以順便說一下烈焰使者在日本有薯條這個暱稱 12/07 22:04
+→ Gwaewluin: 濱口倒是很自然用出了這個暱稱 12/07 22:14
+推 alanqq0624: 老實說我第一直覺就真的覺得挺像薯條的 12/08 11:11
+推 a12342386: 感覺玩得有點疲乏了www 12/08 11:57
+推 annisat: 自殺突擊隊耶他們兩個 XD 連豬也打 12/08 16:10
+推 DaringDo: 打超久才拿到一個XD 12/08 23:23
+推 LonyIce: 他們沒裝備 感覺越後面會越難打 12/09 03:11
+推 log56: 有提到他們兩位是如何找到堡壘的嗎 12/09 14:03
+→ poke001: 他們的門好像就開在堡壘裡面還是附近的樣子 12/09 18:08
+推 Gwaewluin: 他們就真的很剛好把門開在堡壘裡面 12/09 18:43
+推 LPH66: 可以參照第一季 11 話 12/09 18:45
+推 hollysee: 我覺得有裝備也沒用，看他們死的速度…… 12/10 08:42
+推 Gwaewluin: 裡面有說啊，有野：不拿東西嗎？ 濱口：反正會死 12/10 10:26
+推 Gwaewluin: https://youtu.be/MnA-_w6zaTg 第十話 12/14 14:16
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活2 第一回時間Fri Oct 13 21:32:23 2017
+https://youtu.be/icEmnfxH5Z4
+
+好孩子玩Minecraft堂堂進入第二季了，連他們自己都沒想到吧！
+
+看他們玩遊戲真的有一種療癒感XD
+
+沒有看過第一季也歡迎一起來看唷！
+
+附上第一季的播放清單
+
+https://www.youtube.com/playlist?list=PL_veWBY42plAExJnCLLy9nD8kgnF-4i-Z
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.126.27
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1507901547.A.D1B.html
+推 jjoojjoo123: 好看推 10/13 23:27
+推 alanqq0624: 推推 10/14 00:01
+推 Kenqr: 推 10/14 00:53
+推 Gwaewluin: 話說濱口在沒有幸運3的幫忙下挖到50鑽石 10/19 13:22
+推 Slas: 真不愧是破壞神 10/19 13:40
+推 Gwaewluin: 第二話來了，https://youtu.be/q04qNm7C86w 10/19 15:45
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活第二季 02時間Thu Oct 19 21:05:07 2017
+https://youtu.be/uMZSIh92sVU
+
+第二回翻譯上傳囉！
+
+這次是好孩子二人組跟府邸衛道士的激鬥！
+
+超乎意料的結局是...？！
+
+一起來看看吧！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.107.108
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1508418310.A.73D.html
+※ bobsonXD:轉錄至看板 NSwitch                                     10/19 21:06
+推 js2937: 這期超展開XD 10/19 21:53
+推 NiceP: 哈哈 結局好白爛 10/19 23:25
+推 KcIredor: 這集超展開太好笑了啦XD 10/20 05:47
+推 IceMS: 打不贏 就燒掉它XD 10/20 10:32
+→ DaringDo: 岩漿.. XD 10/20 12:19
+推 yuliwow: 每次看他們戰鬥 都覺得好弱阿...xD 10/20 13:57
+推 Yijhen0525: 才剛會探險吧！而且他們也沒在摸戰鬥方面 10/20 14:11
+→ Yijhen0525: 他們應該也是抱持好玩心態 10/20 14:11
+→ Yijhen0525: 應該知道怎麼做盔甲，但沒有弄 10/20 14:12
+推 yuliwow: 總覺得是用手把很難控制的關係 10/20 15:48
+推 NiceP: 滑鼠鍵盤邊打邊退很順，搖桿真的不好操作 10/20 19:16
+推 Gwaewluin: https://youtu.be/A8VPwTdDqfA 第三話 10/26 15:13
+推 annisat: 到底是怎麼燒起來的啊 XDD 是府邸自燃嗎 10/27 00:10
+推 Slas: 因為岩漿旁邊本來都有石頭隔開木牆 但是石頭被敲掉了 10/27 09:53
+推 annisat: 原來如此原來如此 XDDDD 實在是太好笑了 10/27 10:03
+
+作者LPH66 (<U+304B><U+3064><U+3066>交<U+308F><U+3057><U+305F>約束)看板Minecraft標題[情報] 17w43a時間Thu Oct 26 21:45:20 2017
+
+https://minecraft.net/en-us/article/minecraft-snapshot-17w43a
+
+這個是 1.13 的 snapshot 了
+
+主要的兩大更新點: data pack 跟 LWJGL v3
+
+data pack 是一些能自訂的資料的打包
+
+跟 resource pack 差不多的概念只是它包的是函數、掉落表、結構、成就、配方
+
+不過目前配方的讀取還沒完工所以現在還不會去讀 data pack 裡的配方
+
+另一個則是後台的遊戲引擎升級到 LWJGL v3 了
+
+主要是對 mac os 和 linux 的很多 bug 修正
+
+這個對於我們的影響之一就是據稱 mac os 現在可以使用輸入法打字了
+
+(這是根據一個韓國玩家在 MC-2781 和 MC-91132 的回報, 有 mac 的人可以試試)
+
+然後, 1.13 開始有一個確定不向下相容的地方
+
+現在不能把 17w43a 和 1.13 之後的版本和這之前的版本放在同一個目錄執行了
+
+(這是指 https://i.imgur.com/9uFOyCJ.png 這裡的"遊戲目錄"這個設定)
+
+這麼做的話當切回舊版本時按鍵設定會消失
+
+現在應該就是這樣了
+
+這是 1.13 的第一個快照所以大家知道的 XD
+
+記得要試的話要新開一個遊戲目錄測喔
+
+--
+將很小又單純的命令《Code》組合成函數《Function》。函數累積成更大更方便的元件《
+Parts》，成為程式《App》。接著進行動態結合，相互通訊，打造出服務《Service》。
+李奧納多知道，要得到結果，就必須持續進行非常單純的作業。為了展現出匹敵巨大建築
+的技術，現在非得將面前的碎片組合起來。
+知道這條路多麼遙遠的人，叫做極客《Geek》。
+將這份尊貴具體呈現的人，叫做駭客《Hacker》。      －－記錄的地平線 Vol.9 p.299
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 123.195.9.46
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1509025523.A.BA6.html
+推 emptie: 其實這個問題在玩舊版本的時候也會發生就是了 10/26 21:48
+→ emptie: 前幾天要開1.5.2的時候發現不開一個新的目錄沒法玩 10/26 21:48
+→ error405: 技術細節看一半就放棄了 1.13好像全是這種東西 10/27 00:10
+推 alanqq0624: 哦哦哦 10/27 18:33
+
+作者Erts (Eargasm)看板Minecraft標題[分享] Fw: [影音] 171105 tvN 問題的男人 E137 中字時間Wed Nov  8 21:46:17 2017
+
+這是韓國益智節目 來賓是知名麥塊YOUTUBER DDOTTY
+
+有名到幼稚園小孩認識他 卻不認識南韓國民mc XD
+
+有他們在解題前 玩minecraft的一些小片段
+
+分享給大家 應該沒違反板規吧?!
+
+※ [本文轉錄自 KR_Entertain 看板 #1Q0EwTzB ]
+
+作者: Apink (....) 看板: KR_Entertain
+標題: [影音] 171105 tvN 問題的男人 E137 中字
+時間: Tue Nov  7 07:22:00 2017
+
+171105 tvN 大腦性感時代—問題的男人 E137 中字
+
+由 tvN 電視台策畫的全新談話性綜藝《問題男人》是個探討有關社會問題的智能
+辯論節目，劇組也選擇了幾位「大腦性感的男人」作為固定來賓。
+
+主持: 全炫茂、河錫辰、金知碩、李章元(Peppertones)、Tyler Rasch、朴經(BLOCK B)
+
+來賓:
+
+
+ 優酷 
+  OL   https://openload.co/f/dl8y9pXr1oQ
+vidoza https://vidoza.net/is0bd9lxmad0
+  DM   http://www.dailymotion.com/video/k76p4PWLcj2i4UpsuCq
+       http://www.dailymotion.com/video/k10cjcBhflgyVJpsuCp
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 174.95.42.158
+※ 文章網址: https://www.ptt.cc/bbs/KR_Entertain/M.1510010525.A.F4B.html
+推 jayu0709    : 起床就先推問男～ 11/07 07:29
+推 NEORU       : 這集超級有趣～～很特別的出題方式 來賓的介紹也很 11/07 08:10
+→ NEORU       : 有趣 之前偶爾快轉來賓介紹的部分這集完全有興趣 11/07 08:10
+推 landing     : 先推再看! 11/07 08:57
+推 enping0311  : 先推+1 感謝Apink大 11/07 09:34
+推 wakabasaki  : 遊戲世界裡互打的他們實在太可愛了XDD 11/07 13:38
+推 justid      : 一開始的字幕是跟"聾啞人士"道歉喔 不是農民 11/07 17:36
+推 findice     : 難怪~我一直在想農民是哪題，感謝j大解惑 11/07 18:54
+推 TachiRyui   : 推問男~不管是解任務還是解題這集太有趣了 11/07 20:20
+推 Erts        : 竟然是麥塊!!!背景真的好用心 需要花很多時間!!! 11/08 21:30
+→ Erts        : 也解開當初無挑大神訪問幼稚園男孩說的是什麼XD 11/08 21:31
+推 Erts        : 借轉MINECRAFT板 謝謝!! 11/08 21:45
+
+※ 發信站: 批踢踢實業坊(ptt.cc)
+※ 轉錄者: Erts (111.243.202.218), 11/08/2017 21:46:17
+※ 編輯: Erts (111.243.202.218), 11/08/2017 21:54:06
+→ haidai: 有玩給過 11/09 09:49
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活 第二季 06時間Thu Nov 16 21:51:42 2017
+https://youtu.be/eughAp6A6_U
+
+第六回！這回正式開始攻略海底遺跡了！
+
+他們怎麼打的這麼順利啊！
+
+跟我自己玩的時候差好多啊XD
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.114.112
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510840305.A.BC8.html
+※ bobsonXD:轉錄至看板 NSwitch                                     11/16 21:53
+推 OAzenO: 神速 11/16 23:07
+推 annisat: ponji~~~~~ 11/17 01:15
+推 LonyIce: 阿綿前輩 11/17 08:58
+推 alanqq0624: 海綿超好玩w 11/17 13:26
+推 suyingsan: 從最上面攻略感覺也不錯吶，謝謝翻譯 11/17 17:22
+推 Gwaewluin: 有看過一種最上面攻略是這樣做的，先確認好海底神殿頂 11/17 19:42
+→ Gwaewluin: 的位置，然後從遠處直衝至神殿頂下船入水再立刻將神殿 11/17 19:43
+→ Gwaewluin: 頂挖開，速度夠快的話可以在吃到debuff前完成，這樣可 11/17 19:43
+→ Gwaewluin: 以先直接殺死一隻遠古守衛再進行探索 11/17 19:44
+推 Gwaewluin: 追加收錄的時間決定啦，還說如果還是無法結束就再追加 11/21 11:14
+→ eowynknight: 耶～ 我覺得他們玩的比我強XDDD 我到現在還是怕打怪 11/21 11:31
+推 Gwaewluin: https://youtu.be/OvJpqZ0ebJE 第七話 11/22 15:13
+→ iiiivy: 看他們打都覺得怎麼這樣應該可以那樣比較好~ 11/23 22:44
+→ iiiivy: 看他們的影片整個增加了我打怪的信心orz 11/23 22:45
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活 第二季 07時間Thu Nov 23 21:51:50 2017
+https://youtu.be/btNSs3K_Fa0
+
+第二季正式進入下半段啦～
+
+繼續攻略海底遺跡！
+
+這次又有什麼新鮮事呢？
+
+一起來看吧！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.113.13
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511445113.A.40E.html
+※ bobsonXD:轉錄至看板 NSwitch                                     11/23 21:52
+推 AFIAC: 未看先推 11/23 22:42
+推 eowynknight: 看到小村民的創造神表情超興奮的XD 11/24 01:13
+→ bobsonXD: 小村民（X）小大叔（O） 11/24 06:27
+推 NiceP: 推推推 11/24 13:44
+推 exploabanera: 推推 禁忌的創造生(大)命(叔)也做到了呢 11/27 18:44
+推 annisat: 小村民真的是大叔 小僵屍的比例就沒這麼怪啊 XD 11/30 10:33
+推 Gwaewluin: https://youtu.be/pUSaSGf4rYI 第八話 11/30 14:57
+
+作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活第二季 09時間Thu Dec  7 21:04:26 2017
+https://youtu.be/-Urb8WXm8dA
+
+最終章突入！
+
+好孩子開始蒐集打龍要用的素材
+
+但是地獄的薯條大叔也不是好惹的
+
+好孩子能夠成功嗎？！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.163.107.242
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1512651870.A.45F.html
+※ bobsonXD:轉錄至看板 NSwitch                                     12/07 21:04
+推 Gwaewluin: 這裡可以順便說一下烈焰使者在日本有薯條這個暱稱 12/07 22:04
+→ Gwaewluin: 濱口倒是很自然用出了這個暱稱 12/07 22:14
+推 alanqq0624: 老實說我第一直覺就真的覺得挺像薯條的 12/08 11:11
+推 a12342386: 感覺玩得有點疲乏了www 12/08 11:57
+推 annisat: 自殺突擊隊耶他們兩個 XD 連豬也打 12/08 16:10
+推 DaringDo: 打超久才拿到一個XD 12/08 23:23
+推 LonyIce: 他們沒裝備 感覺越後面會越難打 12/09 03:11
+推 log56: 有提到他們兩位是如何找到堡壘的嗎 12/09 14:03
+→ poke001: 他們的門好像就開在堡壘裡面還是附近的樣子 12/09 18:08
+推 Gwaewluin: 他們就真的很剛好把門開在堡壘裡面 12/09 18:43
+推 LPH66: 可以參照第一季 11 話 12/09 18:45
+推 hollysee: 我覺得有裝備也沒用，看他們死的速度…… 12/10 08:42
+推 Gwaewluin: 裡面有說啊，有野：不拿東西嗎？ 濱口：反正會死 12/10 10:26
+推 Gwaewluin: https://youtu.be/MnA-_w6zaTg 第十話 12/14 14:16
+

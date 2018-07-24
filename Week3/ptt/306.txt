@@ -1,0 +1,898 @@
+"x"
+"1" "作者Kyuubi (<U+304D><U+3085><U+3046><U+3073>)看板Minecraft標題[問題] 使用觀察者做水流式生怪塔時間Thu Nov  9 11:31:05 2017
+
+    我利用了最近版本新出的觀察者來做水流式生怪塔。
+    迴路部分如下
+    https://imgur.com/q3u6Q5c.jpg
+
+    第一個生怪層下方放一個漏斗式計時回路(一個loop 30方塊)
+
+    預想中的動作是：紅石回路觸發發射器就會把水灑出來
+                   -->第二層的觀察者反應產生一次性訊號
+                   -->第二層層的發射器將水灑出來
+                   -->第一層的計時器再次觸發
+                   -->第一層回收水
+                   -->第二層回收水
+
+    照此原理堆疊12層到極限高度之後變成這樣。
+    https://imgur.com/pjFUPPo.jpg
+
+    但是蓋了兩棟(本來預計四棟並列)之後發現一個問題，
+    那就是即使是和平模式fps也掉到只剩下不到30。
+    而且上層的觀察者動作也變得相當奇怪，會變成連續5~6次發出訊號
+    導致發射器會連續做動5~6次才正常的把水灑出來。
+
+
+   現在遊戲頓到連走路都會掉格，沒辦法繼續蓋下去。
+   請問有辦法可以解決這個問題嗎？還是只是單純的電腦性能不夠
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 114.36.74.190
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510198268.A.021.html
+推 cheko: 先看CPU使用量阿 11/09 11:33
+推 InfinitySA: 可能是電腦不夠力 11/09 11:38
+→ InfinitySA: 我之前做這樣 沒問題 11/09 11:39
+推 Gwaewluin: 難道是記憶體不足嗎 11/09 11:54
+推 emptie: 你不應該把觀察者朝著水方塊 11/09 14:38
+→ emptie: 比較建議的做法是觀察者對著發射器，訊號從頂端送下來 11/09 14:38
+→ emptie: https://www.youtube.com/watch?v=guvMmdeZqiI 11/09 14:39
+→ emptie: 像是這個影片裡面的做法 11/09 14:39
+推 LPH66: 不應該的原因是因為水流高度變動也會觸發觀察者的關係 11/09 15:55
+推 emptie: https://imgur.com/ea3iMHi 11/09 18:37
+→ emptie:  直接倒水會有很多個訊號 11/09 18:38
+→ Kyuubi: 原來如此，馬上來想辦法修正，感謝 11/09 22:39
+"
+"2" NA
+"3" NA
+"4" "作者samuelc (程式教育魂)看板Minecraft標題[問題] MCPI coordinate 與Minecraft中的不同時間Thu Nov  9 23:55:09 2017
+小弟最近認真研究使用python3.6控制Minecraft
+看到的都是使用raspberryjuice plugin  和 MCPI這個python資源庫
+mc.player.getPos()的回傳座標值之前跟在Minecraft中按下F3相同
+但是最近發現不一樣了
+整個從python要控制的座標與mc裡的座標不一致
+我看的中文書 甚至買了原文書來看都沒有寫到這個問題
+同事使用2.7版本的則是從來沒有一樣過
+而且同版本下一樣的資料夾給了別人 卻出現不一樣的座標
+
+
+所以目前推測與python版本沒關係
+想上來問問廣大網友們
+Minecraft在座標系統的判定上有沒有什麼規則
+小弟已經盡力的各種爬文看wiki了
+
+還有另一個可能是mcpi套件裡的python寫法
+造成讀取座標時讀取到不同於minecraft的座標
+可能我需要再深入研究了
+
+如果有知道這原因的 拜託請救救我 嗚嗚
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.200.211.254
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510242911.A.B65.html
+推 emptie: https://github.com/zhuowei/RaspberryJuice/issues/1211/10 00:04
+→ emptie: 沒寫過這個，不過這應該就是答案了11/10 00:05
+→ emptie: minecraft的spawn point不一定是0，0，011/10 00:05
+→ emptie: 這個函數回傳的是與spawn point的相對坐標11/10 00:06
+
+我的天阿 太感謝了 先獻上萬分感謝與崇拜
+※ 編輯: samuelc (1.200.211.254), 11/10/2017 00:12:07
+※ 編輯: samuelc (1.200.211.254), 11/10/2017 02:53:57
+"
+"5" NA
+"6" NA
+"7" "作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活 第二季 05時間Fri Nov 10 20:36:37 2017
+https://youtu.be/ULWpFL8szkw
+
+回家作業時間，創造神有野又蓋出了不得了的東西啦！
+
+那個村莊圍牆根本是世紀帝國的城牆吧XD
+
+一起來看看吧！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 111.248.196.111
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510317400.A.F87.html
+※ bobsonXD:轉錄至看板 NSwitch                                     11/10 20:37
+推 DaringDo: 謝謝翻譯 11/10 23:42
+推 icedvd: 超長鐵軌 超長圍牆 超有耐心阿XDDD 11/11 00:19
+推 eowynknight: 圍牆好帥！！ 從來沒想過可以這樣蓋呢 11/13 01:47
+推 exploabanera: 濱口真的都只在挖土嗎XDD連動物都還沒搞懂就有一堆 11/13 12:10
+→ exploabanera: 礦了 11/13 12:10
+推 eowynknight: 有野的「亞沒漏！」好悲壯的感覺啊www 好不容易繁殖 11/13 13:29
+→ eowynknight: 的動物們QuQ 11/13 13:29
+推 Gwaewluin: 最終收錄結束，但還會有追加收錄的樣子 11/13 19:44
+推 AFIAC: 可以期望這個節目長長久久嗎XD 11/14 19:43
+推 civiltensai: 很好奇有野哪來那麼多鐵礦 11/15 01:28
+推 DaringDo: 應該是濱口挖的吧 11/15 07:41
+推 OAzenO: 我猜應該是有staff支援 不然藝人哪這麼多時間收集材料 11/15 17:28
+→ bobsonXD: 請不要小看挖掘師濱口！他超會挖的XD而且還連挖一個月 11/15 21:07
+推 Gwaewluin: https://youtu.be/KhZmgSxrvaM 第六話 11/16 15:25
+"
+"8" NA
+"9" NA
+"10" "作者uav (平安喜樂)看板Minecraft標題[問題] PE版本 iOS Android 程式購買 資料移轉時間Sat Nov 11 16:36:40 2017
+各位午安，幾個問題請教：
+
+1. PE版本是否因手機作業系統不同（iOS v.s. Android），必須另外購買？
+
+2. 在安卓系統上玩的世界，能否資料移轉至 iOS？若可以的話，要怎麼做？
+
+先謝謝大家。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.238.185.134
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510389402.A.E23.html
+推 kylefan: 1.是 2.好像不行 11/11 16:50
+→ R0bin03: 2可以，iOS裝置接電腦用iTunes能輸入地圖 11/11 19:30
+"
+"11" NA
+"12" NA
+"13" "作者V01986136 (YOO)看板Minecraft標題[問題] 記憶體飆升到滿後下降時間Mon Nov 13 12:43:41 2017
+地圖打開之後
+分配給java的記憶體會開始往上飆到100%後就會當機當個兩三秒
+之後會降到20%左右
+但是記憶體又會繼續飆升
+然後一直重複輪迴
+大概玩15秒就會當一次
+想請板上大大幫忙支援一下
+登入器的參數調整過了
+目前給他3G 可是就算加到5G問題一樣沒有解決
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 180.217.129.178
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510548224.A.E27.html
+推 t19910422: 記憶體不足就會這樣吧 你確定你有給到3-5G? 11/13 12:48
+→ V01986136: 我設固定5G 我去搞看看3~5g 11/13 12:52
+推 noname1111: 試試看調整視野範圍，調低在觀察，我之前調最大也會 11/13 13:44
+→ noname1111: 後來調12就正常了 11/13 13:44
+→ aalexx: 你是玩模組嗎?? 原版不容易用到那麼多記憶體吧 11/13 21:14
+推 CoNsTaR: 我給過 24G 也一樣啊，不知道為什麼都會吃滿之後又突然 11/14 02:21
+→ CoNsTaR: 全部釋放 11/14 02:21
+→ CoNsTaR: 不過我沒有當就是了 11/14 02:21
+→ twosheep0603: 不知道就推給Java的garbage collection吧(X 11/14 03:07
+→ aalexx: 是說java本來就是記憶體快滿了才會啟動GC就是了 不影響流 11/14 03:31
+→ aalexx: 暢的話就算了吧 至於會當的可能是有其他問題要再研究了 11/14 03:32
+→ aalexx: 我用小筆電也只有玩大型模組包才會lag 而且是frame lag 11/14 03:33
+推 OctupusTea: 我也有這個經驗，後來發現是記憶體參數問題，調掉就好 11/14 03:44
+→ OctupusTea: 通常是最後一項，好像是-Xms128M之類的 11/14 03:45
+→ OctupusTea: 如果調成跟最大值一樣好像就會造成這個情況 11/14 03:46
+推 bespace: 沒玩模組1G綽綽有餘吧 11/14 19:23
+"
+"14" NA
+"15" NA
+"16" "作者kurama3419 (地球人)看板Minecraft標題[問題] 海底遺跡沒有生成?(PS4版)時間Mon Nov 13 15:36:24 2017
+放置很久之後查查改版內容，竟然更新海底遺跡了
+
+於是乎回鍋準備要去把遺跡炸個稀巴爛
+
+製圖師洗出來了、圖也買了
+
+興高采烈跑到地圖遺跡標示那邊
+
+只有一坨深海守衛在屠殺章魚啊
+
+原本以為是什麼登場儀式，在岸上等個老半天一樣沒有出現
+
+換了一個製圖師(死刑!)還是給同樣的地圖
+
+後來索性直接划船去找其他的，同樣只有一坨守衛，遺跡本體不見蹤影
+
+有人有遇到跟我一樣的情況嗎？這是要怎麼解決啊
+
+附圖：https://imgur.com/a/lDT78
+
+PS.林地府邸也一樣只有一堆樹
+
+--
+────────────────────────────────────────
+┌─── ▲◣▂▄▆◤ ──▲◣▂▄▆◤ ──▲◣▂▄▆◤ ──▲◣▂▄▆◤ ──┐
+│這讓    ◤      │  ha   ◤      │  cool ◤      │  man  ◤      │      │
+│篇您   ◢●  ●  \      ◢●  ●  \      ◢●  ●  \      ◢●  ●  \      │
+│文覺    人 ︸ ＿◤ 新    人 ︸ ＿◤ 溫    人 ︸ ＿◤ 難    人 ︸ ＿◤ 生   │
+│章得   █◣◥   ◣ 奇   █◣◥   ◣ 馨   █◣◥   ◣ 過   █◣◥   ◣ 氣   │
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 123.193.219.135
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510558611.A.25B.html
+推 Slas: 遇過類似狀況 原本已經探索完的遺跡忽然不生怪了 11/13 17:22
+→ Slas: 旁邊距離遺跡有一段距離的海底忽然開始憑空冒出守衛 11/13 17:23
+→ Yijhen0525: 探索範圍是已有還是新探索的？ 11/14 00:31
+→ Yijhen0525: 改版後的新增建築只有在新生成的區域有 11/14 00:31
+"
+"17" NA
+"18" NA
+"19" "作者kylefan (袖子)看板Minecraft標題[情報] A怪物：暫名深海怪物時間Mon Nov 13 23:49:55 2017
+A怪物：深海怪獸The Monster of the Ocean Depths (暫）
+https://i.imgur.com/QDYoXyU.jpg
+生成於深海，將觸手展出來並伸出舌頭狀觸手攻擊，汲取你的生命。
+使用大型嘴巴推進
+若中選，他將大幅提升海底探險的樂趣
+影片：https://www.facebook.com/minecraft/videos/1529447237090760/
+
+Minecraft.net/minecon
+
+中文資料來源：https://www.facebook.com/minecraftnewstw/posts/1315953241848555
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 125.224.131.121
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510588198.A.247.html
+→ Yijhen0525: 觸手Play 11/14 00:30
+推 DON3000: 開C 11/14 08:23
+推 susaku: 怎不做成深海大魷魚? 11/14 09:18
+推 q622622: 寄生獸膩？ 11/14 10:25
+"
+"20" NA
+"21" NA
+"22" "作者kylefan (袖子)看板Minecraft標題[情報] B怪物：夜空怪物時間Tue Nov 14 23:14:16 2017
+怪物B：夜空怪物The Monster of the Night sky
+https://i.imgur.com/zKJfezs.jpg
+在夜晚高空中生成，發現玩家後成群俯衝攻擊
+若當選將成為空中首隻怪物
+
+11/19投票，只有ㄧ個贏家。
+===
+Minecraft.net/minecon
+11/19 01AM
+
+覺得怕怕，大家別選這隻R
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 125.224.131.121
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510672458.A.C04.html
+※ 編輯: kylefan (125.224.131.121), 11/14/2017 23:18:49
+推 Gwaewluin: 什麼！？結果不是魚嗎 11/14 23:22
+推 CP64: 如果讓苦力怕騎這隻... (? 11/14 23:27
+推 error405: 難...打頭 11/14 23:36
+推 emptie: 選了這隻的話如果是有空氣就可以生，要在主世界蓋生怪塔會 11/14 23:37
+→ emptie: 有點麻煩…… 11/14 23:37
+→ emptie: 雖然應該……生成機率不會太高就是了 11/14 23:37
+推 hbs1020: 以為是魟魚欸OAO 11/15 00:06
+推 Roentgenium: COOOOOOOOOL 11/15 00:41
+推 twosheep0603: 飛空魟魚 COOOOOOOOOOOOOOOOL 11/15 01:39
+推 samchiu: 成群... 11/15 07:21
+推 DON3000: 生怪塔會爆廢大半吧 11/15 08:28
+→ DON3000: 報廢* 11/15 08:28
+推 Yijhen0525: 這樣是不是以後連火把也不能保證安全區了 11/15 09:31
+→ gh0987: 可以把AI設成會避光吧 11/15 10:41
+推 ilohoo: 我的255高山要塞QQ 11/15 13:47
+推 ilohoo: 還有史萊姆飛機也要加裝防禦系統了 11/15 13:49
+推 et310: 陷阱塔8888888 空島8888888 11/15 14:43
+推 ponsheng: 說不定會有地區限制 像守衛跟烈焰神 11/15 15:16
+推 asd315946: 也要看是否有像史萊姆 出生後的方向性  或 敵隊意識 11/15 15:25
+→ asd315946: 又或許特殊的條件  ...總之不要小看玩家們 11/15 15:25
+→ error405: 128~255層會生吧 我猜 11/15 15:33
+推 Gwaewluin: 為了私心，只好祈願這隻落選了 11/15 17:10
+→ kylefan: 我也以為是魟魚 11/15 20:06
+推 HatanoKokoro: 目前已知生成在高海拔，針對失眠症（晚上不睡）的下 11/15 20:59
+→ HatanoKokoro: 手。為什麼不要4隻都加就好。 11/15 20:59
+推 felaray: 好恐怖R... 11/16 22:43
+"
+"23" NA
+"24" NA
+"25" "作者lould (Naiii)看板Minecraft標題[問題] 在spigot伺服器中,光影包的顯示不正常時間Wed Nov 15 20:01:48 2017
+不好意思我是光影包新手
+
+我在單人模式中的光影包顯示正常
+
+https://i.imgur.com/5GAnqHT.jpg
+
+但到了spigot伺服器中卻怪怪的
+
+https://i.imgur.com/AO0L20Q.jpg
+
+水面不正常,光照在物體上也會閃來閃去的
+
+
+
+遊戲版本：1.12.2
+
+光影MOD：OptiFine_1.12.2_HD_U_C6
+
+光影材質包：很多款都有這種問題
+
+遊戲材質包：預設的也有這種問題
+
+遊戲伺服器版本：spigot1.12.2
+
+未安裝任何插件及MOD
+
+
+
+單人模式遊玩時一切正常
+
+請問我是少裝了哪個插件或是MOD嗎?
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 111.246.134.57
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510747312.A.3EB.html
+※ 編輯: lould (111.246.134.57), 11/15/2017 20:02:23
+推 emptie: 伺服器有預設材質包嗎？ 11/15 21:44
+→ lould: 沒有 11/16 00:06
+推 nick5487: 光影是client的跟伺服器會有影響嗎？ 11/16 08:57
+→ lould: 照理說應該沒有影響,可是一進伺服器之後就光影就壞了 11/16 11:46
+推 BUHUDAIN: 你進的伺服器有裝非vanilla的方塊嗎? 11/16 13:09
+→ lould: 伺服器什麼都沒裝耶,是原始的spigot1.12.2生成的伺服器 11/16 18:07
+"
+"26" NA
+"27" NA
+"28" "作者kylefan (袖子)看板Minecraft標題[情報] MOB C:強食者時間Wed Nov 15 22:54:34 2017
+怪物C：強食者THE GREAT HUNGER
+https://i.imgur.com/eygBHjq.jpg
+這可愛的東西具有巨大的嘴巴以及大量的附魔力量
+他會將自身偽裝於草地裡，任何被他巨嘴的東西或怪物都會被殲滅
+若當選，他或許能為你帶來意想不到的附魔力量，對於成就的取得或有幫助
+這篇用字比較難，翻得差請見諒
+但好像比B還PA
+影片：https://www.facebook.com/minecraft/videos/1529576210411196/
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 125.224.131.121
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510757676.A.FF6.html
+※ 編輯: kylefan (125.224.131.121), 11/15/2017 22:55:34
+推 g30f68: 所以玩家也會被吃掉？ 11/15 22:55
+→ kylefan: 好像不會，只有說mob or item 11/15 22:58
+推 ponsheng: 後面有提到有可能可以增減裝備的附魔 最實用mob 4ni 11/15 23:15
+推 emptie: 跟成就無關吧，從頭到尾都沒說到advancement或是achievem 11/15 23:54
+→ emptie: ent啊，聽起來是能跟丟在地上的道具互動的怪物 11/15 23:54
+推 DON3000: 感覺不錯 11/16 08:43
+推 mp0953: 鑽石裝好吃 11/16 10:33
+推 jelly22: 不小心把鑽劍Q出去...然後就被吃掉了(大哭 11/16 11:36
+→ jelly22: 會是這種感覺嗎www 11/16 11:36
+→ brian8219: 後段意思大概是:或許你甚至可以利用牠的能力，來幫物品 11/16 13:55
+→ brian8219: 附魔或移除附魔。有錯歡迎糾正。 11/16 13:55
+推 Gwaewluin: 這樣說不定詛咒或綁定可以處理掉啦 11/16 17:49
+推 Roentgenium: 想要拿回噴掉的裝嗎?先幹掉穿著強化後你的裝備的我吧 11/16 21:15
+推 eowynknight: 這隻好可愛 11/18 13:13
+推 Lieng1207: 口卡獸 01/09 03:50
+"
+"29" NA
+"30" NA
+"31" "作者Gwaewluin (神無月 孝臣)看板Minecraft標題Re: [分享] 好孩子的Minecraft倖存生活 第二季 05時間Thu Nov 16 01:18:29 2017
+: 推 civiltensai: 很好奇有野哪來那麼多鐵礦                           11/15 01:28
+: 推 DaringDo: 應該是濱口挖的吧                                      11/15 07:41
+: 推 OAzenO: 我猜應該是有staff支援 不然藝人哪這麼多時間收集材料      11/15 17:28
+: → bobsonXD: 請不要小看挖掘師濱口！他超會挖的XD而且還連挖一個月    11/15 21:07
+以下有一些劇情洩漏
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+大量礦石可能是濱口準備的
+因為在第二次錄影前的回家作業中
+濱口貼了這一張圖要開工了
+https://twitter.com/yoiko_minecraft/status/911575801694371840
+之後貼了這樣子的一張圖
+https://twitter.com/yoiko_minecraft/status/920944210546540544
+在沒有幸運3的情況下挖到鑽石50個
+鐵礦也入手了快要四疊
+而且從以前有野的在節目裡面展示的礦坑
+以及之後有野也有貼的圖來看可以知道有野自己也是會挖礦的
+https://twitter.com/yoiko_minecraft/status/928637121463599105
+也好幾次在凌晨一點時看到有野在發言（日本是兩點，有次還是全家在迪士尼的旅館裡）
+可以感受到有野龐大的作業量
+
+雖然說為了節目效果由工作人員準備物資也是很合理的
+但這樣會有點奇怪
+因為有野在最後一次錄影前連續幾天都在和各種物資奮鬥
+有野終於成功繁殖出村民
+打算要藉由交易來入手終界珍珠
+翻了一下TS大概是在最後一次錄影前兩周都在和收集終界珍珠奮戰
+最後在錄影前一刻去和村民交易
+
+如果有工作人員準備物資的話
+這裡應該是不會需要那麼辛苦的
+而且最後終界珍珠的數量還是不足
+最後一次錄影結束後才說雖然找到傳送門
+但是沒有足夠的終界之眼可以使用
+要回去收集終界珍珠時已經到了結束錄影的時間
+所以才說還打算要追加一次錄影
+有事先準備物資的話應該是可以直接結束最後的錄影的
+
+不管怎樣有野也是有拍鋪鐵軌時的照片
+還說鋪鐵軌怎樣都不會感到厭倦呢
+他應該是真的在遊戲中有得到樂趣吧
+
+--
+On the surface, an artist tries to frame his ideals in an image, to challenge
+his audience and make his vision immortal. But the parasites say \"NO! Your
+art must serve the cause! Your ideals endanger the people!\"
+                                                                 ─Andrew Ryan
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.227.143.24
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510766315.A.4E2.html
+推 rb79: 有野本來就很擅長做出東西來，以前黃金傳說就知道了 11/16 10:19
+推 exploabanera: 50… 11/16 11:57
+推 log56: 有野課長真的是上個世代的電玩邏輯人啊 XD 「王打不贏就多 11/16 14:49
+→ log56: 打一點史萊姆就好了」的概念，作業感重的遊戲反而適合他 11/16 14:49
+推 Yijhen0525: 要準備下去打龍了嗎？ 11/16 17:02
+→ Yijhen0525: 我還希望他們弄出凋靈來玩玩呢！ 11/16 17:04
+推 OAzenO: 真的要收集珍珠喔? XDD 這工程真的太大了 11/16 19:21
+推 civiltensai: 真的是自己收集 實在佩服！ 11/17 09:08
+"
+"32" NA
+"33" NA
+"34" "作者kue999 (小謝)看板Minecraft標題[問題] 請教win10玩Minecraft的問題時間Thu Nov 16 08:40:21 2017
+昨日將OS換到win 10
+卻發現版本 1.8.1以後的版本可以正常遊玩
+1.8(含)以前的版本卻會卡住
+單人或多人遊戲都一樣,一進去就會卡住無法行進
+只能低頭或抬頭,我跟小孩在玩1.7.10的暮光森林就沒辦法玩了
+請問有高手可以協助嗎?
+筆電:i5-7300HQ
+顯卡:GeForce GTX 950M
+OS:win 10 64位元
+java:32位元跟64位元都試過
+遊戲是正版的
+有無安裝模組都試過,最乾淨的狀態一樣有這問題
+感謝大家指導
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 180.217.193.69
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510792823.A.550.html
+→ j2657164j: 痾...輸入法？ 11/16 09:00
+→ kue999: 輸入法,有注意過應該不是,而且不可能有版本的差異... 11/16 09:26
+→ kue999: 而且不只是不能行走,而是只能抬頭跟低頭,連平視都不行 11/16 09:30
+推 emptie: 啟動器選另一個profile的時候，路徑改別的資料夾試試看 11/16 12:46
+"
+"35" NA
+"36" NA
+"37" "作者LPH66 (<U+304B><U+3064><U+3066>交<U+308F><U+3057><U+305F>約束)看板Minecraft標題[情報] 17w46a時間Thu Nov 16 14:26:45 2017
+
+https://minecraft.net/en-us/article/minecraft-snapshot-17w46a
+
+* 馬的外觀又稍微調整了一下
+
+* 指令的 tab-complete 介面大更新, 現在按 Tab 出現的黑框不會像之前那麼大塊
+
+  然後之前的快照在多人時指令沒有介面, 現在有了
+
+* 新指令: /datapack 用來開啟/關閉 datapack 的作用
+
+* 一些前面快照的 bugfix
+
+--
+Ace Snake Santa Clover Junpei June Seven Lotus 9th man  cabin  kitchen  casino
+shower operating room laboratory  Ｔ  Ｈ  Ｅ chart captain quarter confinement
+torture room steam engine room cargo chapel library study incinerator Gigantic
+Q director office security  Ｎ  Ｏ  Ｎ  Ａ  Ｒ  Ｙ archives control laboratory
+pec treatment garden pantry gaulem bay rec room crew quarters infirmary lounge
+elevator Tenmyouji Quark Dio  Ｇ  Ａ  Ｍ  Ｅ  Ｓ Luna Phi Sigma Alice Clover K
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.30.32
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510813609.A.C1E.html
+推 alanqq0624: 總之加強偷懶神器tab先推 11/16 14:32
+推 Slas: 第一眼以為第一句在罵人 11/16 14:40
+推 alanqq0624: 話說怎麼這次改版一直改馬的貼圖啊 11/16 18:03
+→ alanqq0624: 老實說看不出來改變欸 11/16 18:03
+推 jelly22: 之前dinnerbone好像說過，這次改版的重點是指令與內部程 11/16 18:24
+→ jelly22: 式的優化，所以對一般玩家來說不會差太多 11/16 18:25
+推 jelly22: 我好像理解錯樓上的意思了XD，我覺得馬的改變看的出來阿w 11/16 18:27
+→ LPH66: 馬在修的東西不是貼圖而是外觀 model 11/16 19:52
+→ LPH66: 像是 45a 第一次改的時候那個臉的模組很明顯的跟現在不一樣 11/16 20:02
+推 emptie: 馬匹修正有原因的吧 11/16 21:27
+→ emptie:  https://i.redd.it/dyeiirkrh1xz.png 11/16 21:28
+→ emptie: 45a的那個版本真的有問題 11/16 21:28
+→ LPH66: 所以 46a 又修了啊 11/16 22:42
+"
+"38" NA
+"39" NA
+"40" "作者bobsonXD (包柏森)看板Minecraft標題[分享] 好孩子的Minecraft倖存生活 第二季 06時間Thu Nov 16 21:51:42 2017
+https://youtu.be/eughAp6A6_U
+
+第六回！這回正式開始攻略海底遺跡了！
+
+他們怎麼打的這麼順利啊！
+
+跟我自己玩的時候差好多啊XD
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.114.112
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510840305.A.BC8.html
+※ bobsonXD:轉錄至看板 NSwitch                                     11/16 21:53
+推 OAzenO: 神速 11/16 23:07
+推 annisat: ponji~~~~~ 11/17 01:15
+推 LonyIce: 阿綿前輩 11/17 08:58
+推 alanqq0624: 海綿超好玩w 11/17 13:26
+推 suyingsan: 從最上面攻略感覺也不錯吶，謝謝翻譯 11/17 17:22
+推 Gwaewluin: 有看過一種最上面攻略是這樣做的，先確認好海底神殿頂 11/17 19:42
+→ Gwaewluin: 的位置，然後從遠處直衝至神殿頂下船入水再立刻將神殿 11/17 19:43
+→ Gwaewluin: 頂挖開，速度夠快的話可以在吃到debuff前完成，這樣可 11/17 19:43
+→ Gwaewluin: 以先直接殺死一隻遠古守衛再進行探索 11/17 19:44
+推 Gwaewluin: 追加收錄的時間決定啦，還說如果還是無法結束就再追加 11/21 11:14
+→ eowynknight: 耶～ 我覺得他們玩的比我強XDDD 我到現在還是怕打怪 11/21 11:31
+推 Gwaewluin: https://youtu.be/OvJpqZ0ebJE 第七話 11/22 15:13
+→ iiiivy: 看他們打都覺得怎麼這樣應該可以那樣比較好~ 11/23 22:44
+→ iiiivy: 看他們的影片整個增加了我打怪的信心orz 11/23 22:45
+"
+"41" NA
+"42" NA
+"43" "作者ponsheng (ponsheng)看板Minecraft標題[情報] Mob D 終極烈焰神時間Thu Nov 16 22:23:37 2017
+Mob D \"The Hovering Inferno\" 介紹
+暫翻終極烈焰神 > <
+
+影片：https://www.facebook.com/minecraft/videos/1529579747077509/
+素描：https://i.imgur.com/KSDnOdK.png
+
+就是烈焰神升級版，烈焰神的頭頭
+會跟一群烈焰神一起隨機生成
+
+他身邊的盾牌可以用來保護自己
+用衝擊波攻擊（一樣帶有燃燒效果）
+死在地獄機率up up
+
+---
+直翻是徘徊地獄 想不到酷炫名字
+個人覺得相對沒有新意~
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 114.32.240.183
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510842219.A.787.html
+※ 編輯: ponsheng (114.32.240.183), 11/16/2017 22:32:08
+※ 編輯: ponsheng (114.32.240.183), 11/16/2017 22:36:46
+推 Roentgenium: 暮光森林的Lich 是你? 11/16 22:49
+→ error405: 一切燒卻 終極烈焰神 11/16 22:56
+推 Gwaewluin: 既然是烈焰使者變化而成，看來地獄應該還是滿安全的 11/17 00:04
+推 twosheep0603: 地獄的業火(X 11/17 01:03
+"
+"44" NA
+"45" NA
+"46" "作者kylefan (袖子)看板Minecraft標題[情報] MOB D:地獄盤旋者時間Thu Nov 16 23:31:29 2017
+MOB D:地獄盤旋者Hovering Inferno
+https://imgur.com/moe8iBa
+如同苦力怕與高壓苦力怕的關係一樣，【地獄盤旋者】是烈焰使者的終極進化型
+他的身軀具有可做防禦用的盾狀外殼
+在成群的烈焰使者中隨機生成
+具有與一般烈焰使者不同的是他具有威力強大的衝擊波
+玩家最好配備抗火性效果探險
+若當選將使地獄更加恐怖與有趣
+影片:https://www.facebook.com/minecraft/videos/1529579747077509/
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 125.224.131.121
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510846292.A.C73.html
+"
+"47" NA
+"48" NA
+"49" "作者kylefan (袖子)看板Minecraft標題[問題] Minecon 2017時間Fri Nov 17 23:35:56 2017
+24HR倒數總整理
+相關網站統整:
+MINECON EARTH官方網站:https://minecraft.net/zh-hant/minecon/ (官方已進行中文化
+)
+_台灣時間2017/11/19 01:00直播
+各國時區：沒台港星馬，只有北京上海，給差評
+https://i.imgur.com/dzxzS0y.jpg
+_紀念品購買:https://www.jinx.com/minecon2017
+_電影院放映之提供區域:(僅歐美提供）https://minecraft.net/zh-hant/minecon/parti
+es
+======
+內容：
+直播
+*https://minecraft.net/zh-hant/minecon/earth-2017-live-show/
+官網待機輪播 第一個就是繁中！
+https://i.imgur.com/7GTln7k.jpg
+*FB（https://www.facebook.com/minecraft/videos/1527662553935895/）
+*YT(https://www.youtube.com/watch?v=A_Z3AokMwWI)
+*twitch(https://twitch.tv/minecraft)
+*mixer(https://mixer.com/minecraftcc)
+*Xbox(https://download-ssl.xboxlive.com/…/amp/minecon_earth_2017.…)
+*網易(https://mc.163.com/minecon)
+節目
+*由執行長Lydia Winters 與知名喜劇演員Will Arnett 主持
+*投票選怪物
+*更新內容發表
+*服裝大賽結果公佈
+*將會有免費贈品釋出
+*可再線下活動配合之電影院觀賞(歐美)
+*官方網路商店上架限定商品
+*將有一個「以U開頭的字」的驚喜
+*11/19 01:00台灣/大馬/香港/中原時間
+*https://minecraft.net/article/one-week-until-minecon-earth
+======
+怪物投票
+台灣時間11/19 01:00AM的MlNECON，將首次開放玩家四選一，決定在下一個版本登場的新
+怪物，絕對不可錯過，因為落選的三隻怪物將永久消失！
+===
+各怪物逐項說明(皆為暫稱)
+A怪物：深海怪獸The Monster of the Ocean Depths
+https://i.imgur.com/QDYoXyU.jpg
+生成於深海，將觸手展出來並伸出舌頭狀觸手攻擊，汲取你的生命。
+使用大型嘴巴推進
+若中選，他將大幅提升海底探險的樂趣
+===
+怪物B：夜空怪物The Monster of the Night sky
+https://i.imgur.com/zKJfezs.jpg
+在夜晚高空中生成，發現玩家後成群俯衝攻擊
+若當選將成為空中首隻怪物
+===
+怪物C：強食者THE GREAT HUNGER
+https://i.imgur.com/eygBHjq.jpg
+這可愛的東西具有巨大的嘴巴以及大量的附魔力量
+他會將自身偽裝於草地裡，任何被他巨嘴的東西或怪物都會被殲滅
+若當選，他或許能為你帶來意想不到的附魔力量，對於成就的取得或有幫助
+===
+MOB D:地獄盤旋者Hovering Inferno
+https://imgur.com/moe8iBa.jpg
+如同苦力怕與高壓苦力怕的關係一樣，【地獄盤旋者】是烈焰使者的終極進化型
+他的身軀具有可做防禦用的盾狀外殼
+在成群的烈焰使者中隨機生成
+具有與一般烈焰使者不同的是他具有威力強大的衝擊波
+玩家最好配備抗火性效果探險
+若當選將使地獄更加恐怖與有趣
+===
+11/19投票，只有ㄧ個贏家。
+======
+Minecraft.net/minecon
+11/19 01AM
+
+然後問問版主，要不要學E3時各大電玩版開live文XD
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 114.46.35.191
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510932966.A.F2B.html
+※ 編輯: kylefan (114.46.35.191), 11/17/2017 23:49:39
+※ 編輯: kylefan (114.46.35.191), 11/18/2017 00:10:13
+※ 編輯: kylefan (114.46.35.191), 11/18/2017 00:10:53
+推 alanqq0624: U開頭的驚喜？11/18 09:11
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 11:50:33
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 11:51:36
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 11:52:22
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 11:53:24
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 11:54:51
+First of all, we'll be officially announcing the U-[SOUND OF MARSH DRAGGING ME
+ AWAY FROM MY KEYBOARD AND REMINDING ME HOW 'SURPRISES' WORK]我們將正式發表U-
+〔另一名開發者把我從鍵盤前拉開並告訴我什麼叫做驚喜 的聲音〕                   
+      
+※ 編輯: kylefan (115.82.99.242), 11/18/2017 12:01:06
+→ kylefan: First of all, we'll be officially announcing the U-[S 11/18 12:02
+→ kylefan: OUND OF MARSH DRAGGINGME AWAY FROM MY KEYBOARD AND RE 11/18 12:02
+→ kylefan: MINDING ME HOW 'SURPRISES' WORK]我們將正式發表U-〔另 11/18 12:02
+→ kylefan: 一名開發者把我從鍵盤前拉開並告訴我什麼叫做驚喜 的聲 11/18 12:02
+→ kylefan: 音〕 11/18 12:02
+→ error405: 告訴我 什麼叫做 驚 喜 11/18 12:03
+推 stevenyat: 希望能看到win10版高解析材質包跟光影包的消息 11/18 19:15
+→ TvP: 麥塊宇宙之類的嗎w 11/18 20:08
+"
+"50" NA
+"51" NA
+"52" "作者kylefan (袖子)看板Minecraft標題〔live文〕Minecon 2017(官網有中文直播）時間Sat Nov 18 23:53:53 2017
+學E3各版開直播討論串（是說希望會有人）
+
+
+官網的 「音訊」竟然可用中文！！
+直播
+*https://minecraft.net/zh-hant/minecon/earth-2017-live-show/
+https://i.imgur.com/7GTln7k.jpg
+*FB（https://www.facebook.com/minecraft/videos/1527662553935895/）
+*YT(https://www.youtube.com/watch?v=A_Z3AokMwWI)
+*twitch(https://twitch.tv/minecraft)
+*mixer(https://mixer.com/minecraftcc)
+*Xbox(https://download-ssl.xboxlive.com/…/amp/minecon_earth_2017.…)
+*網易(https://mc.163.com/minecon)
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 101.15.80.114
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511020435.A.9BC.html
+推 Roentgenium: 頭推11/19 00:03
+※ 編輯: kylefan (101.15.80.114), 11/19/2017 00:06:43
+→ Roentgenium: 啊...還要等50分鐘喔? 11/19 00:10
+推 alanqq0624: 總之推一下先睡了w 11/19 00:33
+→ alanqq0624: 不知道早上5點起來看不看的到收尾 11/19 00:33
+推 emptie: 這個生存模擬影片有點87… 11/19 01:14
+→ emptie: 要推特才能投票… 11/19 01:15
+→ emptie: 然後下次check的時候會移除最少的那個mob…這個玩法好奇 11/19 01:16
+→ emptie: 怪 11/19 01:16
+→ emptie: 而且每跟到minecon的玩家就沒得投票了… 11/19 01:16
+推 twosheep0603: B!!!!! 11/19 01:30
+推 ponsheng: https://i.imgur.com/dnSqHdZ.jpg 目前戰況 BC 拉距 11/19 01:31
+推 emptie: 第一階段 11/19 01:31
+→ emptie: https://i.imgur.com/B1lLLIy.png 11/19 01:31
+推 LPH66: A 淘汰了 11/19 01:31
+→ emptie: A 被刪掉了 11/19 01:31
+推 ponsheng: C!!!!! (問一下一輪多久啊 11/19 01:32
+→ ponsheng: 看到下面有倒數 應該是30分鐘 11/19 01:33
+推 emptie: 下一輪差不多會在台灣時間1 50附近結算吧 11/19 01:33
+推 ponsheng: 他們還記得幫被淘汰的RIP一下XD 11/19 01:35
+推 emptie: 投票數真的很少…大概只有非常core 的玩家會注意到這個訊 11/19 01:36
+→ emptie: 息吧…總覺得很隨便XD 11/19 01:36
+推 ponsheng: 應該是配合minecon的時程吧 投票方式也有助於當下的討 11/19 01:42
+→ ponsheng: 論熱度 11/19 01:42
+推 Roentgenium: 3,913 votes‧1 minute left 11/19 01:55
+推 emptie: 比第一階段還多票 見鬼了… 11/19 01:56
+→ emptie: https://i.imgur.com/CmvffOC.png 11/19 01:57
+推 ponsheng: C RIP 11/19 02:04
+推 twosheep0603: 差距拉開了 11/19 02:07
+→ Roentgenium: 差距又變小了 11/19 02:15
+→ Roentgenium: B! 11/19 02:22
+推 emptie: Update Aquatic! 11/19 02:22
+推 Roentgenium: bubble column! 11/19 02:24
+→ Roentgenium: 還有三叉戟 COOOOOOOOOOOL!! 11/19 02:25
+推 emptie: 這大概是會毀滅很多東西的一個更新 水方塊的性質改變 11/19 02:25
+→ emptie: 水可以流過欄杆了 物品會浮在水面 11/19 02:26
+推 twosheep0603: 海豚!!! 11/19 02:29
+推 ponsheng: 更新這麼多...\bug/\bug/\bug/ 11/19 02:29
+→ twosheep0603: 水可以流過欄杆 對於水上高腳建築友善很多XD 11/19 02:29
+→ Roentgenium: 水流過欄杆...嗯... 11/19 02:32
+推 Slas: 三叉戟耶  射出去還會自己飛回來 11/19 02:42
+推 stevenyat: 有改版情報懶人包嗎QQ 11/19 02:42
+推 Slas: 水性質改變 三叉戟 海底生態(珊瑚、熱帶魚) 海底沈船 11/19 02:44
+→ Slas: 水面上會有海豚 11/19 02:45
+推 ponsheng: 還有岩漿塊在水中冒泡到水面 11/19 02:46
+推 stevenyat: 感謝 晚點再來看水變成怎麼樣XD 11/19 02:52
+"
+"53" NA
+"54" NA
+"55" "作者emptie ([    ])看板Minecraft標題Re: [情報] Minecon 2017時間Sun Nov 19 10:19:32 2017
+凌晨跟完90分鐘的直播
+現在我覺得我一定是腦子進水才會不去睡覺
+
+給Java玩家，以及想看有營養的內容的人，
+直接點下面這個影片吧
+https://www.youtube.com/watch?v=Tjloo2AHgng
+
+還有這個，Jeb_的說明
+https://www.youtube.com/watch?v=mAapz_nIC_Y
+
+---
+
+以往的Minecon比較像是官方主辦的玩家線下聚會，順便宣布重大消息
+con = convention
+前幾年都是2-3天的活動，買票進場，但會有對應的回饋（例如披風）
+
+今年改成一個90分鐘的直播……號稱是「所有人都能參加的MineCon」
+（是的，沒有售票，也沒有發披風了）
+但其實本質變得比較像是一個以MineCon為名的一個大型廣告
+
+看完之後我只能用乏善可陳來形容吧。
+很明顯內容的取向是面向小孩子，
+但連我都懷疑六歲的我會不會覺得這些節目有趣了
+意義不明的小劇場太多了，那個拿著鑽石斧頭跟一頭豬跑到深山過夜的小劇場
+我完全不知道他到底想表達什麼……
+讓人尷尬的歌舞表演，難以理解為什麼要出現在這個地方，這跟節目有什麼關係嗎？
+
+其實還是看得出來M$非常努力地宣傳這個遊戲是如何如何的好玩
+呃，我要更正，不是這個遊戲本體好玩，是這個遊戲其實是個小遊戲製作工具哦
+然後觀眾就看著他們展示了一個普通的賽車小遊戲，跟一個普通的建築小遊戲
+
+順便業配了一波跟官方合作的內容提供者，告訴大家這裡有一批很便宜的小遊戲伺服器喲
+我以為MineCon是讓遊戲開發者跟玩家交流的舞台，結果你找一群小丑來表演是怎樣啊
+
+唯一的亮點是jeb_出來秀了一波關於水下世界的更新內容吧，
+沒意外的話最快會在1.14推出？
+看到珊瑚礁、海豚、會游動的魚、海草的感覺實在很cool
+不過看到jeb_說要變更水方塊的一部分物理特性的時候我有點震驚
+畢竟水下放柵欄/半磚不會出現氣泡是不錯，
+但讓水可以無視任何非完整方塊流過好像有點太過了…
+感覺又是一個要讓大家的世界漏水的節奏
+但完整要推出應該還要一大段時間，就相信會有好的workaround吧
+
+至於那個投票…
+嘛，總之那是個節目效果啦。
+不是認真要投票的，就算投了也沒保證會在多久之後以什麼形式加進去啊。
+整個過程就像是，官方先拿了4張草圖出來放消息，
+告訴玩家說我們要辦一個投票哦，然後投票選項的細節都不明，投票方式也不明
+
+直到開場才說我們要開始投票了！！請大家到Minecraft的官方Twitter去投票喲
+分成三個階段，每個階段約10-30分鐘不等，然後每個階段票數最低的那個會被淘汰
+同時其他的進入下一輪投票，作為節目效果的一環，不得不說他們布這個局還算用心
+但投票時間超級短，幾乎有一大半時區的人可能早上醒來看新聞才知道投票結束了？
+然後你面向的小孩子可能不一定有twitter帳號啊……
+
+──────────────────────────────────────
+
+總之，這大概就是M$想要的方向了，
+MineCon已經不可能跟以前一樣了。
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 180.217.252.96
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511057975.A.8F5.html
+→ error405: 不能用門在水下呼吸了嗎(麥塊邏輯 11/19 12:10
+推 ponsheng: Java team 直接全體否決垂直半磚XD 11/19 12:45
+推 Gwaewluin: 這表示以後不能靠火把在水底補充空氣了吧 11/19 12:57
+推 jelly22: 水電梯要說再見了嗎? 我的生怪塔阿阿阿 11/19 13:39
+推 Roentgenium: 還真的沒發現傳送門站偏左邊進去 出來也會偏左邊啊XD 11/19 14:19
+推 Kenqr: 水下世界看起來滿棒的 11/19 15:24
+推 aalexx: 如果告示牌也不能擋水的話一堆農場都要重新設計了QQ 11/19 18:40
+推 et310: 告示牌不能擋水那一堆水流運輸都要打掉重弄了XD 11/19 19:04
+推 tonylo2ooo: Con=conference? 11/19 19:23
+→ brian8219: 樓上我原本也覺得是conference，不過應該也可以只取字 11/27 18:02
+→ brian8219: 首con=together的意思（開始歪樓 11/27 18:03
+"
+"56" NA
+"57" NA
+"58" "作者kylefan (袖子)看板Minecraft標題[情報] 水之更新/拖泥帶水Minecon 之情報時間Sun Nov 19 22:36:41 2017
+海之更新 Coming Soon 2018春
+珊瑚
+魚（真實可見，可裝在水桶裡）
+水草
+海豚
+沈船
+三叉戟（可附魔：穿刺<U+4E36>氣流爆擊C8763、忠貞*）
+水的物理狀態修改（可流過欄杆，物體浮在水上而非沉沒，門間呼吸法、火把呼吸法<U+4E36>水
+電梯或將失效）
+新的海上地形
+岩漿塊在水中冒泡
+
+Mob B:夜空怪物
+以及更多
+
+C8763是真的直翻的
+忠誠：將三叉戟投出會飛回手上
+
+===
+其他宣布
+NS版1.2延至2018
+Win10畫質包延至2018
+探險活寶xMinecraft特別篇2018推出
+Mixer直播可由觀眾下指令直接放怪物進遊戲
+Mindcrack 加入Marketplace 製作
+Minecon Earth 特別皮膚包現正提供，1127結束
+Hive、CubeCraft加入手機版直連伺服
+新一波美泰兒轉蛋公仔
+Minecraft 手機版正研發戰鬥系統，時程未定
+
+==
+披風交出來
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 101.12.183.241
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511102204.A.26D.html
+推 ilohoo: 很好 我的黑曜石和鐵劍都會浮在水上了 11/19 23:01
+推 g30f68: 那要怎麼呼吸啊 11/19 23:06
+推 Gwaewluin: 你需要水肺藥水 11/19 23:18
+推 Kenqr: 好奇門會怎麼處理 11/19 23:27
+→ emptie: 其實還有玻璃片也是很麻煩 11/20 00:41
+→ emptie: 有可能一半是乾的一半是濕的 11/20 00:41
+推 twosheep0603: 我會很好奇2x2的管狀玻璃片會怎麼跟水互動 11/20 01:58
+推 stevenyat: 全部對應吧 反正現在方塊id很多(逃) 11/20 02:01
+推 ilohoo: https://youtu.be/yDBzFkt_XdQ 可以重現這個了 11/20 04:32
+推 alanqq0624: 所以呼吸剩水桶法了吧 11/20 07:51
+推 et310: 工業MOD管路也要重修了吧 11/20 11:14
+推 CP64: 噢噢 這變動感覺是個 bug 大發生的節奏 11/20 11:31
+推 itmyshit: 所以這樣樂透算是開加碼了吧…… 11/20 18:57
+推 eowynknight: 水電梯是很複雜的那種 還是不能爬瀑布了？ 11/20 19:31
+推 Gwaewluin: 水電梯是那種用告示牌來分隔出的垂直放置單格水吧 11/20 21:48
+→ Gwaewluin: 有mob進入就會自動往上升也不會窒息 11/20 21:48
+推 monz3761: 神奇告示牌要失效了嗎<U+FF61><U+FF9F>(<U+FF9F>ω`<U+FF9F>)<U+FF9F><U+FF61> 11/20 21:54
+推 Gwaewluin: 冰塊水流系統不能用告示牌連接水流 11/20 22:41
+→ Gwaewluin: 生怪塔不能用告示牌擺一層岩漿 11/20 22:41
+→ Gwaewluin: 深海守衛塔不能用告示牌讓深海守衛掉下去 11/20 22:42
+→ error405: 就不給你作怪物塔 硬派麥塊 11/20 22:52
+推 CoNsTaR: 有種 Minecraft 越來越不 Minecraft 了的感覺… 11/21 01:19
+推 log56: 可以不要更新阿 XD 可以玩老版本的minecraft 11/21 16:23
+推 LonyIce: 有點期待魚的出現 11/21 18:17
+推 hank850503: 覺得某些部分變得跟真實世界一樣是好事 11/21 18:38
+→ hank850503: 之前最無法理解的就是重力跟水 11/21 18:39
+→ error405: #麥塊邏輯 11/21 18:56
+推 Gwaewluin: 這樣更新下去大概遲早全部方塊都會因為重力掉落吧 11/21 22:03
+推 InfinitySA: 問題是 本來就沒定義麥塊的重力是如何 11/22 10:33
+→ InfinitySA: 沒有全像在地球上真實才好玩 11/22 10:34
+→ InfinitySA: 不然最無法理解的應該是怪物才對.. 11/22 10:34
+→ CP64: 如果要像現實的話可以去看看敝人之前翻過的超困難 mod 11/22 11:39
+→ CP64: 個人是覺得麥塊物理沒必要像現實 因為是麥塊啊 XD 11/22 11:50
+推 CoNsTaR: 要是更新的內容可以拆成像很多小模組一樣，然後在開新地 11/23 10:03
+→ CoNsTaR: 圖的時候選想要從以前到現在所有更新中的哪些內容，應該 11/23 10:03
+→ CoNsTaR: 會很棒 11/23 10:03
+"
+"59" NA
+"60" NA

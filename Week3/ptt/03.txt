@@ -1,0 +1,78 @@
+作者Ledger4747 (Ledger)看板Minecraft標題[問題] 指令方塊無法清除已命名的物品時間Fri Nov 24 03:42:15 2017
+我先用了一個指令方塊
+/give @p tripwire_hook 1 0 {display:{Name:"KEY"}}
+拿到了一個名稱為KEY的絆線鉤
+
+再用一個指令方塊
+/clear @p tripwire_hook  {display:{Name:"KEY"}}
+卻都清不掉，加了數量也是，試了好多次都沒辦法
+
+求解QQ
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.160.45.189
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511466137.A.A6A.html
+推 emptie: 中間加兩個-1 11/24 03:56
+→ emptie: /clear @p tripwire_hook -1 -1 {display:{Name:"KEY"}} 11/24 03:58
+→ emptie: 用了任何一個選填的參數就不能留空格了 不然遊戲不知道你 11/24 03:58
+→ emptie: 填的是哪一個參數 11/24 03:58
+填了參數一樣沒辦法.. 不知道是不是伺服器問題
+※ 編輯: Ledger4747 (1.160.45.189), 11/24/2017 15:19:31
+→ BUHUDAIN: spigot伺服器? 改用minecraft:clear試試看 11/24 23:00
+用了minecraft:clear就可以了，謝謝!
+→ krepr: 試試 {"display":{"name":"KEY"}} 11/25 00:21
+※ 編輯: Ledger4747 (36.226.71.183), 11/25/2017 13:51:54
+※ 編輯: Ledger4747 (36.226.71.183), 11/25/2017 13:55:48
+
+作者Ledger4747 (Ledger)看板Minecraft標題[問題] 指令方塊無法清除已命名的物品時間Fri Nov 24 03:42:15 2017
+我先用了一個指令方塊
+/give @p tripwire_hook 1 0 {display:{Name:"KEY"}}
+拿到了一個名稱為KEY的絆線鉤
+
+再用一個指令方塊
+/clear @p tripwire_hook  {display:{Name:"KEY"}}
+卻都清不掉，加了數量也是，試了好多次都沒辦法
+
+求解QQ
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.160.45.189
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511466137.A.A6A.html
+推 emptie: 中間加兩個-1 11/24 03:56
+→ emptie: /clear @p tripwire_hook -1 -1 {display:{Name:"KEY"}} 11/24 03:58
+→ emptie: 用了任何一個選填的參數就不能留空格了 不然遊戲不知道你 11/24 03:58
+→ emptie: 填的是哪一個參數 11/24 03:58
+填了參數一樣沒辦法.. 不知道是不是伺服器問題
+※ 編輯: Ledger4747 (1.160.45.189), 11/24/2017 15:19:31
+→ BUHUDAIN: spigot伺服器? 改用minecraft:clear試試看 11/24 23:00
+用了minecraft:clear就可以了，謝謝!
+→ krepr: 試試 {"display":{"name":"KEY"}} 11/25 00:21
+※ 編輯: Ledger4747 (36.226.71.183), 11/25/2017 13:51:54
+※ 編輯: Ledger4747 (36.226.71.183), 11/25/2017 13:55:48
+
+作者Ledger4747 (Ledger)看板Minecraft標題[問題] 指令方塊無法清除已命名的物品時間Fri Nov 24 03:42:15 2017
+我先用了一個指令方塊
+/give @p tripwire_hook 1 0 {display:{Name:"KEY"}}
+拿到了一個名稱為KEY的絆線鉤
+
+再用一個指令方塊
+/clear @p tripwire_hook  {display:{Name:"KEY"}}
+卻都清不掉，加了數量也是，試了好多次都沒辦法
+
+求解QQ
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.160.45.189
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1511466137.A.A6A.html
+推 emptie: 中間加兩個-1 11/24 03:56
+→ emptie: /clear @p tripwire_hook -1 -1 {display:{Name:"KEY"}} 11/24 03:58
+→ emptie: 用了任何一個選填的參數就不能留空格了 不然遊戲不知道你 11/24 03:58
+→ emptie: 填的是哪一個參數 11/24 03:58
+填了參數一樣沒辦法.. 不知道是不是伺服器問題
+※ 編輯: Ledger4747 (1.160.45.189), 11/24/2017 15:19:31
+→ BUHUDAIN: spigot伺服器? 改用minecraft:clear試試看 11/24 23:00
+用了minecraft:clear就可以了，謝謝!
+→ krepr: 試試 {"display":{"name":"KEY"}} 11/25 00:21
+※ 編輯: Ledger4747 (36.226.71.183), 11/25/2017 13:51:54
+※ 編輯: Ledger4747 (36.226.71.183), 11/25/2017 13:55:48
+

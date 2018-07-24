@@ -1,0 +1,489 @@
+作者cow (無)看板Minecraft標題[問題] 手機版有自動釣魚機嗎？時間Mon Sep 18 16:17:47 2017
+   爬文有看到自動或半自動釣魚機，請問現在的手機PE
+版本能做出來嗎？因為我看好像都需要卡住鍵盤，手機
+版好像沒辦法這樣卡？
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 42.72.69.202
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1505722669.A.E51.html
+推 NiceP: Android有按鍵精靈類似的APP，可以錄腳本，iOS要JB 09/18 16:50
+→ cow: 所以如果我接個鍵盤卡住的話，在PE版也一樣可以達成自動嗎？ 09/18 18:55
+推 Gwaewluin: 我是有聽說因為PE版和JAVA版的紅石動作有些差異，所以 09/18 23:36
+→ Gwaewluin: 沒辦法做出釣魚機的樣子 09/18 23:36
+→ cow: 剛剛試了一下，手機版不能用音樂盒的版本，鐵門開不會觸發音 09/18 23:39
+→ cow: 樂盒… 09/18 23:39
+推 NiceP: 觸發音樂盒的是拿釣竿的手，不是鐵門喔 09/19 08:10
+→ NiceP: 角度很微妙要調整一下 09/19 08:10
+推 Slas: 順便問一下win10版可以蓋自動釣魚機嗎？ 09/19 10:18
+→ Slas: 我自己試了常見的幾個 都會遇到釣鉤無法卡在絆線上的問題 09/19 10:19
+→ cow: 點來點去還是沒辦法觸發音樂盒…有人在PE試過嗎？還是有別種 09/19 18:54
+→ cow: 架構可用？ 09/19 18:54
+
+作者yvonne23058 (qpwo4567)看板Minecraft標題[教學] MCPE 輕鬆多人連線教學時間Thu Oct 26 16:16:20 2017
+嗨大家好
+想跟大家介紹我們的app：Omlet Arcade 針對Minecraft特別設計的功能-多人遊玩模式
+
+不需要任何伺服器設定就可以加入別人的世界
+也可以自己開創一個房間讓朋友都加進來玩
+一開始是希望可以用簡單的方式讓大家一起玩
+後來發現也真的有許多玩家透過這樣的方式結交到許多朋友
+希望可以藉由這個功能讓大家可以輕鬆地一同玩樂
+
+以下為多人遊玩模式的使用教學
+————————— iOS 開啟多人模式 —————————
+iOS系統支援兩種方式開啟多人模式
+【A方法】
+1 首先登入Omlet Arcade之後，點擊「直播」按鈕
+https://i.imgur.com/ZdiEG3Y.jpg
+
+2 進到直播設定的畫面時，在遊戲列表選擇「Minecraft」
+https://i.imgur.com/aPsYqXt.jpg
+https://i.imgur.com/s4cNf4e.jpg
+
+3 這時候直播設定的選項會出現「多人模式」
+打開後按下一步就可以邊直播邊讓朋友加入你的世界了
+https://i.imgur.com/C5hTm2z.jpg
+
+
+【B方法】
+如果不希望開啟直播這邊提供第二個方式開啟多人模式
+1 進入Minecraft的論壇，選擇「多人模式」
+https://i.imgur.com/JX60nxk.jpg
+
+2 選擇「啟用多人模式」後再選擇「啟用世界」
+https://i.imgur.com/v5FP5A3.jpg
+https://i.imgur.com/eT6jCwt.jpg
+
+小備註：如果你希望只讓有追蹤你的玩家加入，也可以一併在這邊開啟選項
+
+3最後手動打開Minecraft，朋友就可以加入你的世界
+小技巧：如果想要確認多人模式順利開啟，可以查看最上方的「VPN」有沒有出現喔
+
+ —————————iOS 加入多人模式 —————————
+iOS總共有三個方法可以加入多人模式
+【A方法】
+1 登入Omlet Arcade之後，選擇「Minecraft」的遊戲列表
+https://i.imgur.com/De9iJa6.jpg
+
+2 打開列表之後，只要有出現「多人模式」的標籤，都可以選擇
+https://i.imgur.com/PTFKQuv.jpg
+
+3 進去之後會看到「加入」的按鈕，直接點擊就可以了。
+https://i.imgur.com/7CGZwXf.jpg
+
+最後系統會自動開啟你的Minecraft，再從「好友」列表選擇世界就可以加入了
+https://i.imgur.com/OPOPdTu.png
+
+
+【B方法】
+1 在首頁直接選擇有minecraft多人模式的直播
+https://i.imgur.com/MPRYl2B.jpg
+
+2 進去之後也會看到「加入」按鈕，點擊就可以加入世界了。
+https://i.imgur.com/7CGZwXf.jpg
+
+最後系統同樣會自動開啟你的Minecraft，再從「好友」列表選擇世界就可以加入了
+https://i.imgur.com/OPOPdTu.png
+
+
+【C方法】
+1 進入到Minecraft的論壇，選擇「多人模式」
+https://i.imgur.com/JX60nxk.jpg
+
+2 選擇「啟用多人模式」後，到最下方「加入別人的世界」點擊「開始」
+https://i.imgur.com/v5FP5A3.jpg
+https://i.imgur.com/eF5uEiu.jpg
+
+這個時候列表會出現所有可以加入的世界，選擇「加入」
+https://i.imgur.com/dodIRls.jpg
+
+
+最後再手動打開Minecraft，再從「好友」列表選擇世界加入
+https://i.imgur.com/OPOPdTu.png
+
+****遊戲結束想要關閉多人模式的話，只需要點及「停止多人模式」就可以囉。 ****
+https://i.imgur.com/jmLc164.jpg
+
+
+————————— Android 開啟多人模式 —————————
+1 開啟Minecraft的世界，再打開Omlet Arcade的懸浮視窗到Minecraft的遊戲大廳
+https://i.imgur.com/KIuCLzR.jpg
+
+2 選擇右上角按鈕後開啟房間，會跟你確認是否開啟多人遊玩模式
+https://i.imgur.com/HuM85Xk.png
+
+3 按下確認之後朋友就可以加入你的世界了
+
+
+————————— Android 加入多人模式 —————————
+Android玩家同樣有三個方法可以加入Minecraft世界
+第一個方法是從app的推播通知加入
+https://i.imgur.com/k8PszqO.png
+
+第二個方法是觀看直播時，點選「加入」按鈕加入
+https://i.imgur.com/qWNvPNN.png
+
+第三個方法是從Minecraft遊戲大廳直接加入
+https://i.imgur.com/KIuCLzR.jpg
+
+
+雖然是自家的產品
+但是覺得多人遊玩模式對麥塊玩家是個很方便的功能
+又很容易認識各國同好
+這邊附上PlayStore下載連結：https://goo.gl/dxZ4wB
+App Store下載連結：https://goo.gl/zy4xdj
+
+大家使用完之後有任何想法或意見 都歡迎來信到[email<U+00A0>protected]
+如果有違反版規的話，將自刪文章，謝謝
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 220.135.48.4
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1509005784.A.38C.html
+※ 編輯: yvonne23058 (220.135.48.4), 10/26/2017 16:20:09
+推 michaeloil: 覺得實用! 10/26 17:41
+推 tomsawyer: 請問版本不通會如何呢? 10/26 20:06
+推 klandor: 加入以前可以看到對方的版本 10/26 20:58
+
+作者uav (平安喜樂)看板Minecraft標題[問題] PE版本 iOS Android 程式購買 資料移轉時間Sat Nov 11 16:36:40 2017
+各位午安，幾個問題請教：
+
+1. PE版本是否因手機作業系統不同（iOS v.s. Android），必須另外購買？
+
+2. 在安卓系統上玩的世界，能否資料移轉至 iOS？若可以的話，要怎麼做？
+
+先謝謝大家。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.238.185.134
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510389402.A.E23.html
+推 kylefan: 1.是 2.好像不行 11/11 16:50
+→ R0bin03: 2可以，iOS裝置接電腦用iTunes能輸入地圖 11/11 19:30
+
+作者cow (無)看板Minecraft標題[問題] 手機版有自動釣魚機嗎？時間Mon Sep 18 16:17:47 2017
+   爬文有看到自動或半自動釣魚機，請問現在的手機PE
+版本能做出來嗎？因為我看好像都需要卡住鍵盤，手機
+版好像沒辦法這樣卡？
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 42.72.69.202
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1505722669.A.E51.html
+推 NiceP: Android有按鍵精靈類似的APP，可以錄腳本，iOS要JB 09/18 16:50
+→ cow: 所以如果我接個鍵盤卡住的話，在PE版也一樣可以達成自動嗎？ 09/18 18:55
+推 Gwaewluin: 我是有聽說因為PE版和JAVA版的紅石動作有些差異，所以 09/18 23:36
+→ Gwaewluin: 沒辦法做出釣魚機的樣子 09/18 23:36
+→ cow: 剛剛試了一下，手機版不能用音樂盒的版本，鐵門開不會觸發音 09/18 23:39
+→ cow: 樂盒… 09/18 23:39
+推 NiceP: 觸發音樂盒的是拿釣竿的手，不是鐵門喔 09/19 08:10
+→ NiceP: 角度很微妙要調整一下 09/19 08:10
+推 Slas: 順便問一下win10版可以蓋自動釣魚機嗎？ 09/19 10:18
+→ Slas: 我自己試了常見的幾個 都會遇到釣鉤無法卡在絆線上的問題 09/19 10:19
+→ cow: 點來點去還是沒辦法觸發音樂盒…有人在PE試過嗎？還是有別種 09/19 18:54
+→ cow: 架構可用？ 09/19 18:54
+
+作者yvonne23058 (qpwo4567)看板Minecraft標題[教學] MCPE 輕鬆多人連線教學時間Thu Oct 26 16:16:20 2017
+嗨大家好
+想跟大家介紹我們的app：Omlet Arcade 針對Minecraft特別設計的功能-多人遊玩模式
+
+不需要任何伺服器設定就可以加入別人的世界
+也可以自己開創一個房間讓朋友都加進來玩
+一開始是希望可以用簡單的方式讓大家一起玩
+後來發現也真的有許多玩家透過這樣的方式結交到許多朋友
+希望可以藉由這個功能讓大家可以輕鬆地一同玩樂
+
+以下為多人遊玩模式的使用教學
+————————— iOS 開啟多人模式 —————————
+iOS系統支援兩種方式開啟多人模式
+【A方法】
+1 首先登入Omlet Arcade之後，點擊「直播」按鈕
+https://i.imgur.com/ZdiEG3Y.jpg
+
+2 進到直播設定的畫面時，在遊戲列表選擇「Minecraft」
+https://i.imgur.com/aPsYqXt.jpg
+https://i.imgur.com/s4cNf4e.jpg
+
+3 這時候直播設定的選項會出現「多人模式」
+打開後按下一步就可以邊直播邊讓朋友加入你的世界了
+https://i.imgur.com/C5hTm2z.jpg
+
+
+【B方法】
+如果不希望開啟直播這邊提供第二個方式開啟多人模式
+1 進入Minecraft的論壇，選擇「多人模式」
+https://i.imgur.com/JX60nxk.jpg
+
+2 選擇「啟用多人模式」後再選擇「啟用世界」
+https://i.imgur.com/v5FP5A3.jpg
+https://i.imgur.com/eT6jCwt.jpg
+
+小備註：如果你希望只讓有追蹤你的玩家加入，也可以一併在這邊開啟選項
+
+3最後手動打開Minecraft，朋友就可以加入你的世界
+小技巧：如果想要確認多人模式順利開啟，可以查看最上方的「VPN」有沒有出現喔
+
+ —————————iOS 加入多人模式 —————————
+iOS總共有三個方法可以加入多人模式
+【A方法】
+1 登入Omlet Arcade之後，選擇「Minecraft」的遊戲列表
+https://i.imgur.com/De9iJa6.jpg
+
+2 打開列表之後，只要有出現「多人模式」的標籤，都可以選擇
+https://i.imgur.com/PTFKQuv.jpg
+
+3 進去之後會看到「加入」的按鈕，直接點擊就可以了。
+https://i.imgur.com/7CGZwXf.jpg
+
+最後系統會自動開啟你的Minecraft，再從「好友」列表選擇世界就可以加入了
+https://i.imgur.com/OPOPdTu.png
+
+
+【B方法】
+1 在首頁直接選擇有minecraft多人模式的直播
+https://i.imgur.com/MPRYl2B.jpg
+
+2 進去之後也會看到「加入」按鈕，點擊就可以加入世界了。
+https://i.imgur.com/7CGZwXf.jpg
+
+最後系統同樣會自動開啟你的Minecraft，再從「好友」列表選擇世界就可以加入了
+https://i.imgur.com/OPOPdTu.png
+
+
+【C方法】
+1 進入到Minecraft的論壇，選擇「多人模式」
+https://i.imgur.com/JX60nxk.jpg
+
+2 選擇「啟用多人模式」後，到最下方「加入別人的世界」點擊「開始」
+https://i.imgur.com/v5FP5A3.jpg
+https://i.imgur.com/eF5uEiu.jpg
+
+這個時候列表會出現所有可以加入的世界，選擇「加入」
+https://i.imgur.com/dodIRls.jpg
+
+
+最後再手動打開Minecraft，再從「好友」列表選擇世界加入
+https://i.imgur.com/OPOPdTu.png
+
+****遊戲結束想要關閉多人模式的話，只需要點及「停止多人模式」就可以囉。 ****
+https://i.imgur.com/jmLc164.jpg
+
+
+————————— Android 開啟多人模式 —————————
+1 開啟Minecraft的世界，再打開Omlet Arcade的懸浮視窗到Minecraft的遊戲大廳
+https://i.imgur.com/KIuCLzR.jpg
+
+2 選擇右上角按鈕後開啟房間，會跟你確認是否開啟多人遊玩模式
+https://i.imgur.com/HuM85Xk.png
+
+3 按下確認之後朋友就可以加入你的世界了
+
+
+————————— Android 加入多人模式 —————————
+Android玩家同樣有三個方法可以加入Minecraft世界
+第一個方法是從app的推播通知加入
+https://i.imgur.com/k8PszqO.png
+
+第二個方法是觀看直播時，點選「加入」按鈕加入
+https://i.imgur.com/qWNvPNN.png
+
+第三個方法是從Minecraft遊戲大廳直接加入
+https://i.imgur.com/KIuCLzR.jpg
+
+
+雖然是自家的產品
+但是覺得多人遊玩模式對麥塊玩家是個很方便的功能
+又很容易認識各國同好
+這邊附上PlayStore下載連結：https://goo.gl/dxZ4wB
+App Store下載連結：https://goo.gl/zy4xdj
+
+大家使用完之後有任何想法或意見 都歡迎來信到[email<U+00A0>protected]
+如果有違反版規的話，將自刪文章，謝謝
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 220.135.48.4
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1509005784.A.38C.html
+※ 編輯: yvonne23058 (220.135.48.4), 10/26/2017 16:20:09
+推 michaeloil: 覺得實用! 10/26 17:41
+推 tomsawyer: 請問版本不通會如何呢? 10/26 20:06
+推 klandor: 加入以前可以看到對方的版本 10/26 20:58
+
+作者uav (平安喜樂)看板Minecraft標題[問題] PE版本 iOS Android 程式購買 資料移轉時間Sat Nov 11 16:36:40 2017
+各位午安，幾個問題請教：
+
+1. PE版本是否因手機作業系統不同（iOS v.s. Android），必須另外購買？
+
+2. 在安卓系統上玩的世界，能否資料移轉至 iOS？若可以的話，要怎麼做？
+
+先謝謝大家。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.238.185.134
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510389402.A.E23.html
+推 kylefan: 1.是 2.好像不行 11/11 16:50
+→ R0bin03: 2可以，iOS裝置接電腦用iTunes能輸入地圖 11/11 19:30
+
+作者cow (無)看板Minecraft標題[問題] 手機版有自動釣魚機嗎？時間Mon Sep 18 16:17:47 2017
+   爬文有看到自動或半自動釣魚機，請問現在的手機PE
+版本能做出來嗎？因為我看好像都需要卡住鍵盤，手機
+版好像沒辦法這樣卡？
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 42.72.69.202
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1505722669.A.E51.html
+推 NiceP: Android有按鍵精靈類似的APP，可以錄腳本，iOS要JB 09/18 16:50
+→ cow: 所以如果我接個鍵盤卡住的話，在PE版也一樣可以達成自動嗎？ 09/18 18:55
+推 Gwaewluin: 我是有聽說因為PE版和JAVA版的紅石動作有些差異，所以 09/18 23:36
+→ Gwaewluin: 沒辦法做出釣魚機的樣子 09/18 23:36
+→ cow: 剛剛試了一下，手機版不能用音樂盒的版本，鐵門開不會觸發音 09/18 23:39
+→ cow: 樂盒… 09/18 23:39
+推 NiceP: 觸發音樂盒的是拿釣竿的手，不是鐵門喔 09/19 08:10
+→ NiceP: 角度很微妙要調整一下 09/19 08:10
+推 Slas: 順便問一下win10版可以蓋自動釣魚機嗎？ 09/19 10:18
+→ Slas: 我自己試了常見的幾個 都會遇到釣鉤無法卡在絆線上的問題 09/19 10:19
+→ cow: 點來點去還是沒辦法觸發音樂盒…有人在PE試過嗎？還是有別種 09/19 18:54
+→ cow: 架構可用？ 09/19 18:54
+
+作者yvonne23058 (qpwo4567)看板Minecraft標題[教學] MCPE 輕鬆多人連線教學時間Thu Oct 26 16:16:20 2017
+嗨大家好
+想跟大家介紹我們的app：Omlet Arcade 針對Minecraft特別設計的功能-多人遊玩模式
+
+不需要任何伺服器設定就可以加入別人的世界
+也可以自己開創一個房間讓朋友都加進來玩
+一開始是希望可以用簡單的方式讓大家一起玩
+後來發現也真的有許多玩家透過這樣的方式結交到許多朋友
+希望可以藉由這個功能讓大家可以輕鬆地一同玩樂
+
+以下為多人遊玩模式的使用教學
+————————— iOS 開啟多人模式 —————————
+iOS系統支援兩種方式開啟多人模式
+【A方法】
+1 首先登入Omlet Arcade之後，點擊「直播」按鈕
+https://i.imgur.com/ZdiEG3Y.jpg
+
+2 進到直播設定的畫面時，在遊戲列表選擇「Minecraft」
+https://i.imgur.com/aPsYqXt.jpg
+https://i.imgur.com/s4cNf4e.jpg
+
+3 這時候直播設定的選項會出現「多人模式」
+打開後按下一步就可以邊直播邊讓朋友加入你的世界了
+https://i.imgur.com/C5hTm2z.jpg
+
+
+【B方法】
+如果不希望開啟直播這邊提供第二個方式開啟多人模式
+1 進入Minecraft的論壇，選擇「多人模式」
+https://i.imgur.com/JX60nxk.jpg
+
+2 選擇「啟用多人模式」後再選擇「啟用世界」
+https://i.imgur.com/v5FP5A3.jpg
+https://i.imgur.com/eT6jCwt.jpg
+
+小備註：如果你希望只讓有追蹤你的玩家加入，也可以一併在這邊開啟選項
+
+3最後手動打開Minecraft，朋友就可以加入你的世界
+小技巧：如果想要確認多人模式順利開啟，可以查看最上方的「VPN」有沒有出現喔
+
+ —————————iOS 加入多人模式 —————————
+iOS總共有三個方法可以加入多人模式
+【A方法】
+1 登入Omlet Arcade之後，選擇「Minecraft」的遊戲列表
+https://i.imgur.com/De9iJa6.jpg
+
+2 打開列表之後，只要有出現「多人模式」的標籤，都可以選擇
+https://i.imgur.com/PTFKQuv.jpg
+
+3 進去之後會看到「加入」的按鈕，直接點擊就可以了。
+https://i.imgur.com/7CGZwXf.jpg
+
+最後系統會自動開啟你的Minecraft，再從「好友」列表選擇世界就可以加入了
+https://i.imgur.com/OPOPdTu.png
+
+
+【B方法】
+1 在首頁直接選擇有minecraft多人模式的直播
+https://i.imgur.com/MPRYl2B.jpg
+
+2 進去之後也會看到「加入」按鈕，點擊就可以加入世界了。
+https://i.imgur.com/7CGZwXf.jpg
+
+最後系統同樣會自動開啟你的Minecraft，再從「好友」列表選擇世界就可以加入了
+https://i.imgur.com/OPOPdTu.png
+
+
+【C方法】
+1 進入到Minecraft的論壇，選擇「多人模式」
+https://i.imgur.com/JX60nxk.jpg
+
+2 選擇「啟用多人模式」後，到最下方「加入別人的世界」點擊「開始」
+https://i.imgur.com/v5FP5A3.jpg
+https://i.imgur.com/eF5uEiu.jpg
+
+這個時候列表會出現所有可以加入的世界，選擇「加入」
+https://i.imgur.com/dodIRls.jpg
+
+
+最後再手動打開Minecraft，再從「好友」列表選擇世界加入
+https://i.imgur.com/OPOPdTu.png
+
+****遊戲結束想要關閉多人模式的話，只需要點及「停止多人模式」就可以囉。 ****
+https://i.imgur.com/jmLc164.jpg
+
+
+————————— Android 開啟多人模式 —————————
+1 開啟Minecraft的世界，再打開Omlet Arcade的懸浮視窗到Minecraft的遊戲大廳
+https://i.imgur.com/KIuCLzR.jpg
+
+2 選擇右上角按鈕後開啟房間，會跟你確認是否開啟多人遊玩模式
+https://i.imgur.com/HuM85Xk.png
+
+3 按下確認之後朋友就可以加入你的世界了
+
+
+————————— Android 加入多人模式 —————————
+Android玩家同樣有三個方法可以加入Minecraft世界
+第一個方法是從app的推播通知加入
+https://i.imgur.com/k8PszqO.png
+
+第二個方法是觀看直播時，點選「加入」按鈕加入
+https://i.imgur.com/qWNvPNN.png
+
+第三個方法是從Minecraft遊戲大廳直接加入
+https://i.imgur.com/KIuCLzR.jpg
+
+
+雖然是自家的產品
+但是覺得多人遊玩模式對麥塊玩家是個很方便的功能
+又很容易認識各國同好
+這邊附上PlayStore下載連結：https://goo.gl/dxZ4wB
+App Store下載連結：https://goo.gl/zy4xdj
+
+大家使用完之後有任何想法或意見 都歡迎來信到[email<U+00A0>protected]
+如果有違反版規的話，將自刪文章，謝謝
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 220.135.48.4
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1509005784.A.38C.html
+※ 編輯: yvonne23058 (220.135.48.4), 10/26/2017 16:20:09
+推 michaeloil: 覺得實用! 10/26 17:41
+推 tomsawyer: 請問版本不通會如何呢? 10/26 20:06
+推 klandor: 加入以前可以看到對方的版本 10/26 20:58
+
+作者uav (平安喜樂)看板Minecraft標題[問題] PE版本 iOS Android 程式購買 資料移轉時間Sat Nov 11 16:36:40 2017
+各位午安，幾個問題請教：
+
+1. PE版本是否因手機作業系統不同（iOS v.s. Android），必須另外購買？
+
+2. 在安卓系統上玩的世界，能否資料移轉至 iOS？若可以的話，要怎麼做？
+
+先謝謝大家。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.238.185.134
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510389402.A.E23.html
+推 kylefan: 1.是 2.好像不行 11/11 16:50
+→ R0bin03: 2可以，iOS裝置接電腦用iTunes能輸入地圖 11/11 19:30
+

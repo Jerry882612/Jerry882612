@@ -1,0 +1,423 @@
+作者hnj92 (HJ)看板Minecraft標題[問題] Minecraft更新後顯示異常(Android)時間Sun Sep 24 14:10:56 2017
+前幾天Mojang釋出1.2.0正式更新後在第一時間更新了
+更新完之後開啟遊戲卻發現顯示有問題
+如下圖
+https://i.imgur.com/RpBgTsS.png
+
+手機是HTC U11
+有刪除過遊戲資料
+
+順便抱怨一下，PC版真的變成小三了
+這次更新手機版整個被正名QQ
+而且清除過資料才發現Mojang預設簡體中文給中文玩家…
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 203.73.245.212
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1506233461.A.B19.html
+推 emptie: 又不是第一天認識M$了09/24 15:20
+可惡M$
+=====
+今天1.2.1更新後還是會
+推 CoNsTaR: 而且最近遊戲裡有一段標語寫為什麼Mojang比真正做遊戲的09/27 19:36
+→ CoNsTaR: 組員還有名09/27 19:36
+→ CoNsTaR: 看了真的……… M$09/27 19:36
+M$收購後只感覺更新快了些
+※ 編輯: hnj92 (39.10.98.24), 09/30/2017 09:59:31
+
+作者MurderSmile (MurderSmile)看板Minecraft標題[問題] 遊戲內空白地圖問題時間Wed Sep 27 14:36:20 2017
+最近跟朋友們一起玩創世神
+因為本人是個路痴所以馬上做了一張地圖
+照著合成表合出最大張的地圖
+https://i.imgur.com/0Y6KCtq.jpg
+https://i.imgur.com/tDH8FBW.jpg
+結果合出來變這樣
+https://i.imgur.com/vx9ZNmX.jpg
+為什麼他不是照著我為中心的點放大
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 39.8.166.161
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1506494183.A.244.html
+推 emptie: 1.7 之前 還有1.8之後的地圖機制不一樣 09/27 14:47
+→ emptie:  https://minecraft.gamepedia.com/File:Map18zooms.png 09/27 14:47
+→ emptie: 1.8之後的地圖會鎖定在同一個格子裡面 不管你開啟的地點 09/27 14:48
+→ MurderSmile: 那請問我要開右邊的地圖，是不是要往右跑出現在地圖 09/27 16:23
+→ MurderSmile: ，之後再拿空白地圖出來？ 09/27 16:23
+推 emptie: 答對了 就是如此 1.8改這樣的好處就是地圖一定可以接合 09/27 20:01
+推 Yijhen0525: 所以不用特地跑到128格外，只要有Map_0當原點就好? 09/27 20:24
+→ LPH66: 樓上在問接合的話: 是的, 不用算準一定格數只要地圖外即可 09/28 01:11
+推 lougii: 以chunk為單位 09/28 12:50
+
+作者Gwaewluin (神無月 孝臣)看板Minecraft標題Re: [分享] 好孩子的Minecraft倖存生活 第二季 04時間Sun Nov  5 14:51:26 2017
+: → eowynknight: 所以其實12集都拍完了？                             11/05 12:27
+: → eowynknight: 阿還是1～4集一天內拍 然後回家作業的時候播出四集這  11/05 12:28
+: → eowynknight: 樣？                                               11/05 12:28
+這個有看他們推特的話會很清楚
+拍攝進度都會公布
+由於有些貼圖會洩露之後內容我就不貼推特連結了
+想找他們推特的話在他們的影片說明內有寫
+
+
+09/11 第二季第一次錄影
+
+09/21 回家作業
+
+10/09 第二次錄影
+
+10/12 第一話釋出
+
+10/19 第二話釋出
+
+10/26 第三話釋出
+
+11/02 第四話釋出 <= <U+3044><U+307E><U+3053><U+3053>
+
+
+雖然第二次錄影完後沒有明說
+但濱口和有野都有一直貼出好多圖
+應該也是回家作業中
+
+--
+A Man or a Parasite
+What is the difference between a man and a parasite? A man builds. A parasite
+asks "Where is my share?" A man creates. A parasite says, "What will the
+neighbors think?" A man invents. A parasite says, "Watch out, or you might
+tread on the toes of God..."
+                                                                 ─Andrew Ryan
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.160.158.148
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1509864688.A.BB4.html
+推 eowynknight: 喔喔感謝 11/05 17:02
+
+作者LPH66 (<U+304B><U+3064><U+3066>交<U+308F><U+3057><U+305F>約束)看板Minecraft標題[情報] 17w46a時間Thu Nov 16 14:26:45 2017
+
+https://minecraft.net/en-us/article/minecraft-snapshot-17w46a
+
+* 馬的外觀又稍微調整了一下
+
+* 指令的 tab-complete 介面大更新, 現在按 Tab 出現的黑框不會像之前那麼大塊
+
+  然後之前的快照在多人時指令沒有介面, 現在有了
+
+* 新指令: /datapack 用來開啟/關閉 datapack 的作用
+
+* 一些前面快照的 bugfix
+
+--
+Ace Snake Santa Clover Junpei June Seven Lotus 9th man  cabin  kitchen  casino
+shower operating room laboratory  Ｔ  Ｈ  Ｅ chart captain quarter confinement
+torture room steam engine room cargo chapel library study incinerator Gigantic
+Q director office security  Ｎ  Ｏ  Ｎ  Ａ  Ｒ  Ｙ archives control laboratory
+pec treatment garden pantry gaulem bay rec room crew quarters infirmary lounge
+elevator Tenmyouji Quark Dio  Ｇ  Ａ  Ｍ  Ｅ  Ｓ Luna Phi Sigma Alice Clover K
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.30.32
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510813609.A.C1E.html
+推 alanqq0624: 總之加強偷懶神器tab先推 11/16 14:32
+推 Slas: 第一眼以為第一句在罵人 11/16 14:40
+推 alanqq0624: 話說怎麼這次改版一直改馬的貼圖啊 11/16 18:03
+→ alanqq0624: 老實說看不出來改變欸 11/16 18:03
+推 jelly22: 之前dinnerbone好像說過，這次改版的重點是指令與內部程 11/16 18:24
+→ jelly22: 式的優化，所以對一般玩家來說不會差太多 11/16 18:25
+推 jelly22: 我好像理解錯樓上的意思了XD，我覺得馬的改變看的出來阿w 11/16 18:27
+→ LPH66: 馬在修的東西不是貼圖而是外觀 model 11/16 19:52
+→ LPH66: 像是 45a 第一次改的時候那個臉的模組很明顯的跟現在不一樣 11/16 20:02
+推 emptie: 馬匹修正有原因的吧 11/16 21:27
+→ emptie:  https://i.redd.it/dyeiirkrh1xz.png 11/16 21:28
+→ emptie: 45a的那個版本真的有問題 11/16 21:28
+→ LPH66: 所以 46a 又修了啊 11/16 22:42
+
+作者star07 (得也)看板Minecraft標題[問題] 新手關於command的小問題時間Thu Dec  7 14:14:19 2017
+請問大大~~
+網上教要打command要在一開始創建世界的時候要開啟作弊。
+如果一開始沒有開啟，中途還可以開啟嗎？
+還是有其他方法可以打command？
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.4.190
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1512627261.A.4D8.html
+→ error405: 按Esc 分享到區網 12/07 14:26
+
+作者hnj92 (HJ)看板Minecraft標題[問題] Minecraft更新後顯示異常(Android)時間Sun Sep 24 14:10:56 2017
+前幾天Mojang釋出1.2.0正式更新後在第一時間更新了
+更新完之後開啟遊戲卻發現顯示有問題
+如下圖
+https://i.imgur.com/RpBgTsS.png
+
+手機是HTC U11
+有刪除過遊戲資料
+
+順便抱怨一下，PC版真的變成小三了
+這次更新手機版整個被正名QQ
+而且清除過資料才發現Mojang預設簡體中文給中文玩家…
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 203.73.245.212
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1506233461.A.B19.html
+推 emptie: 又不是第一天認識M$了09/24 15:20
+可惡M$
+=====
+今天1.2.1更新後還是會
+推 CoNsTaR: 而且最近遊戲裡有一段標語寫為什麼Mojang比真正做遊戲的09/27 19:36
+→ CoNsTaR: 組員還有名09/27 19:36
+→ CoNsTaR: 看了真的……… M$09/27 19:36
+M$收購後只感覺更新快了些
+※ 編輯: hnj92 (39.10.98.24), 09/30/2017 09:59:31
+
+作者MurderSmile (MurderSmile)看板Minecraft標題[問題] 遊戲內空白地圖問題時間Wed Sep 27 14:36:20 2017
+最近跟朋友們一起玩創世神
+因為本人是個路痴所以馬上做了一張地圖
+照著合成表合出最大張的地圖
+https://i.imgur.com/0Y6KCtq.jpg
+https://i.imgur.com/tDH8FBW.jpg
+結果合出來變這樣
+https://i.imgur.com/vx9ZNmX.jpg
+為什麼他不是照著我為中心的點放大
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 39.8.166.161
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1506494183.A.244.html
+推 emptie: 1.7 之前 還有1.8之後的地圖機制不一樣 09/27 14:47
+→ emptie:  https://minecraft.gamepedia.com/File:Map18zooms.png 09/27 14:47
+→ emptie: 1.8之後的地圖會鎖定在同一個格子裡面 不管你開啟的地點 09/27 14:48
+→ MurderSmile: 那請問我要開右邊的地圖，是不是要往右跑出現在地圖 09/27 16:23
+→ MurderSmile: ，之後再拿空白地圖出來？ 09/27 16:23
+推 emptie: 答對了 就是如此 1.8改這樣的好處就是地圖一定可以接合 09/27 20:01
+推 Yijhen0525: 所以不用特地跑到128格外，只要有Map_0當原點就好? 09/27 20:24
+→ LPH66: 樓上在問接合的話: 是的, 不用算準一定格數只要地圖外即可 09/28 01:11
+推 lougii: 以chunk為單位 09/28 12:50
+
+作者Gwaewluin (神無月 孝臣)看板Minecraft標題Re: [分享] 好孩子的Minecraft倖存生活 第二季 04時間Sun Nov  5 14:51:26 2017
+: → eowynknight: 所以其實12集都拍完了？                             11/05 12:27
+: → eowynknight: 阿還是1～4集一天內拍 然後回家作業的時候播出四集這  11/05 12:28
+: → eowynknight: 樣？                                               11/05 12:28
+這個有看他們推特的話會很清楚
+拍攝進度都會公布
+由於有些貼圖會洩露之後內容我就不貼推特連結了
+想找他們推特的話在他們的影片說明內有寫
+
+
+09/11 第二季第一次錄影
+
+09/21 回家作業
+
+10/09 第二次錄影
+
+10/12 第一話釋出
+
+10/19 第二話釋出
+
+10/26 第三話釋出
+
+11/02 第四話釋出 <= <U+3044><U+307E><U+3053><U+3053>
+
+
+雖然第二次錄影完後沒有明說
+但濱口和有野都有一直貼出好多圖
+應該也是回家作業中
+
+--
+A Man or a Parasite
+What is the difference between a man and a parasite? A man builds. A parasite
+asks "Where is my share?" A man creates. A parasite says, "What will the
+neighbors think?" A man invents. A parasite says, "Watch out, or you might
+tread on the toes of God..."
+                                                                 ─Andrew Ryan
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.160.158.148
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1509864688.A.BB4.html
+推 eowynknight: 喔喔感謝 11/05 17:02
+
+作者LPH66 (<U+304B><U+3064><U+3066>交<U+308F><U+3057><U+305F>約束)看板Minecraft標題[情報] 17w46a時間Thu Nov 16 14:26:45 2017
+
+https://minecraft.net/en-us/article/minecraft-snapshot-17w46a
+
+* 馬的外觀又稍微調整了一下
+
+* 指令的 tab-complete 介面大更新, 現在按 Tab 出現的黑框不會像之前那麼大塊
+
+  然後之前的快照在多人時指令沒有介面, 現在有了
+
+* 新指令: /datapack 用來開啟/關閉 datapack 的作用
+
+* 一些前面快照的 bugfix
+
+--
+Ace Snake Santa Clover Junpei June Seven Lotus 9th man  cabin  kitchen  casino
+shower operating room laboratory  Ｔ  Ｈ  Ｅ chart captain quarter confinement
+torture room steam engine room cargo chapel library study incinerator Gigantic
+Q director office security  Ｎ  Ｏ  Ｎ  Ａ  Ｒ  Ｙ archives control laboratory
+pec treatment garden pantry gaulem bay rec room crew quarters infirmary lounge
+elevator Tenmyouji Quark Dio  Ｇ  Ａ  Ｍ  Ｅ  Ｓ Luna Phi Sigma Alice Clover K
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.30.32
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510813609.A.C1E.html
+推 alanqq0624: 總之加強偷懶神器tab先推 11/16 14:32
+推 Slas: 第一眼以為第一句在罵人 11/16 14:40
+推 alanqq0624: 話說怎麼這次改版一直改馬的貼圖啊 11/16 18:03
+→ alanqq0624: 老實說看不出來改變欸 11/16 18:03
+推 jelly22: 之前dinnerbone好像說過，這次改版的重點是指令與內部程 11/16 18:24
+→ jelly22: 式的優化，所以對一般玩家來說不會差太多 11/16 18:25
+推 jelly22: 我好像理解錯樓上的意思了XD，我覺得馬的改變看的出來阿w 11/16 18:27
+→ LPH66: 馬在修的東西不是貼圖而是外觀 model 11/16 19:52
+→ LPH66: 像是 45a 第一次改的時候那個臉的模組很明顯的跟現在不一樣 11/16 20:02
+推 emptie: 馬匹修正有原因的吧 11/16 21:27
+→ emptie:  https://i.redd.it/dyeiirkrh1xz.png 11/16 21:28
+→ emptie: 45a的那個版本真的有問題 11/16 21:28
+→ LPH66: 所以 46a 又修了啊 11/16 22:42
+
+作者star07 (得也)看板Minecraft標題[問題] 新手關於command的小問題時間Thu Dec  7 14:14:19 2017
+請問大大~~
+網上教要打command要在一開始創建世界的時候要開啟作弊。
+如果一開始沒有開啟，中途還可以開啟嗎？
+還是有其他方法可以打command？
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.4.190
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1512627261.A.4D8.html
+→ error405: 按Esc 分享到區網 12/07 14:26
+
+作者hnj92 (HJ)看板Minecraft標題[問題] Minecraft更新後顯示異常(Android)時間Sun Sep 24 14:10:56 2017
+前幾天Mojang釋出1.2.0正式更新後在第一時間更新了
+更新完之後開啟遊戲卻發現顯示有問題
+如下圖
+https://i.imgur.com/RpBgTsS.png
+
+手機是HTC U11
+有刪除過遊戲資料
+
+順便抱怨一下，PC版真的變成小三了
+這次更新手機版整個被正名QQ
+而且清除過資料才發現Mojang預設簡體中文給中文玩家…
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 203.73.245.212
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1506233461.A.B19.html
+推 emptie: 又不是第一天認識M$了09/24 15:20
+可惡M$
+=====
+今天1.2.1更新後還是會
+推 CoNsTaR: 而且最近遊戲裡有一段標語寫為什麼Mojang比真正做遊戲的09/27 19:36
+→ CoNsTaR: 組員還有名09/27 19:36
+→ CoNsTaR: 看了真的……… M$09/27 19:36
+M$收購後只感覺更新快了些
+※ 編輯: hnj92 (39.10.98.24), 09/30/2017 09:59:31
+
+作者MurderSmile (MurderSmile)看板Minecraft標題[問題] 遊戲內空白地圖問題時間Wed Sep 27 14:36:20 2017
+最近跟朋友們一起玩創世神
+因為本人是個路痴所以馬上做了一張地圖
+照著合成表合出最大張的地圖
+https://i.imgur.com/0Y6KCtq.jpg
+https://i.imgur.com/tDH8FBW.jpg
+結果合出來變這樣
+https://i.imgur.com/vx9ZNmX.jpg
+為什麼他不是照著我為中心的點放大
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 39.8.166.161
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1506494183.A.244.html
+推 emptie: 1.7 之前 還有1.8之後的地圖機制不一樣 09/27 14:47
+→ emptie:  https://minecraft.gamepedia.com/File:Map18zooms.png 09/27 14:47
+→ emptie: 1.8之後的地圖會鎖定在同一個格子裡面 不管你開啟的地點 09/27 14:48
+→ MurderSmile: 那請問我要開右邊的地圖，是不是要往右跑出現在地圖 09/27 16:23
+→ MurderSmile: ，之後再拿空白地圖出來？ 09/27 16:23
+推 emptie: 答對了 就是如此 1.8改這樣的好處就是地圖一定可以接合 09/27 20:01
+推 Yijhen0525: 所以不用特地跑到128格外，只要有Map_0當原點就好? 09/27 20:24
+→ LPH66: 樓上在問接合的話: 是的, 不用算準一定格數只要地圖外即可 09/28 01:11
+推 lougii: 以chunk為單位 09/28 12:50
+
+作者Gwaewluin (神無月 孝臣)看板Minecraft標題Re: [分享] 好孩子的Minecraft倖存生活 第二季 04時間Sun Nov  5 14:51:26 2017
+: → eowynknight: 所以其實12集都拍完了？                             11/05 12:27
+: → eowynknight: 阿還是1～4集一天內拍 然後回家作業的時候播出四集這  11/05 12:28
+: → eowynknight: 樣？                                               11/05 12:28
+這個有看他們推特的話會很清楚
+拍攝進度都會公布
+由於有些貼圖會洩露之後內容我就不貼推特連結了
+想找他們推特的話在他們的影片說明內有寫
+
+
+09/11 第二季第一次錄影
+
+09/21 回家作業
+
+10/09 第二次錄影
+
+10/12 第一話釋出
+
+10/19 第二話釋出
+
+10/26 第三話釋出
+
+11/02 第四話釋出 <= <U+3044><U+307E><U+3053><U+3053>
+
+
+雖然第二次錄影完後沒有明說
+但濱口和有野都有一直貼出好多圖
+應該也是回家作業中
+
+--
+A Man or a Parasite
+What is the difference between a man and a parasite? A man builds. A parasite
+asks "Where is my share?" A man creates. A parasite says, "What will the
+neighbors think?" A man invents. A parasite says, "Watch out, or you might
+tread on the toes of God..."
+                                                                 ─Andrew Ryan
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.160.158.148
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1509864688.A.BB4.html
+推 eowynknight: 喔喔感謝 11/05 17:02
+
+作者LPH66 (<U+304B><U+3064><U+3066>交<U+308F><U+3057><U+305F>約束)看板Minecraft標題[情報] 17w46a時間Thu Nov 16 14:26:45 2017
+
+https://minecraft.net/en-us/article/minecraft-snapshot-17w46a
+
+* 馬的外觀又稍微調整了一下
+
+* 指令的 tab-complete 介面大更新, 現在按 Tab 出現的黑框不會像之前那麼大塊
+
+  然後之前的快照在多人時指令沒有介面, 現在有了
+
+* 新指令: /datapack 用來開啟/關閉 datapack 的作用
+
+* 一些前面快照的 bugfix
+
+--
+Ace Snake Santa Clover Junpei June Seven Lotus 9th man  cabin  kitchen  casino
+shower operating room laboratory  Ｔ  Ｈ  Ｅ chart captain quarter confinement
+torture room steam engine room cargo chapel library study incinerator Gigantic
+Q director office security  Ｎ  Ｏ  Ｎ  Ａ  Ｒ  Ｙ archives control laboratory
+pec treatment garden pantry gaulem bay rec room crew quarters infirmary lounge
+elevator Tenmyouji Quark Dio  Ｇ  Ａ  Ｍ  Ｅ  Ｓ Luna Phi Sigma Alice Clover K
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.30.32
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1510813609.A.C1E.html
+推 alanqq0624: 總之加強偷懶神器tab先推 11/16 14:32
+推 Slas: 第一眼以為第一句在罵人 11/16 14:40
+推 alanqq0624: 話說怎麼這次改版一直改馬的貼圖啊 11/16 18:03
+→ alanqq0624: 老實說看不出來改變欸 11/16 18:03
+推 jelly22: 之前dinnerbone好像說過，這次改版的重點是指令與內部程 11/16 18:24
+→ jelly22: 式的優化，所以對一般玩家來說不會差太多 11/16 18:25
+推 jelly22: 我好像理解錯樓上的意思了XD，我覺得馬的改變看的出來阿w 11/16 18:27
+→ LPH66: 馬在修的東西不是貼圖而是外觀 model 11/16 19:52
+→ LPH66: 像是 45a 第一次改的時候那個臉的模組很明顯的跟現在不一樣 11/16 20:02
+推 emptie: 馬匹修正有原因的吧 11/16 21:27
+→ emptie:  https://i.redd.it/dyeiirkrh1xz.png 11/16 21:28
+→ emptie: 45a的那個版本真的有問題 11/16 21:28
+→ LPH66: 所以 46a 又修了啊 11/16 22:42
+
+作者star07 (得也)看板Minecraft標題[問題] 新手關於command的小問題時間Thu Dec  7 14:14:19 2017
+請問大大~~
+網上教要打command要在一開始創建世界的時候要開啟作弊。
+如果一開始沒有開啟，中途還可以開啟嗎？
+還是有其他方法可以打command？
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.4.190
+※ 文章網址: https://www.ptt.cc/bbs/Minecraft/M.1512627261.A.4D8.html
+→ error405: 按Esc 分享到區網 12/07 14:26
+
