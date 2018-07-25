@@ -87,3 +87,34 @@
 </ul>
 
 
+
+## week 4
+
+[]()
+
+<ul type="square">
+<li>in class
+</ul>
+
+<ul type="circle">
+ 	<li>
+ 	<li>
+ 	<li>
+</ul>
+
+
+<ul type="square">
+<li>at home
+</ul>
+
+<ul type="circle">
+	<li>
+	<li>
+</ul>
+
+
+
+
+
+
+
