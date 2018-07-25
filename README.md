@@ -93,15 +93,15 @@
 
 [hw_4](https://jerry882612.github.io/Jerry882612/Week4/hw_4.html)
 
-[]()
+
 
 <ul type="square">
 <li>in class
 </ul>
 
 <ul type="circle">
- 	<li>
- 	<li>
+ 	<li>把上周 EDA 內容做深入分析
+ 	<li>介紹線性回歸範例程式
  	<li>
 </ul>
 

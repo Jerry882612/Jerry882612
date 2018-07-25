@@ -1,0 +1,339 @@
+---
+title: "hw_4"
+output: html_document
+---
+
+---
+title: "hw_3 Credit Card Clients Dataset"
+output: html_document
+---
+
+## 金融卡客戶調查
+
+
+# 匯入套件
+
+```{r}
+library(ggplot2)
+
+```
+
+
+```{r}
+#將底下的圖設定為黑白配色（theme_bw）
+old <- theme_set(theme_bw())
+```
+
+
+```{r}
+## Specify options
+options(scipen=999)         # Avoid exponential notations
+options(max.print=999999)  # For tibble, it is df %>% tbl_df %>% print(n=400)
+```
+
+# 載入檔案
+
+```{r }
+ccdata<-read.csv("UCI_Credit_Card.csv")
+```
+
+# 檔案結構
+
+```{r}
+str(ccdata)
+head(ccdata)
+summary(ccdata)
+```
+
+# 轉換性別資料: male & female
+
+```{r}
+ccdata$SEX<- as.factor(ccdata$SEX)
+
+levels(ccdata$SEX)<-c("Male", "Female")
+
+```
+
+# 轉換教育資料: unknown,graduate school....
+
+```{r}
+ccdata$EDUCATION<-as.factor(ccdata$EDUCATION)
+
+levels(ccdata$EDUCATION)<-c("Unknown", "Graduate School", "University", "High school", "Others", "Unknown", "Unknown")
+
+#看不同父母教育程度下的數學分數平均數
+tapply(ccdata$LIMIT_BAL, ccdata$EDUCATION, mean)
+
+```
+
+# 轉換婚姻資料
+
+```{r}
+ccdata$MARRIAGE1<-as.factor(ccdata$MARRIAGE)
+
+levels(ccdata$MARRIAGE1)<-c("Unknown" , "Married" , "Single" ,"Others")
+```
+
+### Part1
+
+```{r}
+ggplot(ccdata, aes(x = SEX, y = LIMIT_BAL)) +
+ geom_boxplot() + coord_flip() 
+  labs( y = 'gender', x = 'LIMIT_BAL', 
+       title = 'Mathematical Score Box')
+       
+```
+
+
+```{r}
+with(ccdata, 
+     tapply(LIMIT_BAL, SEX,
+     function(x) 
+       c(mean(x) + c(-2, 2) * sd(x)/sqrt(length(x)))))
+```
+
+```{r}
+t.test(LIMIT_BAL ~ SEX, data = ccdata)
+```
+
+```{r}
+#可加上參數 var.equal=TRUE 來假設變異數同值(不做Welch校正)
+t.test(LIMIT_BAL ~ SEX, data = ccdata, var.equal = TRUE)
+```
+
+
+### Part2
+
+
+```{r}
+library(Hmisc)
+```
+
+```{r}
+ggplot(data = ccdata, 
+       aes(x = EDUCATION, y = LIMIT_BAL)) +
+  stat_summary(fun.data = 'mean_cl_boot', size = 1) +
+  scale_y_continuous(breaks = seq(500, 660, by = 20)) +
+  geom_hline(yintercept = mean(ccdata$LIMIT_BAL) , 
+             linetype = 'dotted') +
+  labs(x = '教育', y = 'limit bal') +
+  coord_flip()
+
+```
+
+```{r}
+anova(m1 <- lm(LIMIT_BAL ~ EDUCATION, data = ccdata))
+```
+
+```{r}
+ggplot(data = ccdata, 
+       aes(group = EDUCATION, 
+          y = LIMIT_BAL, x = PAY_0)) +
+  geom_point() +
+  stat_smooth(method = 'lm', se = F) +
+  stat_smooth(aes(group = EDUCATION, 
+          y = LIMIT_BAL, x = PAY_0), 
+          method = 'lm', se = F) + 
+  facet_grid( . ~  EDUCATION) +
+  labs(x = '欠款月數', y = 'LIMIT_BAL')
+```
+
+## 利用以下 ANOVA 檢驗假設是否正確
+```{r}
+#欠款月數加進模型
+anova(m2 <- update(m1, . ~ . + 
+            PAY_0, data = ccdata))
+
+```
+
+```{r}
+#或許不是教育而是欠款月數造成
+anova(m3 <- update(m2, . ~ . - EDUCATION,  data = ccdata))
+```
+
+
+## 將 ANOVA 結果做成圖表輸出，先計算一些需要的數據
+```{r}
+#將結果放在一個list中
+res_lm <- lapply(list(m1, m2, m3), summary)
+#比較在控制欠款月數下，教育的影響
+(res_lm[[2]]$r.sq - res_lm[[3]]$r.sq)/res_lm[[2]]$r.sq
+```
+
+
+```{r}
+anova(m3, m2)
+```
+```{r}
+#比較在控制教育下，欠款月數的影響
+(res_lm[[2]]$r.sq - res_lm[[1]]$r.sq)/res_lm[[1]]$r.sq
+```
+```{r}
+anova(m1, m2)
+```
+
+## 正式畫圖
+```{r}
+require(coefplot)
+```
+
+```{r}
+m2 <- lm(LIMIT_BAL ~ EDUCATION+PAY_0- 1, 
+         data = ccdata)
+coefplot(m2, xlab = '估計值', ylab = '迴歸變項', title = '反應變項 = LIMIT_BAL')
+```
+
+
+
+## 把資料與迴歸分析的預測值、殘差與影響度放進資料
+```{r}
+fit_m2 <- data.frame(ccdata[, c(2, 4, 7)], fitted = fitted(m2), resid = resid(m2),
+                     infl = influence(m2)$hat )
+```
+
+## 依教育疊合真實觀測值與預測值
+```{r}
+ggplot(data = fit_m2, aes(x = LIMIT_BAL, group = EDUCATION )) +
+ stat_density(geom = 'path', position = 'identity') +
+ stat_density(geom = 'path', position = 'identity', aes(x = fitted)) +
+ geom_vline(xintercept = c(with(ccdata, tapply(LIMIT_BAL,EDUCATION, mean))), linetype = 'dotted')+
+ facet_grid(EDUCATION ~ .) +
+ scale_x_continuous(breaks = seq(200, 900, by = 100))+
+ labs(x = '數學分數', y = '機率密度')
+
+```
+
+## 看殘差分配，依父母教育，檢視常態與變異數同質假設
+```{r}
+ggplot(data = fit_m2, aes(x = scale(resid)), group = EDUCATION ) +
+ stat_density(geom = 'path', position = 'identity', aes(linetype = EDUCATION)) +
+ scale_linetype_manual(values = 5:1) +
+ guides(linetype = guide_legend(reverse = TRUE)) +
+ labs(x = '標準化殘差', y = '機率密度') +
+ theme(legend.position = c(.80, .7))
+```
+
+
+
+
+## 看看殘差的 Q-Q 圖，依父母教育。檢視常態假設
+```{r}
+require(lattice)
+qqmath(~ scale(resid) | EDUCATION, data = fit_m2, type = c('p', 'g', 'r'),
+       xlab = '常態位數', ylab = '標準化殘差', layout = c(2, 3),
+       pch = '.', cex = 2)
+```
+
+
+## 畫預測值與殘差的散佈圖，檢查線性與等分散假設
+```{r}
+require(MASS)
+```
+
+```{r}
+ggplot(data = fit_m2, aes(x = fitted, y = scale(resid), group = EDUCATION )) +
+  geom_point(pch = 20, size = 1) +
+  stat_smooth(method = 'rlm', se = F) +
+  facet_grid(EDUCATION ~ .) +
+  labs(x = '數學預測值', y = '標準化殘差')
+```
+
+
+## 呈現影響值（影響估計結果過大的值）與標準化殘差
+```{r}
+ggplot(data = fit_m2, aes(x = infl, y = scale(resid), group = EDUCATION)) +
+ geom_text(aes(label = rownames(fit_m2)), cex = 2) +
+ geom_hline(yintercept = 0, linetype = 'dotted') +
+ facet_grid(EDUCATION ~ .) +
+ labs(x = '影響值', y = '標準化殘差')
+
+```
+
+
+## 看看影響值
+```{r}
+summary(influence(m2)$hat)
+```
+
+```{r}
+theme_set(old)
+```
+
+
+
+
+### part3
+# 基本統計量
+```{r}
+ccdata_LIMIT_BAL <- ccdata[,c('LIMIT_BAL','AGE',"BILL_AMT1" )]
+colMeans((ccdata_LIMIT_BAL))
+```
+
+## 呈現兩兩散佈圖
+```{r}
+require(heplots)
+
+```
+
+```{r}
+scatterplotMatrix(~ LIMIT_BAL + AGE + BILL_AMT1 
+, data= ccdata_LIMIT_BAL,
+  pch = '.', cex = 3, smooth = FALSE, reg.line = FALSE, ellipse = TRUE,
+  diagonal = 'none', lower.panel = NULL)
+```
+
+## 利用corrplot 套件，以圖形顯示相關性的大小
+```{r}
+require(corrplot)
+```
+
+
+```{r}
+corrplot(cor(ccdata_LIMIT_BAL), method = 'ellipse', order = 'hclust', addrect = 4,
+         type = 'upper', tl.pos = 'tp')
+corrplot(cor(ccdata_LIMIT_BAL), add = TRUE, type = 'lower', method = 'number',
+         order = 'hclust', col = 'black', diag = FALSE, tl.pos = 'n', cl.pos = 'n')
+```
+
+
+## 放進三個解釋變項
+```{r}
+summary(m4 <- lm(LIMIT_BAL ~  AGE + BILL_AMT1 , data = ccdata_LIMIT_BAL))
+```
+
+
+```{r }
+#coefplot(m4, predictors = BILL_AMT1,
+# xlab = '估計值', ylab = '迴歸變項(去除截距)', title = '反應變項是數學分數')
+```
+ 
+ 
+```{r}
+require(effects)
+```
+
+```{r}
+plot(allEffects(m4), main = '', ylim = c(30000,300000), grid = T)
+```
+## 利用 lm.beta 套件，計算標準化迴歸係數
+```{r}
+library(lm.beta)
+summary(lm.beta(m4))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
