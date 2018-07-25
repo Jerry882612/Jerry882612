@@ -1,0 +1,190 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+---
+title: "hw_3 Credit Card Clients Dataset"
+output: html_document
+---
+
+## 金融卡客戶調查
+
+
+# 匯入套件
+
+```{r}
+library(ggplot2)
+
+```
+
+
+```{r}
+## Specify options
+options(scipen=999)         # Avoid exponential notations
+options(max.print=999999)  # For tibble, it is df %>% tbl_df %>% print(n=400)
+```
+
+# 載入檔案
+
+```{r }
+ccdata<-read.csv("UCI_Credit_Card.csv")
+```
+
+# 檔案結構
+
+```{r}
+str(ccdata)
+head(ccdata)
+summary(ccdata)
+```
+
+# 轉換性別資料: male & female
+
+```{r}
+ccdata$SEX<- as.factor(ccdata$SEX)
+
+levels(ccdata$SEX)<-c("Male", "Female")
+
+```
+
+# 轉換教育資料: unknown,graduate school....
+
+```{r}
+ccdata$EDUCATION<-as.factor(ccdata$EDUCATION)
+
+levels(ccdata$EDUCATION)<-c("Unknown", "Graduate School", "University", "High school", "Others", "Unknown", "Unknown")
+
+#看不同父母教育程度下的數學分數平均數
+tapply(ccdata$LIMIT_BAL, ccdata$EDUCATION, mean)
+
+```
+
+# 轉換婚姻資料
+
+```{r}
+ccdata$MARRIAGE1<-as.factor(ccdata$MARRIAGE)
+
+levels(ccdata$MARRIAGE1)<-c("Unknown" , "Married" , "Single" ,"Others")
+```
+
+### Part1
+
+```{r}
+ggplot(ccdata, aes(x = SEX, y = LIMIT_BAL)) +
+ geom_boxplot() + coord_flip() 
+  labs( y = 'gender', x = 'LIMIT_BAL', 
+       title = 'Mathematical Score Box')
+       
+```
+
+
+```{r}
+with(ccdata, 
+     tapply(LIMIT_BAL, SEX,
+     function(x) 
+       c(mean(x) + c(-2, 2) * sd(x)/sqrt(length(x)))))
+```
+
+```{r}
+t.test(LIMIT_BAL ~ SEX, data = ccdata)
+```
+
+```{r}
+#可加上參數 var.equal=TRUE 來假設變異數同值(不做Welch校正)
+t.test(LIMIT_BAL ~ SEX, data = ccdata, var.equal = TRUE)
+```
+
+
+### Part2
+
+
+```{r}
+library(Hmisc)
+```
+
+```{r}
+ggplot(data = ccdata, 
+       aes(x = EDUCATION, y = LIMIT_BAL)) +
+  stat_summary(fun.data = 'mean_cl_boot', size = 1) +
+  scale_y_continuous(breaks = seq(500, 660, by = 20)) +
+  geom_hline(yintercept = mean(ccdata$LIMIT_BAL) , 
+             linetype = 'dotted') +
+  labs(x = '教育', y = 'limit bal') +
+  coord_flip()
+
+```
+
+
+
+
+
+
+
+### part3
+# 基本統計量
+```{r}
+ccdata_LIMIT_BAL <- ccdata[,c('LIMIT_BAL','AGE','MARRIAGE')]
+colMeans((ccdata_LIMIT_BAL))
+```
+
+## 呈現兩兩散佈圖
+```{r}
+require(heplots)
+
+```
+
+```{r}
+scatterplotMatrix(~ LIMIT_BAL + AGE + MARRIAGE, data= ccdata_LIMIT_BAL,
+  pch = '.', cex = 3, smooth = FALSE, reg.line = FALSE, ellipse = TRUE,
+  diagonal = 'none', lower.panel = NULL)
+```
+
+## 利用corrplot 套件，以圖形顯示相關性的大小
+```{r}
+require(corrplot)
+```
+
+
+```{r}
+corrplot(cor(ccdata_LIMIT_BAL), method = 'ellipse', order = 'hclust', addrect = 4,
+         type = 'upper', tl.pos = 'tp')
+corrplot(cor(ccdata_LIMIT_BAL), add = TRUE, type = 'lower', method = 'number',
+         order = 'hclust', col = 'black', diag = FALSE, tl.pos = 'n', cl.pos = 'n')
+```
+
+## 放進三個解釋變項
+```{r}
+summary(m4 <- lm(LIMIT_BAL ~  AGE + MARRIAGE, data = ccdata_LIMIT_BAL))
+```
+
+
+```{r}
+require(effects)
+```
+
+```{r}
+plot(allEffects(m4), main = '', ylim = c(550, 670), grid = T)
+```
+## 利用 lm.beta 套件，計算標準化迴歸係數
+```{r}
+library(lm.beta)
+summary(lm.beta(m4))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
