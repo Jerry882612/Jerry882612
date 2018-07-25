@@ -65,7 +65,7 @@
 [hw_3 EDA]( https://jerry882612.github.io/Jerry882612/Week3/hw_3_Credit_Card_Clients_Dataset.html)
 
 [hw_3 Minecraft]( https://jerry882612.github.io/Jerry882612/Week3/hw_3_MInecraft.html)
-
+[hw_3 TFIDF -> PCA -> K-means](https://jerry882612.github.io/Jerry882612/Week3/hw_3_TFIDF,PCA,K-means.html)
 <ul type="square">
 <li>in class
 </ul>
