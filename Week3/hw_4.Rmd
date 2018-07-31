@@ -8,7 +8,7 @@ title: "hw_3 Credit Card Clients Dataset"
 output: html_document
 ---
 
-## 金融卡客戶調查
+# 金融卡客戶調查
 
 
 # 匯入套件
@@ -19,10 +19,6 @@ library(ggplot2)
 ```
 
 
-```{r}
-#將底下的圖設定為黑白配色（theme_bw）
-old <- theme_set(theme_bw())
-```
 
 
 ```{r}
@@ -61,28 +57,24 @@ ccdata$EDUCATION<-as.factor(ccdata$EDUCATION)
 
 levels(ccdata$EDUCATION)<-c("Unknown", "Graduate School", "University", "High school", "Others", "Unknown", "Unknown")
 
-#看不同父母教育程度下的數學分數平均數
+#不同教育的信用額度
 tapply(ccdata$LIMIT_BAL, ccdata$EDUCATION, mean)
 
 ```
 
-# 轉換婚姻資料
+
+
+
 
 ```{r}
-ccdata$MARRIAGE1<-as.factor(ccdata$MARRIAGE)
-
-levels(ccdata$MARRIAGE1)<-c("Unknown" , "Married" , "Single" ,"Others")
-```
-
-### Part1
-
-```{r}
-ggplot(ccdata, aes(x = SEX, y = LIMIT_BAL)) +
+ggplot(data = ccdata, aes(x = SEX, y = LIMIT_BAL)) +
  geom_boxplot() + coord_flip() 
-  labs( y = 'gender', x = 'LIMIT_BAL', 
-       title = 'Mathematical Score Box')
+  labs( y = 'SEX', x = 'LIMIT_BAL'
+       )
        
 ```
+# 從圖中顯示，女性的信用額度較男性高
+
 
 
 ```{r}
@@ -91,18 +83,26 @@ with(ccdata,
      function(x) 
        c(mean(x) + c(-2, 2) * sd(x)/sqrt(length(x)))))
 ```
+# 95%信賴區間下，男性信用額度落在16.1萬到16.6萬，女性信用額度落在16.8萬到17.1萬間
+
+
 
 ```{r}
 t.test(LIMIT_BAL ~ SEX, data = ccdata)
 ```
-
+# 加上參數 var.equal=TRUE 來假設變異數同值，不做Welch校正
 ```{r}
-#可加上參數 var.equal=TRUE 來假設變異數同值(不做Welch校正)
+
 t.test(LIMIT_BAL ~ SEX, data = ccdata, var.equal = TRUE)
 ```
+# 男女平均信用額度差不等於0，所以男女平均信用額度有明顯差異
 
 
-### Part2
+
+
+
+
+
 
 
 ```{r}
@@ -116,7 +116,7 @@ ggplot(data = ccdata,
   scale_y_continuous(breaks = seq(500, 660, by = 20)) +
   geom_hline(yintercept = mean(ccdata$LIMIT_BAL) , 
              linetype = 'dotted') +
-  labs(x = '教育', y = 'limit bal') +
+  labs(x = '教育', y = '信用額度') +
   coord_flip()
 
 ```
@@ -135,7 +135,7 @@ ggplot(data = ccdata,
           y = LIMIT_BAL, x = PAY_0), 
           method = 'lm', se = F) + 
   facet_grid( . ~  EDUCATION) +
-  labs(x = '欠款月數', y = 'LIMIT_BAL')
+  labs(x = '欠款月數', y = '信用額度')
 ```
 
 ## 利用以下 ANOVA 檢驗假設是否正確
@@ -172,7 +172,9 @@ anova(m3, m2)
 anova(m1, m2)
 ```
 
-## 正式畫圖
+
+
+## 畫圖
 ```{r}
 require(coefplot)
 ```
@@ -180,7 +182,7 @@ require(coefplot)
 ```{r}
 m2 <- lm(LIMIT_BAL ~ EDUCATION+PAY_0- 1, 
          data = ccdata)
-coefplot(m2, xlab = '估計值', ylab = '迴歸變項', title = '反應變項 = LIMIT_BAL')
+coefplot(m2, xlab = '估計值', ylab = '迴歸變項', title = '反應變項 = 信用額度')
 ```
 
 
@@ -191,19 +193,33 @@ fit_m2 <- data.frame(ccdata[, c(2, 4, 7)], fitted = fitted(m2), resid = resid(m2
                      infl = influence(m2)$hat )
 ```
 
-## 依教育疊合真實觀測值與預測值
 ```{r}
-ggplot(data = fit_m2, aes(x = LIMIT_BAL, group = EDUCATION )) +
+fit_m3 <- data.frame(ccdata[, c(2, 7)], fitted = fitted(m3), resid = resid(m3),
+                     infl = influence(m3)$hat )
+```
+
+```{r}
+anova(m4 <- lm(LIMIT_BAL ~  EDUCATION + AGE + PAY_0, data = ccdata))
+
+fit_m4 <- data.frame(ccdata[, c(2, 4, 6, 7)], fitted = fitted(m4), resid = resid(m4),
+                     infl = influence(m4)$hat )
+```
+
+
+
+
+
+```{r}
+ggplot(data = fit_m4, aes(x = LIMIT_BAL )) +
  stat_density(geom = 'path', position = 'identity') +
  stat_density(geom = 'path', position = 'identity', aes(x = fitted)) +
- geom_vline(xintercept = c(with(ccdata, tapply(LIMIT_BAL,EDUCATION, mean))), linetype = 'dotted')+
- facet_grid(EDUCATION ~ .) +
+ 
  scale_x_continuous(breaks = seq(200, 900, by = 100))+
- labs(x = '數學分數', y = '機率密度')
+ labs(x = '信用額度', y = '機率密度')
 
 ```
 
-## 看殘差分配，依父母教育，檢視常態與變異數同質假設
+## 看殘差分配，依教育，檢視常態與變異數同質假設
 ```{r}
 ggplot(data = fit_m2, aes(x = scale(resid)), group = EDUCATION ) +
  stat_density(geom = 'path', position = 'identity', aes(linetype = EDUCATION)) +
@@ -216,7 +232,7 @@ ggplot(data = fit_m2, aes(x = scale(resid)), group = EDUCATION ) +
 
 
 
-## 看看殘差的 Q-Q 圖，依父母教育。檢視常態假設
+## 看看殘差的 Q-Q 圖，依教育。檢視常態假設
 ```{r}
 require(lattice)
 qqmath(~ scale(resid) | EDUCATION, data = fit_m2, type = c('p', 'g', 'r'),
@@ -250,33 +266,24 @@ ggplot(data = fit_m2, aes(x = infl, y = scale(resid), group = EDUCATION)) +
 ```
 
 
-## 看看影響值
-```{r}
-summary(influence(m2)$hat)
-```
-
-```{r}
-theme_set(old)
-```
 
 
 
 
-### part3
 # 基本統計量
 ```{r}
-ccdata_LIMIT_BAL <- ccdata[,c('LIMIT_BAL','AGE',"BILL_AMT1" )]
+ccdata_LIMIT_BAL <- ccdata[,c('LIMIT_BAL','AGE',"PAY_0" )]
 colMeans((ccdata_LIMIT_BAL))
 ```
 
-## 呈現兩兩散佈圖
+# 呈現兩兩散佈圖
 ```{r}
 require(heplots)
 
 ```
 
 ```{r}
-scatterplotMatrix(~ LIMIT_BAL + AGE + BILL_AMT1 
+scatterplotMatrix(~ LIMIT_BAL + AGE + PAY_0 
 , data= ccdata_LIMIT_BAL,
   pch = '.', cex = 3, smooth = FALSE, reg.line = FALSE, ellipse = TRUE,
   diagonal = 'none', lower.panel = NULL)
@@ -296,15 +303,15 @@ corrplot(cor(ccdata_LIMIT_BAL), add = TRUE, type = 'lower', method = 'number',
 ```
 
 
-## 放進三個解釋變項
+## 放進2個解釋變項
 ```{r}
-summary(m4 <- lm(LIMIT_BAL ~  AGE + BILL_AMT1 , data = ccdata_LIMIT_BAL))
+summary(m4 <- lm(LIMIT_BAL ~   AGE + PAY_0 , data = ccdata_LIMIT_BAL))
 ```
 
 
 ```{r }
-#coefplot(m4, predictors = BILL_AMT1,
-# xlab = '估計值', ylab = '迴歸變項(去除截距)', title = '反應變項是數學分數')
+coefplot(m4, predictors = c('AGE','PAY_0'),
+ xlab = '估計值', ylab = '迴歸變項(去除截距)', title = '反應變項是信用額度')
 ```
  
  
@@ -315,6 +322,9 @@ require(effects)
 ```{r}
 plot(allEffects(m4), main = '', ylim = c(30000,300000), grid = T)
 ```
+
+
+
 ## 利用 lm.beta 套件，計算標準化迴歸係數
 ```{r}
 library(lm.beta)

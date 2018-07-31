@@ -116,6 +116,30 @@
 </ul>
 
 
+## week 5
+
+[]()
+
+<ul type="square">
+<li>in class
+</ul>
+
+<ul type="circle">
+ 	<li>
+ 	<li>
+ 	<li>
+</ul>
+
+
+<ul type="square">
+<li>at home
+</ul>
+
+<ul type="circle">
+	<li>
+	<li>
+</ul>
+
 
 
 
