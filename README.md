@@ -111,7 +111,7 @@
 </ul>
 
 <ul type="circle">
-	<li>
+	<li>EDA 分析報告
 	<li>
 </ul>
 
