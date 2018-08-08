@@ -120,25 +120,7 @@
 
 [Source Code]( https://github.com/Jerry882612/Jerry882612/blob/master/Week5/app.R)
 
-<ul type="square">
-<li>in class
-</ul>
 
-<ul type="circle">
- 	<li>
- 	<li>
- 	<li>
-</ul>
-
-
-<ul type="square">
-<li>at home
-</ul>
-
-<ul type="circle">
-	<li>
-	<li>
-</ul>
 
 
 
