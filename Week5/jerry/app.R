@@ -11,8 +11,11 @@
 library(DT)
 library(shiny)
 library(ggplot2)
+library(tidyr)
+library(stringr)
+library(dplyr)
 
-dta <- read.csv('UCI_Credit_Card.csv')
+choice.T<- c("sex", "education","marriage")
 dta1 <- read.csv('1.csv')
 dta2 <- read.csv('2.csv')
 dta3 <- read.csv('BANK_NTP_LG_GD .CSV',sep = '\t')
@@ -31,6 +34,17 @@ levels(dta$MARRIAGE)<-c("unknown",'married', "single", "others")
 
 dta$default.payment.next.month<- as.factor(dta$default.payment.next.month)
 levels(dta$default.payment.next.month)<-c('no','yes')
+
+dta$EDUCATION = str_replace_all(dta$EDUCATION, c("5" = "0", "6" = "0", "4" = "0"))
+
+
+dta$ID = factor(dta$ID)
+dta$SEX = factor(dta$SEX, labels = c("male", "female"))
+dta$EDUCATION = factor(dta$EDUCATION, labels = c("others","graduate school", "university", "high school"))
+dta$MARRIAGE = factor(dta$MARRIAGE, labels = c("others","married", "single","divorce"))
+dta$AGE = factor(dta$AGE)
+dta$default.payment.next.month = factor(dta$default.payment.next.month)
+dta$default.payment.next.month = as.numeric(dta$default.payment.next.month )
 
 
 
@@ -219,12 +233,11 @@ tabPanel(
 #
 
 
-###
-  # navbarMenu('default',
-  #         tabPanel(title = 'boxplot',plotOutput('unif'),
-  #                  actionButton('reunif','Resample')),
-  #         tabPanel(title = 'histograme',plotOutput('unif'),
-  #                  actionButton('reunif','Resample'))))
+
+
+##final
+
+
 
 
 
@@ -574,6 +587,7 @@ server <- function(input, output, session) {
   output$data.summary <- DT::renderDataTable({
     DT::datatable(summary(dta))
   })
+ 
 }
 
 
