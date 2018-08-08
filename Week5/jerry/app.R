@@ -20,8 +20,7 @@ dta2 <- read.csv('2.csv')
 dta3 <- read.csv('BANK_NTP_LG_GD .CSV',sep = '\t')
 dta4 <- read.csv('新北.csv')
 dta5 <- read.csv('123.csv')
-dta6 <- read.csv('456.csv')
-dta7 <- read.csv('789.csv')
+
 
 dta$SEX<- as.factor(dta$SEX)
 levels(dta$SEX)<-c("Male", "Female")
@@ -34,18 +33,6 @@ levels(dta$MARRIAGE)<-c("unknown",'married', "single", "others")
 
 dta$default.payment.next.month<- as.factor(dta$default.payment.next.month)
 levels(dta$default.payment.next.month)<-c('no','yes')
-
-
-
-# dta$ID = factor(dta$ID)
-# dta$SEX = factor(dta$SEX, labels = c("male", "female"))
-# dta$EDUCATION = factor(dta$EDUCATION, labels = c("others","graduate school", "university", "high school"))
-# dta$MARRIAGE = factor(dta$MARRIAGE, labels = c("others","married", "single","divorce"))
-# dta$AGE = factor(dta$AGE)
-# dta$default.payment.next.month = factor(dta$default.payment.next.month)
-# dta$default.payment.next.month = as.numeric(dta$default.payment.next.month )
-# 
-
 
 
 choice.type1 <-
@@ -149,7 +136,7 @@ ui <- navbarPage('信用卡違約調查',
  
   tabPanel(
     "Single Variable",
-    tags$h1("Summrizing time!"),
+    tags$h1("Summrize!"),
     br(),
     sidebarLayout(
       sidebarPanel(
@@ -162,34 +149,12 @@ ui <- navbarPage('信用卡違約調查',
     verbatimTextOutput("summary")
 
   ),
-
-  
-  
-  
-  
-  #####worldphone
-  # tabPanel(
-  #  # fluidPage(
-  #   'WorldPhones',
-  #   titlePanel("Telephones by region"),
-  #   sidebarLayout(
-  #     sidebarPanel(
-  #       selectInput('region','Region:',
-  #                   choices = colnames(WorldPhones)),
-  #       hr(),
-  #       helpText("資料來自聯合信用卡處理中心")
-  #     ),
-  #     mainPanel(plotOutput("phonePlot"))
-  #   #)
-  # )),
-  #####
   
 
   
   #iris test
   tabPanel(
-   #pageWithSidebar(
-     #headerPanel('credit card k-means clustering'),
+  
      'point',
      sidebarPanel(
        selectInput('xcol', 'X Variable', names(dta)[c(-1,-3,-4,-5,-6,-25,c(-7:-12))]),
@@ -200,7 +165,7 @@ ui <- navbarPage('信用卡違約調查',
     ),
     mainPanel(
       plotOutput('plot1')
-     #)
+     
    )),
 
  
@@ -228,13 +193,31 @@ tabPanel(
   verbatimTextOutput("t.test.anova")
 ),
 
-
 #
 
-
-
-
-##final
+##
+navbarMenu( '消費原始資料',
+            tabPanel(
+              "消費調查(教育)",
+              tags$h1("Let's take a look at the dataset."),
+              br(),
+              fluidRow(column(
+                8,
+                tabPanel("Table",
+                         DT::dataTableOutput("data.raw1"))
+              ))
+            ),
+            tabPanel(
+              "消費調查(地區)",
+              tags$h1("Let's take a look at the dataset."),
+              br(),
+              fluidRow(column(
+                8,
+                tabPanel("Table",
+                         DT::dataTableOutput("data.raw2"))
+              ))
+            )),
+##
 
 
 
@@ -249,7 +232,7 @@ tabPanel(
   sidebarLayout(
     sidebarPanel(
       selectInput('e','學歷:',
-                  choices = colnames(dta5)[2:6]),
+                  choices = colnames(dta5)[2:7]),
       hr(),
       helpText("資料來自聯合信用卡處理中心")
     ),
@@ -262,7 +245,7 @@ tabPanel(
   sidebarLayout(
     sidebarPanel(
       selectInput('e1','學歷:',
-                  choices = colnames(dta6)[2:7]),
+                  choices = colnames(dta5)[8:13]),
       hr(),
       helpText("資料來自聯合信用卡處理中心")
     ),
@@ -275,7 +258,7 @@ tabPanel(
   sidebarLayout(
     sidebarPanel(
       selectInput('e2','學歷:',
-                  choices = colnames(dta7)[2:7]),
+                  choices = colnames(dta5)[14:19]),
       hr(),
       helpText("資料來自聯合信用卡處理中心")
     ),
@@ -428,16 +411,7 @@ server <- function(input, output, session) {
   ###
   
   
-  #####worldphone
-  # output$phonePlot <- renderPlot({
-  #   barplot(WorldPhones[,input$region],
-  #           main = input$region,
-  #           ylab = 'Number of Telephones',
-  #           xlab = 'Year')
-  # })
-  ####
-  
-  
+
   ###教育
   output$eplot <- renderPlot({
     barplot(dta5[,input$e],
@@ -452,7 +426,7 @@ server <- function(input, output, session) {
   
   ###教育
   output$eplot1 <- renderPlot({
-    barplot(dta6[,input$e1],
+    barplot(dta5[,input$e1],
             main = input$e1,
             ylab = '總消費額度平均',
             xlab = '106年1月~12月')
@@ -462,7 +436,7 @@ server <- function(input, output, session) {
   
   ###教育
   output$eplot2 <- renderPlot({
-    barplot(dta7[,input$e2],
+    barplot(dta5[,input$e2],
             main = input$e2,
             ylab = '總消費額度平均',
             xlab = '106年1月~12月')
@@ -581,6 +555,17 @@ server <- function(input, output, session) {
     DT::datatable(dta)
   })
   
+  ##
+  output$data.raw1 <- DT::renderDataTable({
+    DT::datatable(dta5)
+  })
+  ##
+  
+  ##
+  output$data.raw2 <- DT::renderDataTable({
+    DT::datatable(dta4)
+  })
+  ##
  
   
   output$data.summary <- DT::renderDataTable({
