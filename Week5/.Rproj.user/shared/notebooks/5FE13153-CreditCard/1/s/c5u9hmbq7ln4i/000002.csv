@@ -1,0 +1,7 @@
+"0","de<-TB%>%"
+"0","  group_by(age,education)%>%"
+"0","  summarise(defaultAvg = mean(default))"
+"0","resulte = aov(defaultAvg~education, de)"
+"2","Error in `contrasts<-`(`*tmp*`, value = contr.funs[1 + isOF[nn]]) : 
+  contrasts can be applied only to factors with 2 or more levels
+"
