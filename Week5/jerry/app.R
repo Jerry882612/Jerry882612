@@ -14,8 +14,7 @@ library(ggplot2)
 library(tidyr)
 library(stringr)
 library(dplyr)
-
-choice.T<- c("sex", "education","marriage")
+dta <- read.csv('UCI_Credit_Card.csv')
 dta1 <- read.csv('1.csv')
 dta2 <- read.csv('2.csv')
 dta3 <- read.csv('BANK_NTP_LG_GD .CSV',sep = '\t')
@@ -23,6 +22,7 @@ dta4 <- read.csv('新北.csv')
 dta5 <- read.csv('123.csv')
 dta6 <- read.csv('456.csv')
 dta7 <- read.csv('789.csv')
+
 dta$SEX<- as.factor(dta$SEX)
 levels(dta$SEX)<-c("Male", "Female")
 
@@ -35,17 +35,16 @@ levels(dta$MARRIAGE)<-c("unknown",'married', "single", "others")
 dta$default.payment.next.month<- as.factor(dta$default.payment.next.month)
 levels(dta$default.payment.next.month)<-c('no','yes')
 
-dta$EDUCATION = str_replace_all(dta$EDUCATION, c("5" = "0", "6" = "0", "4" = "0"))
 
 
-dta$ID = factor(dta$ID)
-dta$SEX = factor(dta$SEX, labels = c("male", "female"))
-dta$EDUCATION = factor(dta$EDUCATION, labels = c("others","graduate school", "university", "high school"))
-dta$MARRIAGE = factor(dta$MARRIAGE, labels = c("others","married", "single","divorce"))
-dta$AGE = factor(dta$AGE)
-dta$default.payment.next.month = factor(dta$default.payment.next.month)
-dta$default.payment.next.month = as.numeric(dta$default.payment.next.month )
-
+# dta$ID = factor(dta$ID)
+# dta$SEX = factor(dta$SEX, labels = c("male", "female"))
+# dta$EDUCATION = factor(dta$EDUCATION, labels = c("others","graduate school", "university", "high school"))
+# dta$MARRIAGE = factor(dta$MARRIAGE, labels = c("others","married", "single","divorce"))
+# dta$AGE = factor(dta$AGE)
+# dta$default.payment.next.month = factor(dta$default.payment.next.month)
+# dta$default.payment.next.month = as.numeric(dta$default.payment.next.month )
+# 
 
 
 
