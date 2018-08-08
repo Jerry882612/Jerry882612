@@ -18,7 +18,7 @@ dta <- read.csv('UCI_Credit_Card.csv')
 dta1 <- read.csv('1.csv')
 dta2 <- read.csv('2.csv')
 dta3 <- read.csv('BANK_NTP_LG_GD .CSV',sep = '\t')
-dta4 <- read.csv('新北.csv')
+dta4 <- read.csv('area.csv')
 dta5 <- read.csv('123.csv')
 
 

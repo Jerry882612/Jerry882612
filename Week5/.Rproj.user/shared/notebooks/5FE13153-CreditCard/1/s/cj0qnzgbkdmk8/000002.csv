@@ -1,7 +1,0 @@
-"0","da<-TB%>%"
-"0","  group_by(age,sex)%>%"
-"0","  summarise(defaultAvg = mean(default))"
-"0","t.test(defaultAvg ~ sex, da)"
-"2","Error in t.test.formula(defaultAvg ~ sex, da) : 
-  grouping factor must have exactly 2 levels
-"

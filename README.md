@@ -118,7 +118,7 @@
 
 ## week 5
 
-[Source Code]( https://jerry882612.github.io/Jerry882612/Week5/app.R)
+[Source Code]( https://github.com/Jerry882612/Jerry882612/blob/master/Week5/app.R)
 
 <ul type="square">
 <li>in class

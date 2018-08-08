@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1533448456023.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
     "id" : "F690655C",
-    "lastKnownWriteTime" : 1533716380,
-    "last_content_update" : 1533716380,
+    "lastKnownWriteTime" : 1533718757,
+    "last_content_update" : 1533719403068,
     "path" : "C:/Users/USER/Desktop/github/Week5/app.R",
     "project_path" : "app.R",
     "properties" : {
-        "cursorPosition" : "21,27",
-        "scrollLine" : "118"
+        "cursorPosition" : "6,30",
+        "scrollLine" : "0"
     },
     "relative_order" : 1,
     "source_on_save" : false,
